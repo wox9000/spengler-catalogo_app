@@ -14,6 +14,10 @@ const welcomeMessage = document.getElementById('welcome-message');
 const categoryContainer = document.getElementById('category-container');
 const productList = document.getElementById('product-list');
 
+// --- 2. NUEVOS ELEMENTOS ---
+const searchInput = document.getElementById('search-input');
+const noResultsMessage = document.getElementById('no-results-message');
+
 // --- DATOS GLOBALES ---
 let allProducts = [];
 let allClients = [];
@@ -23,6 +27,10 @@ const currencyFormatter = new Intl.NumberFormat('es-AR', {
     minimumFractionDigits: 2,
 });
 
+// --- 3. NUEVAS VARIABLES GLOBALES para filtros ---
+let currentCategory = 'Todos 🌟';
+let currentSearchTerm = '';
+
 // --- INICIALIZACIÓN ---
 document.addEventListener('DOMContentLoaded', () => {
     loginButton.addEventListener('click', handleLogin);
@@ -30,6 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'Enter') {
             handleLogin();
         }
+    });
+
+    // --- 4. AÑADIMOS EL EVENT LISTENER AL BUSCADOR ---
+    searchInput.addEventListener('input', (e) => {
+        currentSearchTerm = e.target.value.toLowerCase().trim();
+        applyFilters();
     });
 });
 
@@ -47,29 +61,16 @@ async function handleLogin() {
     try {
         if (allClients.length === 0) {
             allClients = await loadCSV(RUTA_CLIENTES_CSV);
-            console.log('Clientes cargados:', allClients.length);
         }
 
-        // Búsqueda más robusta
         const client = allClients.find(c => {
             let clientPhone = (c.TELEFONO || '').trim().replace(/[\s\-\+\(\)]/g, '');
-
-            // Log para debugging
-            console.log('Buscando:', phoneNumber, 'vs Cliente:', clientPhone, 'Nombre:', c.NOMBRE);
-
-            // Comparación exacta o por inclusión
-            return clientPhone === phoneNumber ||
-                   phoneNumber === clientPhone ||
-                   clientPhone.includes(phoneNumber) ||
-                   phoneNumber.includes(clientPhone);
+            return clientPhone === phoneNumber || clientPhone.endsWith(phoneNumber);
         });
 
         if (client) {
-            console.log('✅ Cliente encontrado:', client.NOMBRE, 'Teléfono:', client.TELEFONO);
             showCatalog(client);
         } else {
-            console.log('❌ Cliente NO encontrado. Teléfono buscado:', phoneNumber);
-            console.log('Clientes disponibles:', allClients.map(c => ({nombre: c.NOMBRE, telefono: c.TELEFONO})));
             showError('Número no reconocido. Contacte a su vendedor.');
         }
 
@@ -108,19 +109,20 @@ async function showCatalog(client) {
     try {
         if (allProducts.length === 0) {
             allProducts = await loadCSV(RUTA_PRODUCTOS_CSV);
-            console.log('Productos cargados:', allProducts.length);
+            
+            allProducts = allProducts.map(product => ({
+                ...product,
+                categoria: categorizeProduct(product.NOMBRE),
+                stock: parseInt(product.STOCK, 10) || 0,
+                precio: parseFloat(product.PRECIO) || 0,
+                codigo: product.CODIGO || ''
+            }))
+            .filter(p => p.precio > 0 && p.NOMBRE);
         }
 
-        allProducts = allProducts.map(product => ({
-            ...product,
-            categoria: categorizeProduct(product.NOMBRE),
-            stock: parseInt(product.STOCK, 10) || 0,
-            precio: parseFloat(product.PRECIO) || 0,
-        }))
-        .filter(p => p.precio > 0 && p.NOMBRE);
-
         renderCategories();
-        renderProducts(allProducts);
+        // 5. LLAMAMOS A applyFilters() en lugar de renderProducts()
+        applyFilters(); 
 
     } catch (err) {
         console.error('Error al cargar productos:', err);
@@ -128,16 +130,20 @@ async function showCatalog(client) {
     }
 }
 
+// (La función categorizeProduct sigue igual que antes)
 function categorizeProduct(productName) {
     if (!productName) return 'Varios 📦';
     const name = productName.toLowerCase();
 
     if (name.includes('alfajor')) return 'Alfajores 🍪';
-    if (name.includes('9 de oro') || name.includes('trio') || name.includes('tostadas') || name.includes('pepas') || name.includes('cookies') || name.includes('gallery') || name.includes('salvado') || name.includes('galletita')) return 'Galletitas 🍪';
-    if (name.includes('julicroc') || name.includes('papas') || name.includes('palitos') || name.includes('conix') || name.includes('maní') || name.includes('snacks')) return 'Snacks Salados 🥨';
-    if (name.includes('baggio') || name.includes('vino') || name.includes('gaseosa') || name.includes('agua') || name.includes('jugo') || name.includes('uvita')) return 'Bebidas 🧃';
-    if (name.includes('caramelo') || name.includes('turron') || name.includes('chocolate') || name.includes('chupetin') || name.includes('gomitas') || name.includes('vizzio') || name.includes('rocklets') || name.includes('pastillas')) return 'Golosinas 🍬';
-    if (name.includes('aceite') || name.includes('fideos') || name.includes('arroz') || name.includes('puré') || name.includes('polenta') || name.includes('harina')) return 'Almacén 🛒';
+    if (name.includes('9 de oro') || name.includes('trio') || name.includes('tostadas') || name.includes('pepas') || name.includes('cookies') || name.includes('gallery') || name.includes('salvado') || name.includes('galletita') || name.includes('oreo') || name.includes('sonrisas') || name.includes('mellizas') || name.includes('rumba') || name.includes('mana') || name.includes('pitusas') || name.includes('chocolina') || name.includes('polvorita') || name.includes('traviata') || name.includes('merengadas')) return 'Galletitas 🍪';
+    if (name.includes('julicroc') || name.includes('papas') || name.includes('palitos') || name.includes('conix') || name.includes('maní') || name.includes('snacks') || name.includes('saladix') || name.includes('takis') || name.includes('chisitos') || name.includes('tutucas')) return 'Snacks Salados 🥨';
+    if (name.includes('baggio') || name.includes('vino') || name.includes('gaseosa') || name.includes('agua') || name.includes('jugo') || name.includes('uvita') || name.includes('speed') || name.includes('tang') || name.includes('clight') || name.includes('dodi')) return 'Bebidas 🧃';
+    if (name.includes('caramelo') || name.includes('turron') || name.includes('chocolate') || name.includes('chupetin') || name.includes('gomitas') || name.includes('vizzio') || name.includes('rocklets') || name.includes('pastillas') || name.includes('bonobon') || name.includes('marroc') || name.includes('block') || name.includes('kinder') || name.includes('tita') || name.includes('rhodesia') || name.includes('flynn paff') || name.includes('mentos') || name.includes('sugus') || name.includes('lipo')) return 'Golosinas 🍬';
+    if (name.includes('aceite') || name.includes('fideos') || name.includes('arroz') || name.includes('puré') || name.includes('polenta') || name.includes('harina') || name.includes('lata') || name.includes('tomate') || name.includes('mayonesa') || name.includes('ketchup') || name.includes('azucar') || name.includes('yerba') || name.includes('café') || name.includes('malta')) return 'Almacén 🛒';
+    if (name.includes('budin') || name.includes('magdalena') || name.includes('pan dulce') || name.includes('vainillas')) return 'Panificados 🍞';
+    if (name.includes('repelente') || name.includes('insecticida') || name.includes('off') || name.includes('fuyi') || name.includes('pilas') || name.includes('encendedor') || name.includes('vela') || name.includes('fósforos') || name.includes('raid') || name.includes('espirales')) return 'Varios 📦';
+
 
     return 'Varios 📦';
 }
@@ -156,7 +162,11 @@ function renderCategories() {
         }
 
         button.addEventListener('click', () => {
-            filterProducts(category);
+            // --- 6. MODIFICAMOS EL CLICK DE CATEGORÍA ---
+            currentCategory = category; // Actualiza la categoría global
+            applyFilters(); // Aplica ambos filtros
+            
+            // Actualiza estilos de botones
             document.querySelectorAll('.category-button').forEach(btn => {
                 btn.classList.remove('active', 'bg-blue-600', 'text-white');
                 btn.classList.add('bg-blue-100', 'text-blue-700');
@@ -168,22 +178,42 @@ function renderCategories() {
     });
 }
 
-function filterProducts(category) {
-    if (category === 'Todos 🌟') {
-        renderProducts(allProducts);
-    } else {
-        const filtered = allProducts.filter(p => p.categoria === category);
-        renderProducts(filtered);
+// --- 7. NUEVA FUNCIÓN CENTRAL DE FILTRADO ---
+function applyFilters() {
+    let filteredProducts = allProducts;
+
+    // 1. Filtramos por categoría (si no es "Todos")
+    if (currentCategory !== 'Todos 🌟') {
+        filteredProducts = filteredProducts.filter(p => p.categoria === currentCategory);
     }
+
+    // 2. Filtramos por término de búsqueda (si no está vacío)
+    if (currentSearchTerm !== '') {
+        filteredProducts = filteredProducts.filter(p => 
+            p.NOMBRE.toLowerCase().includes(currentSearchTerm)
+        );
+    }
+
+    // 3. Renderizamos los productos filtrados
+    renderProducts(filteredProducts);
 }
 
-function renderProducts(products) {
-    productList.innerHTML = '';
 
+// --- MODIFICAMOS renderProducts ---
+function renderProducts(products) {
+    productList.innerHTML = ''; // Limpiamos la lista
+
+    // --- 8. MANEJO DE MENSAJE "SIN RESULTADOS" ---
     if (products.length === 0) {
-        productList.innerHTML = '<p class="text-gray-500 col-span-full text-center">No se encontraron productos en esta categoría.</p>';
-        return;
+        noResultsMessage.classList.remove('hidden'); // Muestra mensaje
+        productList.classList.add('hidden'); // Oculta la grilla
+    } else {
+        noResultsMessage.classList.add('hidden'); // Oculta mensaje
+        productList.classList.remove('hidden'); // Muestra la grilla
     }
+    // --- FIN DE CAMBIO ---
+
+    const fallbackImage = 'https://placehold.co/400x400/eeeeee/313131?text=Spengler';
 
     products.forEach(product => {
         const productCard = document.createElement('div');
@@ -199,15 +229,26 @@ function renderProducts(products) {
         const categoryName = product.categoria.split(' ')[0];
         const badgeColor = getCategoryColor(categoryName);
 
+        let imageUrl = fallbackImage;
+        if (product.codigo) {
+            imageUrl = `images/${product.codigo}.jpg`;
+        }
+        
         productCard.innerHTML = `
+            <img 
+                src="${imageUrl}" 
+                alt="${product.NOMBRE}" 
+                class="product-image"
+                onerror="this.src='${fallbackImage}'" 
+            >
             <div class="p-5">
                 ${stockBadge}
-                <h3 class="text-base font-semibold text-gray-800 min-h-[3rem] pr-16">${product.NOMBRE}</h3>
+                <h3 class="text-base font-semibold text-gray-800 min-h-[3rem]">${product.NOMBRE}</h3>
                 <p class="text-2xl font-black text-blue-600 mt-2 mb-3">${currencyFormatter.format(product.precio)}</p>
                 <span class="category-badge-card ${badgeColor}">${categoryName}</span>
             </div>
         `;
-
+        
         if (product.stock <= 0) {
             productCard.classList.add('opacity-50');
         }
@@ -216,7 +257,9 @@ function renderProducts(products) {
     });
 }
 
+
 function getCategoryColor(categoryName) {
+    // (Esta función sigue igual que antes)
     switch (categoryName) {
         case 'Alfajores': return 'bg-yellow-200 text-yellow-800';
         case 'Galletitas': return 'bg-orange-200 text-orange-800';
@@ -224,30 +267,33 @@ function getCategoryColor(categoryName) {
         case 'Bebidas': return 'bg-blue-200 text-blue-800';
         case 'Golosinas': return 'bg-pink-200 text-pink-800';
         case 'Almacén': return 'bg-green-200 text-green-800';
+        case 'Panificados': return 'bg-yellow-300 text-yellow-900';
         default: return 'bg-gray-200 text-gray-800';
     }
 }
 
 // --- UTILIDADES ---
 async function loadCSV(filePath) {
+    // (Esta función sigue igual que antes)
     try {
         console.log('Cargando archivo:', filePath);
-        const response = await fetch(`${filePath}?v=${new Date().getTime()}`);
+        const response = await fetch(`${filePath}?v=${new Date().getTime()}`); 
 
         if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+            throw new Error(`Error de red! status: ${response.status}`);
         }
 
         const text = await response.text();
         console.log('Archivo cargado, longitud:', text.length);
         return parseCSV(text);
     } catch (error) {
-        console.error('Error loading CSV:', error);
+        console.error('Error al cargar CSV:', error);
         throw error;
     }
 }
 
 function parseCSV(text) {
+    // (Esta función sigue igual que antes)
     const lines = text.trim().split('\n');
     console.log('Líneas en CSV:', lines.length);
 
@@ -266,8 +312,8 @@ function parseCSV(text) {
                 entry[headers[j]] = val;
             }
             data.push(entry);
-        } else if (lines[i].trim()) {
-            console.warn('Línea CSV mal formada, omitida:', lines[i]);
+        } else if (lines[i].trim()) { 
+            console.warn('Línea CSV mal formada, se omite:', lines[i]);
         }
     }
 

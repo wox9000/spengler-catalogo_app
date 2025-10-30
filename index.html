@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spengler Distribuciones</title>
-    <!-- Cargamos Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Estilos para la barra de categorías (igual que antes) */
@@ -12,6 +11,10 @@
             background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
+            /* Hacemos que la barra de categorías sea "sticky" */
+            position: sticky;
+            top: 0;
+            z-index: 20;
         }
         .category-button {
             transition: all 0.2s ease-in-out;
@@ -40,35 +43,35 @@
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
+
+        /* Estilos para la imagen (igual que antes) */
+        .product-image {
+            width: 100%;
+            height: 160px; /* Altura fija para todas las tarjetas */
+            object-fit: contain; /* 'contain' es mejor para productos, muestra la imagen completa */
+            background-color: #f8f8f8; /* Fondo claro para imágenes pequeñas o con transparencia */
+            padding: 0.5rem; /* Un pequeño margen interno */
+        }
     </style>
 </head>
 <body class="antialiased bg-gray-100 font-sans">
 
-    <!-- ===== PANTALLA DE LOGIN ===== -->
     <div id="login-screen" class="min-h-screen flex items-center justify-center p-4 fade-in">
         <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-sm text-center">
-            <!-- Logo. Uso un placeholder genérico. Reemplazar con tu logo_spengler.jpg subido a imgur si querés -->
             <img src="https://i.imgur.com/g1yqBq8.png" alt="Logo Spengler Distribuciones" class="w-32 h-32 object-contain mx-auto mb-4 rounded-full shadow-lg">
-
             <h1 class="text-2xl font-bold text-gray-800 mb-2">¡Bienvenido!</h1>
             <p class="text-gray-600 mb-6">Por favor, ingrese su número de teléfono para acceder al catálogo.</p>
-
-            <!-- El tipo "tel" ayuda en celulares a mostrar el teclado numérico -->
             <input type="tel" id="phone-input" class="w-full px-4 py-3 rounded-lg border border-gray-300 text-lg text-center focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ej: 3435087823">
-
             <button id="login-button" class="w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-lg mt-4 text-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-transform duration-200 transform hover:scale-105">
                 Acceder
             </button>
-
             <p id="login-error" class="text-red-500 text-sm mt-4 hidden">Número no reconocido. Por favor, contacte a su vendedor.</p>
             <p id="loading-message" class="text-gray-500 text-sm mt-4 hidden">Cargando...</p>
         </div>
     </div>
 
-    <!-- ===== PANTALLA DE CATÁLOGO (Oculta por defecto) ===== -->
     <div id="catalog-screen" class="hidden">
-        <!-- HEADER -->
-        <header class="bg-white shadow-sm">
+        <header class="bg-white shadow-sm sticky top-0 z-30">
             <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
                 <div>
                     <h1 class="text-2xl font-bold text-gray-900">Spengler Distribuciones</h1>
@@ -78,30 +81,33 @@
             </div>
         </header>
 
-        <!-- BARRA DE CATEGORÍAS -->
-        <nav class="category-nav bg-white shadow-md overflow-x-auto whitespace-nowrap py-3 px-4">
-            <div id="category-container" class="flex space-x-3">
-                <!-- Las categorías se cargarán aquí por JS -->
+        <div class="bg-gray-100 py-4 px-4 sticky" style="top: 88px; z-index: 20;">
+            <div class="relative max-w-7xl mx-auto">
+                <input type="text" id="search-input" class="w-full pl-10 pr-4 py-3 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Buscar producto por nombre...">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </div>
             </div>
+        </div>
+        <nav class="category-nav bg-white shadow-md overflow-x-auto whitespace-nowrap py-3 px-4" style="top: 164px;">
+            <div id="category-container" class="flex space-x-3">
+                </div>
         </nav>
 
-        <!-- LISTA DE PRODUCTOS -->
         <main class="max-w-7xl mx-auto p-4">
+            <p id="no-results-message" class="text-gray-500 col-span-full text-center hidden">No se encontraron productos que coincidan con su búsqueda.</p>
             <div id="product-list" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <!-- Los productos se cargarán aquí por JS -->
-            </div>
+                </div>
         </main>
 
-        <!-- FOOTER -->
         <footer class="text-center py-6 mt-8 border-t border-gray-200 bg-white">
             <p class="text-gray-700 font-semibold">Walter Cuesta - Agente de Ventas</p>
             <p class="text-gray-500 text-sm">Pedidos al: <strong>3435087823</strong></p>
         </footer>
     </div>
 
-    <!-- ===== SCRIPT ===== -->
-    <!-- Vinculamos nuestro "cerebro" (app.js) -->
     <script src="app.js"></script>
 </body>
 </html>
-
