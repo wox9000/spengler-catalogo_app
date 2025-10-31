@@ -1,0 +1,8 @@
+# Archivos y carpetas generados por Node.js/npm
+
+# Directorio de dependencias de Node.js
+node_modules
+
+# Archivos de log y de caché
+npm-debug.log*
+.DS_Store

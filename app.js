@@ -1,6 +1,4 @@
 // --- CONFIGURACIÓN ---
-const RUTA_PRODUCTOS_CSV = 'productos.csv';
-const RUTA_CLIENTES_CSV = 'clientes.csv';
 
 // --- ELEMENTOS DEL DOM ---
 const loginScreen = document.getElementById('login-screen');
@@ -20,7 +18,7 @@ const noResultsMessage = document.getElementById('no-results-message');
 
 // --- DATOS GLOBALES ---
 let allProducts = [];
-let allClients = [];
+
 const currencyFormatter = new Intl.NumberFormat('es-AR', {
     style: 'currency',
     currency: 'ARS',
@@ -59,24 +57,39 @@ async function handleLogin() {
     showLoading(true);
 
     try {
-        if (allClients.length === 0) {
-            allClients = await loadCSV(RUTA_CLIENTES_CSV);
-        }
-
-        const client = allClients.find(c => {
-            let clientPhone = (c.TELEFONO || '').trim().replace(/[\s\-\+\(\)]/g, '');
-            return clientPhone === phoneNumber || clientPhone.endsWith(phoneNumber);
+        // Nueva Lógica: Llamar a la API segura de Netlify
+        const response = await fetch('/.netlify/functions/catalog', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ phone: phoneNumber })
         });
+        
+        const data = await response.json();
 
-        if (client) {
+        if (response.ok) {
+            // Si la respuesta es 200 OK y el login fue exitoso
+            const client = data.client;
+            const productsData = data.products;
+
+            // Procesar y almacenar los productos recibidos
+            allProducts = productsData.map(product => ({
+                ...product,
+                categoria: categorizeProduct(product.NOMBRE),
+                stock: parseInt(product.STOCK, 10) || 0,
+                precio: parseFloat(product.PRECIO) || 0,
+                codigo: product.CODIGO || ''
+            }))
+            .filter(p => p.precio > 0 && p.NOMBRE);
+
             showCatalog(client);
         } else {
-            showError('Número no reconocido. Contacte a su vendedor.');
+            // Manejar error de autenticación (401) o de servidor (500)
+            showError(data.error || 'Error de conexión. Intente de nuevo.');
         }
 
     } catch (err) {
-        console.error('Error completo:', err);
-        showError('Error al verificar. Intente de nuevo.');
+        console.error('Error al intentar acceder al catálogo:', err);
+        showError('Error de red. Por favor, compruebe su conexión.');
     } finally {
         showLoading(false);
     }
@@ -107,25 +120,12 @@ async function showCatalog(client) {
     catalogScreen.classList.add('fade-in');
 
     try {
-        if (allProducts.length === 0) {
-            allProducts = await loadCSV(RUTA_PRODUCTOS_CSV);
-            
-            allProducts = allProducts.map(product => ({
-                ...product,
-                categoria: categorizeProduct(product.NOMBRE),
-                stock: parseInt(product.STOCK, 10) || 0,
-                precio: parseFloat(product.PRECIO) || 0,
-                codigo: product.CODIGO || ''
-            }))
-            .filter(p => p.precio > 0 && p.NOMBRE);
-        }
-
+        // La carga de allProducts y categorización ya se hizo en handleLogin
         renderCategories();
-        // 5. LLAMAMOS A applyFilters() en lugar de renderProducts()
         applyFilters(); 
 
     } catch (err) {
-        console.error('Error al cargar productos:', err);
+        console.error('Error al renderizar catálogo:', err);
         productList.innerHTML = '<p class="text-red-500 col-span-full">Error al cargar productos. Por favor, recargue la página.</p>';
     }
 }
@@ -272,51 +272,4 @@ function getCategoryColor(categoryName) {
     }
 }
 
-// --- UTILIDADES ---
-async function loadCSV(filePath) {
-    // (Esta función sigue igual que antes)
-    try {
-        console.log('Cargando archivo:', filePath);
-        const response = await fetch(`${filePath}?v=${new Date().getTime()}`); 
-
-        if (!response.ok) {
-            throw new Error(`Error de red! status: ${response.status}`);
-        }
-
-        const text = await response.text();
-        console.log('Archivo cargado, longitud:', text.length);
-        return parseCSV(text);
-    } catch (error) {
-        console.error('Error al cargar CSV:', error);
-        throw error;
-    }
-}
-
-function parseCSV(text) {
-    // (Esta función sigue igual que antes)
-    const lines = text.trim().split('\n');
-    console.log('Líneas en CSV:', lines.length);
-
-    const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, '').toUpperCase());
-    console.log('Headers:', headers);
-
-    const data = [];
-
-    for (let i = 1; i < lines.length; i++) {
-        const values = lines[i].split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
-
-        if (values.length === headers.length) {
-            const entry = {};
-            for (let j = 0; j < headers.length; j++) {
-                let val = values[j].trim().replace(/^"|"$/g, '');
-                entry[headers[j]] = val;
-            }
-            data.push(entry);
-        } else if (lines[i].trim()) { 
-            console.warn('Línea CSV mal formada, se omite:', lines[i]);
-        }
-    }
-
-    console.log('Datos parseados:', data.length, 'registros');
-    return data;
-}
+// --- FIN DEL CÓDIGO DE APP.JS ---
