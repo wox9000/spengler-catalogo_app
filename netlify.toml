@@ -1,0 +1,3 @@
+[build]
+  # Esta es la carpeta que creamos en el Paso 2
+  functions = "netlify/functions"
