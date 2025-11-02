@@ -1,3 +1,12 @@
 [build]
-  # Esta es la carpeta que creamos en el Paso 2
+  # Carpeta donde están tus funciones (esto ya lo tenías)
   functions = "netlify/functions"
+  
+  # Carpeta pública (donde están index.html y app.js)
+  # Usamos "." para decir "la carpeta actual".
+  publish = "."
+
+[dev]
+  # Le decimos al servidor local (netlify dev) 
+  # dónde está la carpeta pública.
+  publish = "."

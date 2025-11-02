@@ -54,18 +54,24 @@ document.addEventListener('DOMContentLoaded', () => {
     cartSidebar = document.getElementById('cart-sidebar');
 
     // Listeners de Login
-    loginButton.addEventListener('click', handleLogin);
-    phoneInput.addEventListener('keyup', (e) => {
-        if (e.key === 'Enter') {
-            handleLogin();
-        }
-    });
+    if (loginButton) {
+        loginButton.addEventListener('click', handleLogin);
+    }
+    if (phoneInput) {
+        phoneInput.addEventListener('keyup', (e) => {
+            if (e.key === 'Enter') {
+                handleLogin();
+            }
+        });
+    }
 
     // Listener de Búsqueda
-    searchInput.addEventListener('input', (e) => {
-        currentSearchTerm = e.target.value.toLowerCase().trim();
-        applyFilters();
-    });
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            currentSearchTerm = e.target.value.toLowerCase().trim();
+            applyFilters();
+        });
+    }
 
     // --- FIX DEFINITIVO: DELEGACIÓN DE EVENTOS GLOBAL ---
     // Adjuntamos un único listener al 'body' del documento.
@@ -598,7 +604,11 @@ function updateCartDisplay() {
         whatsappButton.disabled = false;
     }
 
-    itemCountElement.textContent = cart.length; 
+    // --- 💡 ¡AQUÍ ESTÁ LA CORRECCIÓN! ---
+    // Calcula la cantidad total de UNIDADES, no solo de productos distintos.
+    const totalUnits = cart.reduce((total, item) => total + item.quantity, 0);
+    itemCountElement.textContent = totalUnits; 
+    // --- FIN DE LA CORRECCIÓN ---
 
     cartContainer.innerHTML = '';
     
@@ -623,7 +633,7 @@ function updateCartDisplay() {
                     <span>${item.quantity}</span>
                     <button data-code="${item.CODIGO}" data-change="+1" class="update-quantity-btn text-green-500 hover:text-green-700 font-bold p-1">+</button>
                     <button data-code="${item.CODIGO}" data-remove="true" class="remove-item-btn text-gray-400 hover:text-red-500 p-1">
-                        <svg class="w-4 h-4 fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3"></path>
                         </svg>
                     </button>
