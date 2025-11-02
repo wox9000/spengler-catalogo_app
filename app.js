@@ -1,20 +1,10 @@
 // --- CONFIGURACIÓN ---
 
-// --- ELEMENTOS DEL DOM ---
-const loginScreen = document.getElementById('login-screen');
-const phoneInput = document.getElementById('phone-input');
-const loginButton = document.getElementById('login-button');
-const loginError = document.getElementById('login-error');
-const loadingMessage = document.getElementById('loading-message');
-
-const catalogScreen = document.getElementById('catalog-screen');
-const welcomeMessage = document.getElementById('welcome-message');
-const categoryContainer = document.getElementById('category-container');
-const productList = document.getElementById('product-list');
-
-// --- 2. NUEVOS ELEMENTOS ---
-const searchInput = document.getElementById('search-input');
-const noResultsMessage = document.getElementById('no-results-message');
+// --- ELEMENTOS DEL DOM (Definidos como 'let' para ser asignados post-carga) ---
+let loginScreen, phoneInput, loginButton, loginError, loadingMessage;
+let catalogScreen, welcomeMessage, categoryContainer, productList;
+let searchInput, noResultsMessage;
+let cartContainer, emptyMessage, cartTotalElement, itemCountElement, whatsappButton, cartSidebar;
 
 // --- DATOS GLOBALES ---
 let allProducts = [];
@@ -28,15 +18,42 @@ const currencyFormatter = new Intl.NumberFormat('es-AR', {
 // --- 3. NUEVAS VARIABLES GLOBALES para filtros ---
 let currentCategory = 'Todos 🌟';
 let currentSearchTerm = '';
+let currentBrand = 'Todas 🏷️';
 
 // --- DATOS GLOBALES DEL CARRITO ---
-let cart = []; // Almacena los productos en el carrito
-const WA_NUMBER = '5493435087823'; // Su número de WhatsApp (código de país sin '+')
-let clientName = ''; // Para almacenar el nombre del cliente logueado
+// 
+// --- FIX IMPORTANTE (Tu diagnóstico): ---
+// Inicializamos 'cart' como un array vacío AHORA.
+// Esto asegura que 'cart' NUNCA sea 'undefined'.
+//
+let cart = []; 
+const WA_NUMBER = '5493435087823'; 
+let clientName = ''; 
 
 // --- INICIALIZACIÓN ---
+// Usamos DOMContentLoaded para ASIGNAR los elementos del DOM después de que existan.
 document.addEventListener('DOMContentLoaded', () => {
-    // ... (Código existente de loginButton y phoneInput listeners)
+    
+    // Asignación de elementos del DOM
+    loginScreen = document.getElementById('login-screen');
+    phoneInput = document.getElementById('phone-input');
+    loginButton = document.getElementById('login-button');
+    loginError = document.getElementById('login-error');
+    loadingMessage = document.getElementById('loading-message');
+    catalogScreen = document.getElementById('catalog-screen');
+    welcomeMessage = document.getElementById('welcome-message');
+    categoryContainer = document.getElementById('category-container');
+    productList = document.getElementById('product-list');
+    searchInput = document.getElementById('search-input');
+    noResultsMessage = document.getElementById('no-results-message');
+    cartContainer = document.getElementById('cart-items-container');
+    emptyMessage = document.getElementById('empty-cart-message');
+    cartTotalElement = document.getElementById('cart-total');
+    itemCountElement = document.getElementById('cart-item-count');
+    whatsappButton = document.getElementById('send-whatsapp-button');
+    cartSidebar = document.getElementById('cart-sidebar');
+
+    // Listeners de Login
     loginButton.addEventListener('click', handleLogin);
     phoneInput.addEventListener('keyup', (e) => {
         if (e.key === 'Enter') {
@@ -44,19 +61,69 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- 4. AÑADIMOS EL EVENT LISTENER AL BUSCADOR ---
+    // Listener de Búsqueda
     searchInput.addEventListener('input', (e) => {
         currentSearchTerm = e.target.value.toLowerCase().trim();
         applyFilters();
     });
 
-    // --- NUEVOS LISTENERS DEL CARRITO ---
-    document.getElementById('cart-floating-button').addEventListener('click', toggleCartSidebar);
-    document.getElementById('close-cart-button').addEventListener('click', toggleCartSidebar);
-    document.getElementById('send-whatsapp-button').addEventListener('click', sendOrderViaWhatsApp);
+    // --- FIX DEFINITIVO: DELEGACIÓN DE EVENTOS GLOBAL ---
+    // Adjuntamos un único listener al 'body' del documento.
+    document.body.addEventListener('click', handleGlobalClick);
 
-    loadCart(); // Carga el carrito al iniciar la página
+    // Cargamos el carrito al inicio. Si no hay nada, 'cart' seguirá siendo []
+    loadCart(); 
 });
+
+
+// --- NUEVA FUNCIÓN DELEGADA GLOBAL ---
+// Esta función captura todos los clics y los dirige.
+function handleGlobalClick(event) {
+    
+    // 1. Manejador para los botones de AÑADIR (+1 y 10+1)
+    const addBtn = event.target.closest('.add-to-cart-btn');
+    if (addBtn && !addBtn.disabled) {
+        const code = addBtn.dataset.code;
+        const product = allProducts.find(p => p.CODIGO === code); 
+        if (!product || product.stock <= 0) return;
+
+        const action = addBtn.dataset.action;
+        if (action === '+1') {
+            addToCart(product, 1, false);
+        } else if (action === '10+1') {
+            addToCart(product, 11, true); 
+        }
+        return; // Clic manejado
+    }
+
+    // 2. Manejador para los botones del CARRITO (+ y -)
+    const updateBtn = event.target.closest('.update-quantity-btn');
+    if (updateBtn) {
+        // Pasamos los datos a la función que actualiza el modelo
+        updateItemQuantity(updateBtn.dataset.code, parseInt(updateBtn.dataset.change, 10));
+        return; // Clic manejado
+    }
+
+    // 3. Manejador para ELIMINAR del carrito (basura)
+    const removeBtn = event.target.closest('.remove-item-btn');
+    if (removeBtn) {
+        removeItem(removeBtn.dataset.code);
+        return; // Clic manejado
+    }
+    
+    // 4. Manejador para ABRIR/CERRAR el carrito
+    if (event.target.closest('#cart-floating-button') || event.target.closest('#close-cart-button')) {
+        toggleCartSidebar();
+        return; // Clic manejado
+    }
+    
+    // 5. Manejador para ENVIAR por WhatsApp
+    if (event.target.closest('#send-whatsapp-button')) {
+        sendOrderViaWhatsApp();
+        return; // Clic manejado
+    }
+}
+
 
 // --- LÓGICA DE LOGIN ---
 async function handleLogin() {
@@ -70,7 +137,6 @@ async function handleLogin() {
     showLoading(true);
 
     try {
-        // Nueva Lógica: Llamar a la API segura de Netlify
         const response = await fetch('/.netlify/functions/catalog', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -80,15 +146,14 @@ async function handleLogin() {
         const data = await response.json();
 
         if (response.ok) {
-            // Si la respuesta es 200 OK y el login fue exitoso
             const client = data.client;
             const productsData = data.products;
             clientName = client.NOMBRE;
 
-            // Procesar y almacenar los productos recibidos
             allProducts = productsData.map(product => ({
                 ...product,
                 categoria: categorizeProduct(product.NOMBRE),
+                marca: determineBrand(product.NOMBRE, product.MARCA), 
                 stock: parseInt(product.STOCK, 10) || 0,
                 precio: parseFloat(product.PRECIO) || 0,
                 codigo: product.CODIGO || ''
@@ -97,7 +162,6 @@ async function handleLogin() {
 
             showCatalog(client);
         } else {
-            // Manejar error de autenticación (401) o de servidor (500)
             showError(data.error || 'Error de conexión. Intente de nuevo.');
         }
 
@@ -110,41 +174,23 @@ async function handleLogin() {
 }
 
 function showError(message) {
-    loginError.textContent = message;
-    loginError.classList.remove('hidden');
+    if (loginError) loginError.textContent = message;
+    if (loginError) loginError.classList.remove('hidden');
 }
 
 function showLoading(isLoading) {
     if (isLoading) {
-        loadingMessage.classList.remove('hidden');
-        loginError.classList.add('hidden');
-        loginButton.disabled = true;
+        if (loadingMessage) loadingMessage.classList.remove('hidden');
+        if (loginError) loginError.classList.add('hidden');
+        if (loginButton) loginButton.disabled = true;
     } else {
-        loadingMessage.classList.add('hidden');
-        loginButton.disabled = false;
+        if (loadingMessage) loadingMessage.classList.add('hidden');
+        if (loginButton) loginButton.disabled = false;
     }
 }
 
-// --- LÓGICA DE CATÁLOGO ---
-async function showCatalog(client) {
-    welcomeMessage.textContent = `¡Hola, ${client.NOMBRE}! Este es su catálogo personal.`;
+// --- LÓGICA DE CLASIFICACIÓN (Mantenida) ---
 
-    loginScreen.classList.add('hidden');
-    catalogScreen.classList.remove('hidden');
-    catalogScreen.classList.add('fade-in');
-
-    try {
-        // La carga de allProducts y categorización ya se hizo en handleLogin
-        renderCategories();
-        applyFilters(); 
-
-    } catch (err) {
-        console.error('Error al renderizar catálogo:', err);
-        productList.innerHTML = '<p class="text-red-500 col-span-full">Error al cargar productos. Por favor, recargue la página.</p>';
-    }
-}
-
-// (La función categorizeProduct sigue igual que antes)
 function categorizeProduct(productName) {
     if (!productName) return 'Varios 📦';
     const name = productName.toLowerCase();
@@ -162,114 +208,233 @@ function categorizeProduct(productName) {
     return 'Varios 📦';
 }
 
-function renderCategories() {
-    const categories = ['Todos 🌟', ...new Set(allProducts.map(p => p.categoria).sort())];
-    categoryContainer.innerHTML = '';
-
-    categories.forEach((category) => {
-        const button = document.createElement('button');
-        button.className = 'category-button px-5 py-2 rounded-full text-sm font-semibold whitespace-nowrap bg-blue-100 text-blue-700 hover:bg-blue-200';
-        button.textContent = category;
-
-        if (category === 'Todos 🌟') {
-            button.classList.add('active', 'bg-blue-600', 'text-white');
-        }
-
-        button.addEventListener('click', () => {
-            // --- 6. MODIFICAMOS EL CLICK DE CATEGORÍA ---
-            currentCategory = category; // Actualiza la categoría global
-            applyFilters(); // Aplica ambos filtros
-            
-            // Actualiza estilos de botones
-            document.querySelectorAll('.category-button').forEach(btn => {
-                btn.classList.remove('active', 'bg-blue-600', 'text-white');
-                btn.classList.add('bg-blue-100', 'text-blue-700');
-            });
-            button.classList.add('active', 'bg-blue-600', 'text-white');
-            button.classList.remove('bg-blue-100', 'text-blue-700');
-        });
-        categoryContainer.appendChild(button);
-    });
+function determineBrand(productName, productMarca) {
+    if (productMarca && productMarca !== '0' && productMarca !== 'LISTA' && productMarca.trim() !== '') {
+        return productMarca.trim(); 
+    }
+    
+    const name = productName.toLowerCase();
+    if (name.includes('fantoche')) return 'Fantoche';
+    if (name.includes('milka')) return 'Milka';
+    if (name.includes('oreo')) return 'Oreo';
+    if (name.includes('guaymallen')) return 'Guaymallen';
+    if (name.includes('terrabusi')) return 'Terrabusi';
+    if (name.includes('mogy')) return 'Mogy';
+    if (name.includes('lulemuu')) return 'Lulemuu';
+    if (name.includes('pepitos') || name.includes('pepay')) return 'Pepitos/Pepay';
+    if (name.includes('riquito')) return 'Riquito';
+    if (name.includes('vauquita')) return 'Vauquita';
+    if (name.includes('capitan') || name.includes('capitán')) return 'Capitan del Espacio';
+    if (name.includes('rasta')) return 'Rasta';
+    if (name.includes('barcelona')) return 'Barcelona';
+    if (name.includes('escolar')) return 'Escolar/Vimar';
+    if (name.includes('marley')) return 'Marley';
+    if (name.includes('julicroc')) return 'Juli Croc';
+    if (name.includes('candy loka') || name.includes('candy port')) return 'Candy Loka/Port';
+    if (name.includes('arc') || name.includes('bonobon') || name.includes('rhodesia') || name.includes('tita') || name.includes('cofler') || name.includes('rocklets')) return 'Arcor';
+    if (name.includes('hersheys')) return 'Hershey\'s';
+    if (name.includes('ferrero') || name.includes('nutella')) return 'Ferrero';
+    if (name.includes('bonafide')) return 'Bonafide';
+    if (name.includes('don satur')) return 'Don Satur';
+    if (name.includes('tinka')) return 'Tinka';
+    if (name.includes('solitas')) return 'Solitas';
+    if (name.includes('trio')) return 'Trio';
+    if (name.includes('baggio') || name.includes('fresh') || name.includes('latte')) return 'Baggio';
+    if (name.includes('dodi')) return 'Dodi';
+    if (name.includes('tang')) return 'Tang';
+    if (name.includes('alka')) return 'Alka';
+    if (name.includes('topline')) return 'Topline';
+    
+    return 'Otras Marcas 🏷️'; 
 }
 
-// --- 7. NUEVA FUNCIÓN CENTRAL DE FILTRADO ---
+// --- LÓGICA DE CATÁLOGO (Mantenida) ---
+async function showCatalog(client) {
+    welcomeMessage.textContent = `¡Hola, ${client.NOMBRE}! Este es su catálogo personal.`;
+
+    loginScreen.classList.add('hidden');
+    catalogScreen.classList.remove('hidden');
+    catalogScreen.classList.add('fade-in');
+
+    try {
+        renderFilters();
+        applyFilters(); 
+
+    } catch (err) {
+        console.error('Error al renderizar catálogo:', err);
+        productList.innerHTML = '<p class="text-red-500 col-span-full">Error al cargar productos. Por favor, recargue la página.</p>';
+    }
+}
+
+// Lógica para crear un botón de filtro
+function createFilterButton(name, currentFilter, type) {
+    const button = document.createElement('button');
+    button.className = 'filter-button px-5 py-2 rounded-full text-sm font-semibold whitespace-nowrap transition-all duration-200';
+    
+    button.textContent = name;
+
+    let activeClass = 'bg-blue-600 text-white active';
+    let inactiveClass = 'bg-gray-200 text-gray-700 hover:bg-gray-300';
+    
+    if (name === currentFilter) {
+        button.classList.add(...activeClass.split(' '));
+    } else {
+        button.classList.add(...inactiveClass.split(' '));
+    }
+
+    button.addEventListener('click', () => {
+        if (type === 'category') {
+            currentCategory = name;
+        } else if (type === 'brand') {
+            currentBrand = name;
+        }
+        renderFilters();
+        applyFilters();
+    });
+    return button;
+}
+
+// Nueva función para renderizar ambos filtros
+function renderFilters() {
+    categoryContainer.innerHTML = '';
+
+    // 2. Categorías
+    const categories = ['Todos 🌟', ...new Set(allProducts.map(p => p.categoria).sort())];
+    
+    let categoryTitle = document.createElement('h3');
+    categoryTitle.textContent = 'Categorías:';
+    categoryTitle.className = 'text-base font-bold text-gray-700 w-full mb-1 mt-2';
+    categoryContainer.appendChild(categoryTitle);
+
+    const categoryButtonsContainer = document.createElement('div');
+    categoryButtonsContainer.className = 'flex space-x-3 overflow-x-auto whitespace-nowrap pb-2';
+    categories.forEach((category) => {
+        categoryButtonsContainer.appendChild(createFilterButton(category, currentCategory, 'category'));
+    });
+    categoryContainer.appendChild(categoryButtonsContainer);
+    
+    // 3. Marcas
+    const allBrands = allProducts.map(p => p.marca);
+    let brands = [...new Set(allBrands.filter(m => m !== 'Otras Marcas 🏷️'))].sort();
+    brands = ['Todas 🏷️', ...brands, 'Otras Marcas 🏷️'];
+
+    let brandTitle = document.createElement('h3');
+    brandTitle.textContent = 'Marcas:';
+    brandTitle.className = 'text-base font-bold text-gray-700 w-full mb-1 mt-2 border-t pt-2';
+    categoryContainer.appendChild(brandTitle); 
+
+    const brandButtonsContainer = document.createElement('div');
+    brandButtonsContainer.className = 'flex space-x-3 overflow-x-auto whitespace-nowrap pb-2';
+    brands.forEach((brand) => {
+        brandButtonsContainer.appendChild(createFilterButton(brand, currentBrand, 'brand'));
+    });
+    categoryContainer.appendChild(brandButtonsContainer);
+}
+
+
+// --- FUNCIÓN CENTRAL DE FILTRADO Y ORDENACIÓN ---
 function applyFilters() {
     let filteredProducts = allProducts;
 
-    // 1. Filtramos por categoría (si no es "Todos")
     if (currentCategory !== 'Todos 🌟') {
         filteredProducts = filteredProducts.filter(p => p.categoria === currentCategory);
     }
+    
+    if (currentBrand !== 'Todas 🏷️') {
+        filteredProducts = filteredProducts.filter(p => p.marca === currentBrand);
+    }
 
-    // 2. Filtramos por término de búsqueda (si no está vacío)
     if (currentSearchTerm !== '') {
         filteredProducts = filteredProducts.filter(p => 
             p.NOMBRE.toLowerCase().includes(currentSearchTerm)
         );
     }
+    
+    // Ordenación: con stock primero, luego por nombre
+    filteredProducts.sort((a, b) => {
+        const aHasStock = a.stock > 0;
+        const bHasStock = b.stock > 0;
 
-    // 3. Renderizamos los productos filtrados
+        if (aHasStock && !bHasStock) return -1;
+        if (!aHasStock && bHasStock) return 1;
+
+        return a.NOMBRE.localeCompare(b.NOMBRE);
+    });
+
     renderProducts(filteredProducts);
 }
 
 
-// --- MODIFICAMOS renderProducts ---
+// --- MODIFICAMOS renderProducts (FIX PISADO DE TÍTULO) ---
 function renderProducts(products) {
-    productList.innerHTML = ''; // Limpiamos la lista
+    productList.innerHTML = ''; 
 
-    // --- 8. MANEJO DE MENSAJE "SIN RESULTADOS" ---
     if (products.length === 0) {
-        noResultsMessage.classList.remove('hidden'); // Muestra mensaje
-        productList.classList.add('hidden'); // Oculta la grilla
+        noResultsMessage.classList.remove('hidden'); 
+        productList.classList.add('hidden'); 
     } else {
-        noResultsMessage.classList.add('hidden'); // Oculta mensaje
-        productList.classList.remove('hidden'); // Muestra la grilla
+        noResultsMessage.classList.add('hidden'); 
+        productList.classList.remove('hidden');
     }
-    // --- FIN DE CAMBIO ---
 
     const fallbackImage = 'https://placehold.co/400x400/eeeeee/313131?text=Spengler';
 
     products.forEach(product => {
         const productCard = document.createElement('div');
-        productCard.className = 'bg-white rounded-xl shadow-lg overflow-hidden relative transform transition-transform duration-300 hover:shadow-xl hover:-translate-y-1';
+        productCard.className = 'bg-white rounded-xl shadow-lg relative transform transition-transform duration-300 hover:shadow-xl hover:-translate-y-1';
 
-        let stockBadge = '';
-        if (product.stock <= 0) {
-            stockBadge = '<span class="absolute top-2 right-2 bg-red-100 text-red-700 text-xs font-bold px-3 py-1 rounded-full z-10">SIN STOCK</span>';
-        } else if (product.stock > 0 && product.stock <= 50) {
-            stockBadge = '<span class="absolute top-2 right-2 bg-yellow-100 text-yellow-700 text-xs font-bold px-3 py-1 rounded-full z-10">POCO STOCK</span>';
-        }
-
+        let stockBadgeHTML = '';
+        let sinStockBannerHTML = '';
+        let paddingForContent = 'p-5'; 
+        
+        const stock = product.stock;
+        
+        if (stock <= 0) {
+            sinStockBannerHTML = '<div class="absolute top-0 left-0 w-full bg-red-600 text-white text-xs font-bold py-1 text-center z-20 rounded-t-xl">SIN STOCK</div>';
+            paddingForContent = 'p-5 pt-8'; 
+        } else if (stock >= 1 && stock <= 10) {
+            stockBadgeHTML = '<span class="absolute top-2 right-2 bg-yellow-400 text-gray-900 text-xs font-bold px-3 py-1 rounded-full z-10">ÚLTIMOS DISPONIBLES</span>';
+        } 
+        
         const categoryName = product.categoria.split(' ')[0];
         const badgeColor = getCategoryColor(categoryName);
-
+        const brandName = product.marca;
+        
         let imageUrl = fallbackImage;
         if (product.CODIGO) { 
-            imageUrl = `images/${product.CODIGO}.jpg`;
+            imageUrl = `images/${product.CODIGO}.jpg`; 
         }
 
         const disabledClass = product.stock <= 0 ? 'opacity-50 cursor-not-allowed' : '';
         const disabledAttr = product.stock <= 0 ? 'disabled' : '';
-        
+
         productCard.innerHTML = `
-            <img 
-                src="${imageUrl}" 
-                alt="${product.NOMBRE}" 
-                class="product-image"
-                onerror="this.src='${fallbackImage}'" 
-            >
-            <div class="p-5">
-                ${stockBadge}
-                <h3 class="text-base font-semibold text-gray-800 min-h-[3rem]">${product.NOMBRE}</h3>
-                <p class="text-2xl font-black text-blue-600 mt-2 mb-3">${currencyFormatter.format(product.precio)}</p>
-                <span class="category-badge-card ${badgeColor}">${categoryName}</span>
+            ${sinStockBannerHTML}
+            
+            <div class="relative"> ${stockBadgeHTML}
+                <img 
+                    src="${imageUrl}" 
+                    alt="${product.NOMBRE}" 
+                    class="product-image"
+                    onerror="this.src='${fallbackImage}'" 
+                >
             </div>
             
-            <div class="flex justify-between gap-2 p-5 pt-0">
+            <div class="${paddingForContent} relative">
+                <h3 class="text-base font-semibold text-gray-800 min-h-[3rem]">${product.NOMBRE}</h3>
+                <p class="text-2xl font-black text-blue-600 mt-2 mb-3">${currencyFormatter.format(product.precio)}</p>
+                
+                <div class="flex flex-wrap gap-2 mb-4 pt-1">
+                    <span class="category-badge ${badgeColor}">${categoryName}</span>
+                    <span class="brand-badge bg-teal-200 text-teal-800 text-xs font-bold px-2 py-0.5 rounded-full">${brandName}</span>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-2 p-5 pt-0">
                 <button 
                     data-code="${product.CODIGO}" 
                     data-action="+1" 
-                    class="add-to-cart-btn w-1/2 bg-blue-600 text-white text-sm font-bold py-2 rounded-lg hover:bg-blue-700 ${disabledClass}"
+                    class="add-to-cart-btn w-full bg-blue-600 text-white text-sm font-bold py-2 rounded-lg hover:bg-blue-700 ${disabledClass}"
                     ${disabledAttr}
                 >
                     Añadir (+1)
@@ -277,10 +442,10 @@ function renderProducts(products) {
                 <button 
                     data-code="${product.CODIGO}" 
                     data-action="10+1" 
-                    class="add-to-cart-btn w-1/2 bg-indigo-600 text-white text-sm font-bold py-2 rounded-lg hover:bg-indigo-700 ${disabledClass}"
+                    class="add-to-cart-btn w-full bg-indigo-600 text-white text-xs font-bold py-2 rounded-lg hover:bg-indigo-700 ${disabledClass}"
                     ${disabledAttr}
                 >
-                    Oferta (10+1)
+                    10+1 Descuento 10%
                 </button>
             </div>
         `;
@@ -292,15 +457,11 @@ function renderProducts(products) {
         productList.appendChild(productCard);
     });
     
-    // Agregar el listener a todos los nuevos botones
-    document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-        button.addEventListener('click', handleAddButtonClick);
-    });
+    // NOTA: Todos los listeners ahora se manejan en handleGlobalClick
 }
 
 
 function getCategoryColor(categoryName) {
-    // (Esta función sigue igual que antes)
     switch (categoryName) {
         case 'Alfajores': return 'bg-yellow-200 text-yellow-800';
         case 'Galletitas': return 'bg-orange-200 text-orange-800';
@@ -313,17 +474,35 @@ function getCategoryColor(categoryName) {
     }
 }
 
-// --- FUNCIONES DE PERSISTENCIA ---
+// --- FUNCIONES DE PERSISTENCIA (Mantenida la corrección de parseo) ---
 
 function toggleCartSidebar() {
-    document.getElementById('cart-sidebar').classList.toggle('translate-x-full');
+    // Aseguramos que el elemento exista antes de usarlo
+    if (cartSidebar) {
+        cartSidebar.classList.toggle('translate-x-full');
+    } else {
+        console.error("Error: Elemento #cart-sidebar no encontrado.");
+    }
 }
 
 function loadCart() {
     const savedCart = localStorage.getItem('spenglerCart');
     if (savedCart) {
-        cart = JSON.parse(savedCart);
+        try {
+            let loadedCart = JSON.parse(savedCart);
+            // Asegura que quantity sea un número (la corrección clave)
+            cart = loadedCart.map(item => ({
+                ...item,
+                quantity: parseInt(item.quantity, 10) || 0
+            })).filter(item => item.quantity > 0); 
+        } catch (e) {
+            console.error("Error al cargar carrito desde localStorage, iniciando carrito vacío.", e);
+            localStorage.removeItem('spenglerCart');
+            cart = []; // Si hay error, reinicia a array vacío
+        }
     }
+    // Si savedCart es null (no existe), cart conserva su valor
+    // inicial de '[]' (gracias a la línea 43).
     updateCartDisplay();
 }
 
@@ -332,45 +511,28 @@ function saveCart() {
     updateCartDisplay();
 }
 
-// --- LÓGICA DE AGREGAR PRODUCTOS ---
+// --- LÓGICA DE AGREGAR PRODUCTOS (Mantenida) ---
 
 function addToCart(product, quantity, applyOffer = false) {
     const existingItem = cart.find(item => item.CODIGO === product.CODIGO);
 
     if (existingItem) {
-        // La oferta solo aplica si se agrega con el botón "10+1"
-        existingItem.quantity += quantity;
+        existingItem.quantity = existingItem.quantity + quantity; 
         if (applyOffer) {
              existingItem.offer = true;
         }
     } else {
+        // 'cart' está garantizado de ser un array gracias a la línea 43
         cart.push({
             CODIGO: product.CODIGO,
             NOMBRE: product.NOMBRE,
-            PRECIO: product.precio, // Usamos 'precio' ya que está parseado en el frontend
+            PRECIO: product.precio,
             quantity: quantity,
             offer: applyOffer
         });
     }
     
     saveCart();
-}
-
-function handleAddButtonClick(event) {
-    const code = event.currentTarget.dataset.code;
-    // Buscamos en allProducts que ya están cargados y limpios
-    const product = allProducts.find(p => p.CODIGO === code); 
-
-    if (!product || product.stock <= 0) return;
-
-    const action = event.currentTarget.dataset.action;
-
-    if (action === '+1') {
-        addToCart(product, 1, false);
-    } else if (action === '10+1') {
-        // 10+1: Añade 11 unidades y marca la oferta
-        addToCart(product, 11, true); 
-    }
 }
 
 // --- LÓGICA DE CÁLCULO Y VISUALIZACIÓN ---
@@ -380,7 +542,6 @@ function calculateItemPrice(item) {
     let totalItemPrice = item.quantity * unitPrice;
     
     if (item.offer) {
-        // Aplicar 10% de descuento a las unidades marcadas con la oferta
         const discountRate = 0.10;
         totalItemPrice = totalItemPrice * (1 - discountRate);
     }
@@ -392,38 +553,43 @@ function calculateCartTotal() {
     return cart.reduce((total, item) => total + calculateItemPrice(item), 0);
 }
 
-function updateItemQuantity(event) {
-    const code = event.currentTarget.dataset.code;
-    const change = parseInt(event.currentTarget.dataset.change);
+// MODIFICADA: Ahora recibe 'code' y 'change' desde el handler global
+function updateItemQuantity(code, change) {
     const itemIndex = cart.findIndex(item => item.CODIGO === code);
 
     if (itemIndex > -1) {
-        cart[itemIndex].quantity += change;
+        let currentQuantity = parseInt(cart[itemIndex].quantity, 10); 
+        currentQuantity = currentQuantity + change;
 
-        // Regla: la cantidad nunca puede ser menor a 1
-        if (cart[itemIndex].quantity < 1) {
-            cart.splice(itemIndex, 1); // Elimina si llega a cero o menos
+        if (currentQuantity < 1) {
+            cart.splice(itemIndex, 1); 
         } else {
-            // Si la cantidad se ajusta manualmente, se quita la marca de la oferta
+            cart[itemIndex].quantity = currentQuantity;
             cart[itemIndex].offer = false; 
         }
     }
     saveCart();
 }
 
-function removeItem(event) {
-    const code = event.currentTarget.dataset.code;
+// MODIFICADA: Ahora recibe 'code' desde el handler global
+function removeItem(code) {
     cart = cart.filter(item => item.CODIGO !== code);
     saveCart();
 }
 
+// 
+// --- FUNCIÓN CRÍTICA CON SAFEGUARD ---
+// 
 function updateCartDisplay() {
-    const cartContainer = document.getElementById('cart-items-container');
-    const emptyMessage = document.getElementById('empty-cart-message');
-    const cartTotalElement = document.getElementById('cart-total');
-    const itemCountElement = document.getElementById('cart-item-count');
-    const whatsappButton = document.getElementById('send-whatsapp-button');
+    
+    // ✅ SAFEGUARD: Si los elementos no existen (porque el script corrió muy rápido),
+    // no hacer nada y salir de la función para evitar el crash.
+    if (!cartContainer || !emptyMessage || !cartTotalElement || !itemCountElement || !whatsappButton) {
+        console.warn('⚠️ updateCartDisplay() llamado pero los elementos del DOM del carrito no están listos.');
+        return; 
+    }
 
+    // Mostrar / ocultar mensaje de carrito vacío
     if (cart.length === 0) {
         emptyMessage.classList.remove('hidden');
         whatsappButton.disabled = true;
@@ -432,10 +598,8 @@ function updateCartDisplay() {
         whatsappButton.disabled = false;
     }
 
-    // Cuenta el número de productos diferentes en el carrito
     itemCountElement.textContent = cart.length; 
 
-    // Actualiza el contenido del carrito
     cartContainer.innerHTML = '';
     
     cart.forEach(item => {
@@ -443,9 +607,8 @@ function updateCartDisplay() {
         const itemElement = document.createElement('div');
         itemElement.className = 'bg-gray-50 p-3 rounded-lg border';
         
-        let offerText = item.offer ? ' (¡OFERTA 10% OFF!)' : '';
         let offerBadge = item.offer 
-            ? '<span class="text-xs font-semibold px-2 py-0.5 ml-2 bg-indigo-100 text-indigo-700 rounded-full">10% OFF</span>'
+            ? '<span class="text-xs font-semibold px-2 py-0.5 ml-2 bg-indigo-100 text-indigo-700 rounded-full">OFERTA 10% OFF</span>'
             : '';
             
         itemElement.innerHTML = `
@@ -460,57 +623,46 @@ function updateCartDisplay() {
                     <span>${item.quantity}</span>
                     <button data-code="${item.CODIGO}" data-change="+1" class="update-quantity-btn text-green-500 hover:text-green-700 font-bold p-1">+</button>
                     <button data-code="${item.CODIGO}" data-remove="true" class="remove-item-btn text-gray-400 hover:text-red-500 p-1">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3"></path></svg>
+                        <svg class="w-4 h-4 fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3"></path>
+                        </svg>
                     </button>
                 </div>
             </div>
         `;
         cartContainer.appendChild(itemElement);
     });
-
-    // Añadir listeners para los botones del carrito
-    document.querySelectorAll('.update-quantity-btn').forEach(btn => btn.addEventListener('click', updateItemQuantity));
-    document.querySelectorAll('.remove-item-btn').forEach(btn => btn.addEventListener('click', removeItem));
     
     // Actualiza el total
     cartTotalElement.textContent = currencyFormatter.format(calculateCartTotal());
 }
 
 
-// --- FUNCIÓN DE ENVÍO POR WHATSAPP ---
+// --- FUNCIÓN DE ENVÍO POR WHATSAPP (Mantenida) ---
 function sendOrderViaWhatsApp() {
     if (cart.length === 0) return;
 
-    // 1. Encabezado del mensaje
     let message = `¡Hola! Soy ${clientName} y quiero realizar un pedido desde el Catálogo.\n\n`;
     message += `*Detalle del Pedido:*\n`;
     
     let totalFinal = 0;
     
-    // 2. Iterar sobre los productos
     cart.forEach((item, index) => {
         const subtotal = calculateItemPrice(item);
         totalFinal += subtotal;
         
         let offerText = item.offer ? ' (¡OFERTA 10% OFF - 10+1!)' : '';
 
-        // Formato: 1. [Nombre Producto] - Cant: [X] - Total: [Precio]
         message += `${index + 1}. ${item.NOMBRE}\n`;
         message += `   *Cantidad:* ${item.quantity} unidades${offerText}\n`;
-        message += `   *Precio/U:* ${currencyFormatter.format(item.PRECIO)}\n`;
+        message += `   *Precio/U (sin oferta):* ${currencyFormatter.format(item.PRECIO)}\n`;
         message += `   *Subtotal:* ${currencyFormatter.format(subtotal)}\n\n`;
     });
     
-    // 3. Resumen y pie
     message += `*TOTAL ESTIMADO:* ${currencyFormatter.format(totalFinal)}\n\n`;
     message += `El descuento del 10% ya está aplicado en el subtotal de los ítems marcados como OFERTA. Por favor, confírmame el pedido. ¡Gracias!`;
 
-    // 4. Codificar el mensaje para la URL de WhatsApp
     const encodedMessage = encodeURIComponent(message);
-    
-    // 5. Crear el enlace de WhatsApp
     const whatsappURL = `https://wa.me/${WA_NUMBER}?text=${encodedMessage}`;
-    
-    // Abrir el enlace en una nueva pestaña
     window.open(whatsappURL, '_blank');
 }

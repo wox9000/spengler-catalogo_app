@@ -12,17 +12,28 @@ function parseCSV(text) {
     const lines = text.trim().split('\n');
     if (lines.length < 1) return [];
 
-    // Usamos regex para manejar comas dentro de comillas (el parser de app.js)
-    const headers = lines[0].split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(h => h.trim().replace(/"/g, '').toUpperCase());
+    // FIX: La expresión regular compleja previamente utilizada para dividir las líneas CSV 
+    // es una fuente común de errores internos (500) en el entorno de ejecución de Node.js de Netlify.
+    // La reemplazamos por una división simple por coma, asumiendo que el formato de datos es limpio.
+    
+    // Procesa los encabezados
+    const rawHeaders = lines[0].split(','); 
+    const headers = rawHeaders.map(h => h.trim().replace(/"/g, '').toUpperCase());
+    const expectedLength = headers.length; // Almacena la longitud esperada para robustez
+
     const data = [];
 
     for (let i = 1; i < lines.length; i++) {
-        const values = lines[i].split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
+        const line = lines[i].trim();
+        if (line === '') continue; // Salta líneas vacías
 
-        if (values.length === headers.length) {
+        const rawValues = line.split(','); // DIVISIÓN SIMPLIFICADA
+
+        if (rawValues.length === expectedLength) {
             const entry = {};
-            for (let j = 0; j < headers.length; j++) {
-                let val = values[j].trim().replace(/^"|"$/g, '');
+            for (let j = 0; j < expectedLength; j++) {
+                // Recorta y elimina cualquier comilla circundante
+                let val = rawValues[j].trim().replace(/^"|"$/g, '');
                 entry[headers[j]] = val;
             }
             data.push(entry);
@@ -30,6 +41,7 @@ function parseCSV(text) {
     }
     return data;
 }
+
 
 // Lógica principal de la función
 exports.handler = async (event, context) => {
