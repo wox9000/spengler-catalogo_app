@@ -467,7 +467,7 @@ ID,ACCION,NOMBRE,TELEFONO,LOCALIDAD,DIRECCION,PROVINCIA,PRECIO,MAIL,DNI,CUIT,IVA
 500,,Susy Las Calandrias y Las Lechuzas (Victoria),,Victoria,Las Calandrias y Las Lechuzas (Victoria),Entre Rios,LISTA,,,,Consumidor Final
 501,,Walter Ventas,3435087823,Ramírez,Arenales,Entre Rios,LISTA,ventas.walter.spengler@gmail.com,12.345.678,12-34567891-0,Consumidor Final
 502,,Natalia Piffo,3436412070,Panadería Rotonda Shell Victoria,Desconocida,,,,,,
-503,,El Vasco,Desconocido,Almacén El Vasco Victoria,Detrás de mayorista Brown,,,,,,
+503,,Almacén El Vasco,Desconocido,Almacén El Vasco Victoria,Detrás de mayorista Brown,,,,,,
 504,,Diana,3436617699,Desconocido Victoria,Desconocida,,,,,,
 505,,Yamila,3436495750,Kiosco Mitad de Cuadra Victoria,América y Mateu,,,,,,
 506,,Díaz Elsa,Desconocido,Almacén Negocio Esquina Victoria,Díaz Esquina,,,,,,
@@ -478,9 +478,9 @@ ID,ACCION,NOMBRE,TELEFONO,LOCALIDAD,DIRECCION,PROVINCIA,PRECIO,MAIL,DNI,CUIT,IVA
 511,,Giselle,3436222876,Kiosko pequeño Victoria,Barrio nuevo,,,,,,
 512,,Susy,3436578357,Almacén Las Calandrias y Las Lechuzas Victoria,Las Calandrias y Las Lechuzas,,,,,,
 513,,Nerina,3436470847,Minisuper Esquina Brown Victoria,Esquina Brown,,,,,,
-514,,Chica Amable,3436475673,Kiosko el colombiano,San Miguel y Viamonte,,,,,,
+514,,Kiosko,3436475673,Kiosko el colombiano,San Miguel y Viamonte,,,,,,
 515,,Romina,3436410206,Autoservicio Maipú Victoria,Maipú y otra,,,,,,
-516,,Pibe amable,3436471679,Kiosko Vacano Victoria,Maipú Y Brown,,,,,,
+516,,Kiosko Vacano,3436471679,Kiosko Vacano Victoria,Maipú Y Brown,,,,,,
 517,,Claudio Moreira,3436437292,Almacen La esquina Victoria,Desconocida,,,,,,
-518,,Desconocido,3436475abb,El Chaski Victoria ,Frente al Hospital de Victoria,,,,,,
-519,,Pibe amable,3436435488,Kiosko Obeid Victoria,Chacabuco 572,,,,,,
+518,,El Chaski,3436475abb,El Chaski Victoria ,Frente al Hospital de Victoria,,,,,,
+519,,Kiosko Obeid,3436435488,Kiosko Obeid Victoria,Chacabuco 572,,,,,,
