@@ -1,7 +1,7 @@
-// netlify/functions/catalog.js
-
-const fs = require('fs');
+// Al principio de tu archivo catalog.js
 const path = require('path');
+const fs = require('fs');
+
 
 // Rutas a los archivos CSV dentro de la carpeta segura 'data'
 const RUTA_CLIENTES = path.join(__dirname, 'data', 'clientes.csv');

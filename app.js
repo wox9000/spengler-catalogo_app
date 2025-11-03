@@ -383,7 +383,7 @@ function renderProducts(products) {
         productList.classList.remove('hidden');
     }
 
-    const fallbackImage = 'https://placehold.co/400x400/eeeeee/313131?text=Spengler';
+    const fallbackImage = '/images/logo-spengler.jpg';
 
     products.forEach(product => {
         const productCard = document.createElement('div');

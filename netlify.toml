@@ -1,12 +1,7 @@
 [build]
-  # Carpeta donde están tus funciones (esto ya lo tenías)
+  # Asegúrate de que Netlify sepa DÓNDE buscar las funciones.
   functions = "netlify/functions"
-  
-  # Carpeta pública (donde están index.html y app.js)
-  # Usamos "." para decir "la carpeta actual".
-  publish = "."
 
-[dev]
-  # Le decimos al servidor local (netlify dev) 
-  # dónde está la carpeta pública.
-  publish = "."
+[functions]
+  # Esto es lo que te dije antes, para incluir tus CSV.
+  included_files = ["netlify/functions/data/**"]

@@ -1,468 +1,486 @@
-"ID","ACCION","NOMBRE","TELEFONO","LOCALIDAD","DIRECCION","PROVINCIA","PRECIO","MAIL","DNI","CUIT","IVA"
-"1","","Fernando Spengler","3435099362","","","","LISTA","","","","Responsable Inscripto"
-"2","","Veik humberto","3445 459331","","Lucas echazarreta","","LISTA","","","","Consumidor Final"
-"3","","Kiosco Mario","3445 576206","","Barrio 78 viviendas ruta 30 ma","","LISTA","","","","Consumidor Final"
-"4","","Gagolin graciela","","","Barrio 78 viviendas macia","","LISTA","","","","Consumidor Final"
-"5","","Sebastian macia","","","Barrio 78 viviendas ruta 30","","LISTA","","","","Consumidor Final"
-"6","","Gisela los chiquis","","","Barrio remi horisberger casa 8","","LISTA","","","","Consumidor Final"
-"7","","Nahuel baralle","","","Jorge Newbery s/n","","LISTA","","","","Consumidor Final"
-"8","","Despensa al paso avellaneda","","","Avenida avellaneda 1915","","LISTA","","","","Consumidor Final"
-"9","","Maxi","","Nogoya","Diamante y feliciano","","LISTA","","","","Consumidor Final"
-"10","","Moncho","","","Gualeguaychu 859","","LISTA","","","","Consumidor Final"
-"11","","Tachu 24/07","","","Gualeguaychu en la esquina","","LISTA","","","","Consumidor Final"
-"12","","Spinetti cristian","","","Sarmiento 319","","LISTA","","","","Consumidor Final"
-"13","","Kiosco lescano","","","Misael pereyra","","LISTA","","","","Consumidor Final"
-"14","","Despensa kiko","","","","","LISTA","","","","Consumidor Final"
-"15","","Cotillon frente a martin fierr","","","Calle gualeguaychu 738","","LISTA","","","","Consumidor Final"
-"16","","Griselda distribuidora","","","Gualeguaychu y mañasco","","LISTA","","","","Consumidor Final"
-"17","","Guada alfaro","","","Gualeguay y gualeguaychu 309","","LISTA","","","","Consumidor Final"
-"18","","Kiosco la villa","","","Gualeguay 716","","LISTA","","","","Consumidor Final"
-"19","","Doña eka","","","Diamante 737","","LISTA","","","","Consumidor Final"
-"20","","Polleria ana","","","Marchini y colon","","LISTA","","","","Consumidor Final"
-"21","","Leo perez","","","Calle colon cortada","","LISTA","","","","Consumidor Final"
-"22","","Dario esquina via","","","Enrique merini 691 via deltren","","LISTA","","","","Consumidor Final"
-"23","","Cotillon ferro","","","","","LISTA","","","","Consumidor Final"
-"24","","Dani romero","","","Barrio 130","","LISTA","","","","Consumidor Final"
-"25","","Telecabina","","","Al frente de los bomberos","","LISTA","","","","Consumidor Final"
-"26","","Ana krenz","","","Calle mosconi 505","","LISTA","","","","Consumidor Final"
-"27","","Almacen don blas","","","Al lado de la parrilla","","LISTA","","","","Consumidor Final"
-"28","","Toto","","","Al frente de la terminal","","LISTA","","","","Consumidor Final"
-"29","","Miami shop","","","Bv españa y belgrano esquina","","LISTA","","","","Consumidor Final"
-"30","","Punto campero","","","Bv españa","","LISTA","","","","Consumidor Final"
-"31","","Bruno","","","Esquina bvespaña y fritz geral","","LISTA","","","","Consumidor Final"
-"32","","Lo pazo","","","Calle 9 de julio","","LISTA","","","","Consumidor Final"
-"33","","Dietetica dar","","","Maipu 751 pegando al dar","","LISTA","","","","Consumidor Final"
-"34","","Kiosco lujan","","","Rocamora 1224","","LISTA","","","","Consumidor Final"
-"35","","Pablo lare","","","","","LISTA","","","","Consumidor Final"
-"36","","Despensa gonzalito","","","Calle 9 de julio","","LISTA","","","","Consumidor Final"
-"37","","Diego tio chupete","","","25 de mayo","","LISTA","","","","Consumidor Final"
-"38","","Perico los nonos","","","25 de mayo","","LISTA","","","","Consumidor Final"
-"39","","Seba","","","Mendoza y san martin","","LISTA","","","","Consumidor Final"
-"40","","Lo de aladio","","","Donde era kimica disco","","LISTA","","","","Consumidor Final"
-"41","","Marcelo la granja","","","Ramon vivanco y francia","","LISTA","","","","Consumidor Final"
-"42","","Facu ciscneros","","","Tristan frutos 1753","","LISTA","","","","Consumidor Final"
-"44","","Cotillon sanmiguel","","","Barrio sur","","LISTA","","","","Consumidor Final"
-"45","","Despensa cami","","","Supremo entrerriano y centenar","","LISTA","","","","Consumidor Final"
-"46","","Drugstore baron azul","","","Isla malvinas 1305","","LISTA","","","","Consumidor Final"
-"47","","Kiosco bvbrow","","","Bv brow","","LISTA","","","","Consumidor Final"
-"48","","Rana","","","Eva Perón y ilia","","LISTA","","","","Consumidor Final"
-"49","","La llave","","","Ramirez y arturo ilia","","LISTA","","","","Consumidor Final"
-"50","","Lucas esquina plaza","","","Hernandez y soberania","","LISTA","","","","Consumidor Final"
-"51","","Vale","","","Corrientes 1134","","LISTA","","","","Consumidor Final"
-"52","","Diaz febre","","","Febre","","LISTA","","","","Consumidor Final"
-"53","","Kiosco mario victoria","","","Dorrego 665","","LISTA","","","","Consumidor Final"
-"54","","Yesica cotillon","","","Rocamora 228","","LISTA","","","","Consumidor Final"
-"56","","Andres drugstore","","","Ezpeleta 93","","LISTA","","","","Consumidor Final"
-"57","","Lo pazo victoria","","","","","LISTA","","","","Consumidor Final"
-"58","","Claudia fiambreria","","","Laprida 567","","LISTA","","","","Consumidor Final"
-"59","","Ignacio punto campero","","","Urquiza 87","","LISTA","","","","Consumidor Final"
-"60","","Natali reposteria","","","Urquiza 84","","LISTA","","","","Consumidor Final"
-"61","","Celia","","","Junin 737","","LISTA","","","","Consumidor Final"
-"62","","Leo","","","Copello 128","","LISTA","","","","Consumidor Final"
-"63","","Caro drusgtore","","","Avenida congreso 645","","LISTA","","","","Consumidor Final"
-"65","","Despensa los abu","","","San miguel y dorrego esquin","","LISTA","","","","Consumidor Final"
-"66","","Pao","","","El arenal barrio","","LISTA","","","","Consumidor Final"
-"67","","Pochoclero","","","San martin y pazo","","LISTA","","","","Consumidor Final"
-"68","","Laura epuyen","","","Calle nestor Kirchner","","LISTA","","","","Consumidor Final"
-"69","","Autoservicio rivadavia","","","Bv rivadavia y bartoloni","","LISTA","","","","Consumidor Final"
-"70","","Pity antelo","","","Antelo","","LISTA","","","","Consumidor Final"
-"71","","Maria febre","","","Febre","","LISTA","","","","Consumidor Final"
-"72","","El remanso shopping","","","Ruta 12","","LISTA","","","","Consumidor Final"
-"73","","Belen","","","Calle diamante","","LISTA","","","","Consumidor Final"
-"74","","Facu","","","Barrio 130 calle nelly chibota","","LISTA","","","","Consumidor Final"
-"75","","Despensa la negrita","","","Calle marchini y villaguay","","LISTA","","","","Consumidor Final"
-"76","","Nancy","","","Calle victoria al fondo","","LISTA","","","","Consumidor Final"
-"77","","Javi diaz","","Nogoya","Avellaneda al frente de genova","","LISTA","","","","Consumidor Final"
-"78","","Kiosco irigoyen","","","Bv irigoyen","","LISTA","","","","Consumidor Final"
-"79","","Verduleria alberto","","","Parana y av italia (esquina)","","LISTA","","","","Consumidor Final"
-"80","","Turquia drugstore","","","Bv españa","","LISTA","","","","Consumidor Final"
-"81","","Zucutrule cotillon","","","25 de mayo frente a sensei","","LISTA","","","","Consumidor Final"
-"82","","Almacen cavin","","","Gobernador sola","","LISTA","","","","Consumidor Final"
-"83","","Despensa lumi","","","Moreno y nesa boeri","","LISTA","","","","Consumidor Final"
-"84","","Autoservicio 2000","","","Goldarasena 801","","LISTA","","","","Consumidor Final"
-"85","","Diego","","","3 de febrero","","LISTA","","","","Consumidor Final"
-"86","","Daiana","","","Rocamora y urquiza esquina","","LISTA","","","","Consumidor Final"
-"87","","Susana","","","Contin y lavalle esquina","","LISTA","","","","Consumidor Final"
-"88","","Miguelito choio","","","Mendoza antes de san martin","","LISTA","","","","Consumidor Final"
-"89","","Fabiana","","","20 de septiembre","","LISTA","","","","Consumidor Final"
-"90","","Tere almacen ferreras","","","Betbeder","","LISTA","","","","Consumidor Final"
-"91","","Maria Betbeder","","","Betbeder","","LISTA","","","","Consumidor Final"
-"92","","Autoservicio hernandez","","","Avenida","","LISTA","","","","Consumidor Final"
-"93","","Pablo drugstore","","","Hernandez","","LISTA","","","","Consumidor Final"
-"94","","Emilce autoservicio","","","Hernandez","","LISTA","","","","Consumidor Final"
-"95","","Norma hefell","","","Hernandez","","LISTA","","","","Consumidor Final"
-"96","","Georgi","","","Hernandez","","LISTA","","","","Consumidor Final"
-"97","","Doña lorenzato","","","25 de mayo","","LISTA","","","","Consumidor Final"
-"98","","Loreto","","","Calle charrua","","LISTA","","","","Consumidor Final"
-"100","","Sandro godoy","","","Barrio sur","","LISTA","","","","Consumidor Final"
-"101","","Naty","","","Barrio 180","","LISTA","","","","Consumidor Final"
-"102","","Cristina","","","Barrio 180","","LISTA","","","","Consumidor Final"
-"103","","Lina","","","Al lado del desarmadero sur","","LISTA","","","","Consumidor Final"
-"104","","Damian carniceria","","","Barrio sur","","LISTA","","","","Consumidor Final"
-"105","","Virginia","","","Los 4 soles","","LISTA","","","","Consumidor Final"
-"106","","Paola marinelli","","","Alfredo Palacios barrio 50v","","LISTA","","","","Consumidor Final"
-"107","","Mirta sanchez","","","","","LISTA","","","","Consumidor Final"
-"108","","El chupacabra","","","","","LISTA","","","","Consumidor Final"
-"109","","Kiosco 5 amores","","","Calle maestro torres 1474","","LISTA","","","","Consumidor Final"
-"110","","Despensa y pescaderia","","","Bv brow 328","","LISTA","","","","Consumidor Final"
-"111","","Zulma","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"112","","Autoservicio la primera","","","","","LISTA","","","","Consumidor Final"
-"113","","Celi lg","","","Lucas González","","LISTA","","","","Consumidor Final"
-"114","","Cotillon jye","","","","","LISTA","","","","Consumidor Final"
-"115","","Sandra autoservicio","","","Lucas González","","LISTA","","","","Consumidor Final"
-"116","","La reina verduleria y despensa","","","Corrientes y Güemes","","LISTA","","","","Consumidor Final"
-"117","","Curandera febre","","","","","LISTA","","","","Consumidor Final"
-"118","","Sheraton drusgtore","","","Quiroga y taboada","","LISTA","","","","Consumidor Final"
-"119","","Maria emilio","","","Obispo angeleri 276","","LISTA","","","","Consumidor Final"
-"120","","Luciana clivio","","","Francia y marconi en la esquin","","LISTA","","","","Consumidor Final"
-"122","","Jose Kiosco JyE","","","Don Cristóbal 2","","LISTA","","","","Consumidor Final"
-"123","","Luisina","","","Don Cristóbal 2","","LISTA","","","","Consumidor Final"
-"124","","Reula","","","Don Cristóbal","","LISTA","","","","Consumidor Final"
-"126","","Anahí Zapata","","","Don Cristóbal 2","","LISTA","","","","Consumidor Final"
-"127","","Almacén El Escondido","","","Don Cristóbal 2","","LISTA","","","","Consumidor Final"
-"128","","María","","","Don Cristóbal 2","","LISTA","","","","Consumidor Final"
-"129","","Ana calle mosconi","","","Esquina marchini","","LISTA","","","","Consumidor Final"
-"130","","Dani ache","","","España shop bv españa","","LISTA","","","","Consumidor Final"
-"131","","El refuerzo provisiones","","","Bv españa","","LISTA","","","","Consumidor Final"
-"132","","Jesica polleria","","","25 de mayo y aldo muñoz","","LISTA","","","","Consumidor Final"
-"133","","Pao antelo","","","","","LISTA","","","","Consumidor Final"
-"134","","Despensa sola","","","Gobernador sola","","LISTA","","","","Consumidor Final"
-"135","","Panaderia unserbrot","","","Lucas gonzalez pegando a hotel","","LISTA","","","","Consumidor Final"
-"136","","Kiosco las vias","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"137","","Jairo","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"138","","Autoservicio la rural","","","Calle la rural","","LISTA","","","","Consumidor Final"
-"140","","La casona","","","Virginia quinodoz y leon sola","","LISTA","","","","Consumidor Final"
-"141","","Dietetica la finca","","","Calle alem frente a caramelo","","LISTA","","","","Consumidor Final"
-"142","","Silvi macia","","","9 de julio y goldaracena","","LISTA","","","","Consumidor Final"
-"143","","Escuela 62 macia","","","","","LISTA","","","","Consumidor Final"
-"144","","Walter","","","Gobernador sola","","LISTA","","","","Consumidor Final"
-"145","","Kiosco frente a la garita","","","Gob sola","","LISTA","","","","Consumidor Final"
-"146","","Despensa cavin","","","Gob sola","","LISTA","","","","Consumidor Final"
-"147","","Eduardo cancha pelota paleta","","","Calle marchini","","LISTA","","","","Consumidor Final"
-"148","","Kiosco pa ya","","","Bv españa casi 25","","LISTA","","","","Consumidor Final"
-"149","","Kiosco ana castañola","","","Calle justa Gómez","","LISTA","","","","Consumidor Final"
-"150","","Los 4 soles","","","Calle 25 de mayo","","LISTA","","","","Consumidor Final"
-"151","","Andres sheraton","","","Calle urquiza","","LISTA","","","","Consumidor Final"
-"152","","Agencia de quiniela","","","Victoria calle irigoyen","","LISTA","","","","Consumidor Final"
-"153","","Nora huerto","","","Colegio del huerto","","LISTA","","","","Consumidor Final"
-"154","","Kiosco 24/07","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"155","","El baul","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"156","","Juli calle francia","","","Nogoya, antes de marchini","","LISTA","","","","Consumidor Final"
-"157","","Cantina deportivo fútbol","","","Francia 733 casi tristanfrutos","","LISTA","","","","Consumidor Final"
-"159","","Mica Ronchi","","","Sixto oriz y Uruguay","","LISTA","","","","Consumidor Final"
-"160","","La Rotonda panaderia","","","Calle 9 de julio","","LISTA","","","","Consumidor Final"
-"161","","Romi","","","Mendoza","","LISTA","","","","Consumidor Final"
-"162","","Grisel","","","Contin 1343 Polleria Macaca","","LISTA","","","","Consumidor Final"
-"164","","Minimercado king market","","","Av esteban lonne","","LISTA","","","","Consumidor Final"
-"165","","YPF la gruta","","","Ruta 12 y belgrano","","LISTA","","","","Consumidor Final"
-"166","","Viejo almacen","","","25 de mayo y bv España","","LISTA","","","","Consumidor Final"
-"167","","Peter pan","","","25 de mayo y Maipú","","LISTA","","","","Consumidor Final"
-"169","","Alto pollo","","","25 de mayo y Urquiza","","LISTA","","","","Consumidor Final"
-"170","","Kiosco peatonal","","","San Martin 686","","LISTA","","","","Consumidor Final"
-"171","","Al toque","","","25 de mayo y centenario","","LISTA","","","","Consumidor Final"
-"172","","Cipriano","","","25 de mayo y caseros","","LISTA","","","","Consumidor Final"
-"173","","Colegio nacional","","","Bv sarmiento","","LISTA","","","","Consumidor Final"
-"174","","Escuela 20","","","Macia entre rios","","LISTA","","","","Consumidor Final"
-"175","","Romon sandoval","","","Alfredo palacios 1469","","LISTA","","","","Consumidor Final"
-"176","","Juanjo","","","Macia entre rios","","LISTA","","","","Consumidor Final"
-"177","","Liborio","","","25 de mayo y Bernardo irigoyen","","LISTA","","","","Consumidor Final"
-"178","","Lucio albornoz","","","La valle 1322","","LISTA","","","","Consumidor Final"
-"179","","Escuela técnica","","","Mantegaza y Quiroga y taboada","","LISTA","","","","Consumidor Final"
-"180","","Escuela agrotecnica","","","Macia entre rios","","LISTA","","","","Consumidor Final"
-"181","","Polleria el rincon","","","Macia entre rios","","LISTA","","","","Consumidor Final"
-"182","","Eva tucumana","","","Vivanco 1632","","LISTA","","","","Consumidor Final"
-"183","","Victoria quinodoz","","","Marconi y feliciano","","LISTA","","","","Consumidor Final"
-"184","","Escuela 129","","","Almirante Brown","","LISTA","","","","Consumidor Final"
-"185","","Juana","","","Sixto Ortiz 788","","LISTA","","","","Consumidor Final"
-"186","","Club atlético san benito","","","Victoria entre rios","","LISTA","","","","Consumidor Final"
-"187","","Depor paleta","","","Almirante Brown 1411","","LISTA","","","","Consumidor Final"
-"188","","Iguazu","","","San Martin 1392","","LISTA","","","","Consumidor Final"
-"189","","Gugy","","","Barrio colminac MC C24","","LISTA","","","","Consumidor Final"
-"190","","Escuela Arca de noe","","","Quiroga y taboada","","LISTA","","","","Consumidor Final"
-"191","","Edgardo alfaro","","","Barrio 50V M2 Casa3","","LISTA","","","","Consumidor Final"
-"192","","Elida macia","","","Calle gualeguaychu","","LISTA","","","","Consumidor Final"
-"193","","Dardo Vergara pocha","","","Alem y fitz gerald","","LISTA","","","","Consumidor Final"
-"194","","Despensa la paz","","","La paz entre Sixto Ortiz y mar","","LISTA","","","","Consumidor Final"
-"195","","Maria Beron","","","Lavalle y maipu","","LISTA","","","","Consumidor Final"
-"196","","Verduler frente a bazar itati","","","9 de julio 656","","LISTA","","","","Consumidor Final"
-"197","","Nahuel club libertad","","","Chanear","","LISTA","","","","Consumidor Final"
-"198","","Despensa stop","","","Don Cristóbal 2","","LISTA","","","","Consumidor Final"
-"200","","Almacen el escondido don crist","","","Don cristobal 2","","LISTA","","","","Consumidor Final"
-"201","","Jose don cristobal 2","","","Don cristobal 2","","LISTA","","","","Consumidor Final"
-"202","","Anahi","","","Don Cristóbal 2","","LISTA","","","","Consumidor Final"
-"203","","Luisina escudero","","","Don Cristóbal 2","","LISTA","","","","Consumidor Final"
-"204","","Despensa ceci","","","Belgrano 1280","","LISTA","","","","Consumidor Final"
-"205","","Carballo","","","Bv Ramirez 1281","","LISTA","","","","Consumidor Final"
-"206","","Estacion de servicio axion","","","Marchini y ruta 12","","LISTA","","","","Consumidor Final"
-"207","","Despensa bacre","","","Presidente Perón esqui la paz","","LISTA","","","","Consumidor Final"
-"208","","Clivio","","","Francia y Mosconi","","LISTA","","","","Consumidor Final"
-"209","","Cesar Zapata","","","Angelica Firpo 645","","LISTA","","","","Consumidor Final"
-"210","","Viviana viandas","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"211","","Martin ferrari","","","Eva Perón y bv ramirez","","LISTA","","","","Consumidor Final"
-"212","","Susana hobal","","","Nogoya contin","","LISTA","","","","Consumidor Final"
-"213","","Abraham kiosco plaza","","","Nogoya antes del semaforo","","LISTA","","","","Consumidor Final"
-"214","","Analia","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"215","","El almacen","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"216","","Daniela acevedo","","","Hernandez","","LISTA","","","","Consumidor Final"
-"217","","Despensa poli","","","Basualdo 344","","LISTA","","","","Consumidor Final"
-"218","","Despensa peke","","","Irigoyen y copello","","LISTA","","","","Consumidor Final"
-"219","","Margarita","","","Victoria entre rios","","LISTA","","","","Consumidor Final"
-"220","","Punto sur","","","25 de mayo esquina la rioja","","LISTA","","","","Consumidor Final"
-"221","","Club gobernador sola","","","Gob sola","","LISTA","","","","Consumidor Final"
-"222","","Escuela","","","Gob sola","","LISTA","","","","Consumidor Final"
-"223","","Popo pollería","","","San Martin antes de carbo","","LISTA","","","","Consumidor Final"
-"224","","Meurzet viajes","","","9 de julio 1488","","LISTA","","","","Consumidor Final"
-"225","","Vero","","","Santa fe 2230","","LISTA","","","","Consumidor Final"
-"226","","Cantina ferro futbol","","","La paz","","LISTA","","","","Consumidor Final"
-"227","","Naty y marcos","","","Victoria 231","","LISTA","","","","Consumidor Final"
-"228","","Lore frisanco","","","Marchini 982","","LISTA","","","","Consumidor Final"
-"229","","Loco despeinado de febre","","","Febre esquina comisaria","","LISTA","","","","Consumidor Final"
-"230","","Despensa lujan","","","Chanear","","LISTA","","","","Consumidor Final"
-"231","","La finca dietetica","","","Calle alem antes de moreno","","LISTA","","","","Consumidor Final"
-"232","","Despensa champe","","","Victoria entre rios","","LISTA","","","","Consumidor Final"
-"233","","Despensa la gringa","","","Villaguay y diamante","","LISTA","","","","Consumidor Final"
-"234","","Zona sur","","","Esquina de la escuela 103","","LISTA","","","","Consumidor Final"
-"235","","Coya","","","Barrio sur nogoya","","LISTA","","","","Consumidor Final"
-"236","","Full shop pegando a tinaco","","","Nogoya calle irigoyen","","LISTA","","","","Consumidor Final"
-"237","","Jesica negocio","","","Alfredo palacios 1064","","LISTA","","","","Consumidor Final"
-"238","","Bazar vignola","","","Calle caseros antes de moreno","","LISTA","","","","Consumidor Final"
-"239","","Despensa bazar y gomeria colos","","","Av irigoyen 286","","LISTA","","","","Consumidor Final"
-"240","","Bar el bun nogoya","","","Alem y belgrano esquina","","LISTA","","","","Consumidor Final"
-"241","","Verduleria y despensa diana","","","Macia entre rios","","LISTA","","","","Consumidor Final"
-"242","","Carballo Jorge","","","Ramirez 1287","","LISTA","","","","Consumidor Final"
-"243","","Retamal Griselda","","","J J Paso 854","","LISTA","","","","Consumidor Final"
-"244","","Zapata Carla","","","Alberdi al fondo","","LISTA","","","","Consumidor Final"
-"245","","Quinodoz Angelica","","","Barrio 24 casa 18","","LISTA","","","","Consumidor Final"
-"246","","Espinoza Marisa","","","Villa Guiano","","LISTA","","","","Consumidor Final"
-"247","","Silvia San Blas","","","9 de Julio","","LISTA","","","","Consumidor Final"
-"248","","Leo Shi Mei","","","Hirigoyen 169","","LISTA","","","","Consumidor Final"
-"249","","Silvia Lopez","","","9 de Julio 1654","","LISTA","","","","Consumidor Final"
-"250","","Gomez maria","","","Centenario y lavalle 483","","LISTA","","","","Consumidor Final"
-"251","","Kiosco wada","","","San luis 1472","","LISTA","","","","Consumidor Final"
-"252","","Chandare Elena","","","Cañada","","LISTA","","","","Consumidor Final"
-"253","","Albornoz Maria","","","Rivadavia 780","","LISTA","","","","Consumidor Final"
-"254","","Ceballos Laura","","","Balbin 2152","","LISTA","","","","Consumidor Final"
-"255","","Wendeler Luciana","","","Juan XXIII","","LISTA","","","","Consumidor Final"
-"256","","Polleria Don Jose","","","Lisandro de La Torre y Juan XX","","LISTA","","","","Consumidor Final"
-"257","","Kiosco caramelo","","","Alem 1254","","LISTA","","","","Consumidor Final"
-"258","","Kiosco Joako","","","3 de Febrero 1565","","LISTA","","","","Consumidor Final"
-"259","","Kiosco Jazmin","","","180 M6 C12","","LISTA","","","","Consumidor Final"
-"260","","Despensa Don Corsino","","","Güemes 1060","","LISTA","","","","Consumidor Final"
-"261","","Despensa Providencia","","","Angeleri e Irigoyen","","LISTA","","","","Consumidor Final"
-"262","","Fragati 18 viviendas","","","18 viviendas casa 7","","LISTA","","","","Consumidor Final"
-"263","","Kiosco Benjamin","","","Catamarca 1350","","LISTA","","","","Consumidor Final"
-"264","","Banegas Claudia","","","Moreno 1463","","LISTA","","","","Consumidor Final"
-"265","","Beltaco Carlos","","","Contin 928","","LISTA","","","","Consumidor Final"
-"266","","Mercadito 25","","","25 de Mayo 1385","","LISTA","","","","Consumidor Final"
-"267","","Fenandez Patricia","","","Moreno 91","","LISTA","","","","Consumidor Final"
-"268","","Ocampo Macarena","","","Gualeguaychu casi Mitre","","LISTA","","","","Consumidor Final"
-"269","","Lelu Romero","","","Fritsgerald 170","","LISTA","","","","Consumidor Final"
-"270","","Segovia Nadia","","","Charruas 1120","","LISTA","","","","Consumidor Final"
-"271","","Zurdo kiosco","","","Urquiza 785 lucas gonzalez","","LISTA","","","","Consumidor Final"
-"272","","La estacion resto bar","","","Lucas gonzalez pasando lo jair","","LISTA","","","","Consumidor Final"
-"273","","Lo de Lala","","","Ilia y Alsugaray","","LISTA","","","","Consumidor Final"
-"274","","Kindebaluc almacen","","","Don cristobal 2","","LISTA","","","","Consumidor Final"
-"275","","Graciela don cristobal 2","","","Don cristobal 2","","LISTA","","","","Consumidor Final"
-"276","","Ines Paes","","","Federación 239","","LISTA","","","","Consumidor Final"
-"277","","Kiosco 02/04","","","Falucho 1633","","LISTA","","","","Consumidor Final"
-"278","","Vergara Andrea","","","Barrio 36 M1 C6","","LISTA","","","","Consumidor Final"
-"279","","After","","","Bulevar España y 9 de Julio","","LISTA","","","","Consumidor Final"
-"280","","Tula Jose","","","Laurencena 1355","","LISTA","","","","Consumidor Final"
-"281","","Laura la tota","","","Diamante y villaguay","","LISTA","","","","Consumidor Final"
-"282","","Daiana Jaime","","","Cabo Monzon","","LISTA","","","","Consumidor Final"
-"283","","Floreciente 1","","","Espa a 33 Victoria","","LISTA","","","","Consumidor Final"
-"284","","Zhuang Bao","","","Italia y Rawson","","LISTA","","","","Consumidor Final"
-"285","","Super Nuevo Siglo","","","Rawson y Piaggio","","LISTA","","","","Consumidor Final"
-"286","","Floreciente 2","","","Camoirano 223","","LISTA","","","","Consumidor Final"
-"287","","Ziegler","","","Piaggio 520","","LISTA","","","","Consumidor Final"
-"288","","Meifang","","","3 de Febrero y Viamonte","","LISTA","","","","Consumidor Final"
-"289","","Matias nuñez","","","Nogoya entre rios","","LISTA","","","","Consumidor Final"
-"291","","Weng Ende","","","Yrigoyen 1024","","LISTA","","","","Consumidor Final"
-"292","","Merini Juan Carlos","","","Contin y Belgrano","","LISTA","","","","Consumidor Final"
-"293","","Solis","","","Barrio chañar","","LISTA","","","","Consumidor Final"
-"294","","Lin Wu","","","25 de Mayo, casi Velez Sarfiel","","LISTA","","","","Consumidor Final"
-"295","","Do Re Mi","","","Mitre 589","","LISTA","","","","Consumidor Final"
-"296","","Chen Shunmei","","","España 27","","LISTA","","","","Consumidor Final"
-"297","","El Vasco","","","Linier y Marcos Paz","","LISTA","","","","Consumidor Final"
-"298","","Kiosco bella","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"299","","Exter tercera campo","","","Crucesitas tercera","","LISTA","","","","Consumidor Final"
-"300","","Elisa almacen rodriguez","","","Crucesita Tercera","","LISTA","","","","Consumidor Final"
-"301","","Carlos Correa","","","Alte Brown 1413","","LISTA","","","","Consumidor Final"
-"302","","Torito mimoso","","","Ruta 12, pegado al Remanso","","LISTA","","","","Consumidor Final"
-"303","","Martinez Marcelo","","","Diamante 27, casi Islas del Ib","","LISTA","","","","Consumidor Final"
-"304","","Fernando los caseritos","","","Victoria calle constitución","","LISTA","","","","Consumidor Final"
-"305","","Super time","","","Italia y Vivanco","","LISTA","","","","Consumidor Final"
-"306","","A dr paniego 909","","","Lucas gonzalez","","LISTA","","","","Consumidor Final"
-"308","","Almacen del Carmen","","","Urquiza y San Lorenzo","","LISTA","","","","Consumidor Final"
-"309","","El Duende","","","Velez Cuneo","","LISTA","","","","Consumidor Final"
-"310","","Casiva Celia","","","Cuneo entre Güemes y Lamadrid","","LISTA","","","","Consumidor Final"
-"311","","Colo Multirubro","","","Irigoyeny Paraná","","LISTA","","","","Consumidor Final"
-"312","","Cantina polideportivo macia","","","Macia entre rios","","LISTA","","","","Consumidor Final"
-"313","","Maxi kiosco leo","","","Macia entre rios","","LISTA","","","","Consumidor Final"
-"314","","Walter el carrito","","","Carrito frente a panaderia 24h","","LISTA","","","","Consumidor Final"
-"315","","Super El triunfo","","","Corriente y Laprida","","LISTA","","","","Consumidor Final"
-"316","","Bustamante Noemi","","","Balbi 274","","LISTA","","","","Consumidor Final"
-"318","","Diaz Elsa","","","Marcos Paz y Rondeu","","LISTA","","","","Consumidor Final"
-"319","","Remanso ruta 26","","","Fermin Chavez","","LISTA","","","","Consumidor Final"
-"320","","Cantina club 25 de mayo","","","Nogoya entre rios","","LISTA","","","","Consumidor Final"
-"321","","Despensa Cabrera","","","Corrientes 321","","LISTA","","","","Consumidor Final"
-"322","","Dietetica Ahumada","","","Larrea 771","","LISTA","","","","Consumidor Final"
-"323","","Sergio","","","Hirigoyen y Marcos Paz","","LISTA","","","","Consumidor Final"
-"324","","Gonzalez Silvia","","","Contin 1150","","LISTA","","","","Consumidor Final"
-"325","","Sosa Matias lacho","","","Lopez Jordan casa 28","","LISTA","","","","Consumidor Final"
-"326","","Facello Nicolas","","","Moreno casi quiroga","","LISTA","","","","Consumidor Final"
-"327","","Kiosco Nogoyork","","","Corrientes casi 9 de Julio","","LISTA","","","","Consumidor Final"
-"328","","Zabala Mariela","","","Monte Caseros y Guemes","","LISTA","","","","Consumidor Final"
-"329","","Quingua","","","Camoirano 220","","LISTA","","","","Consumidor Final"
-"330","","Vigliano","","","Victoria entre JJ Paso y Guale","","LISTA","","","","Consumidor Final"
-"331","","Celestina miño macia","","","Barrio san roque","","LISTA","","","","Consumidor Final"
-"332","","Yohanna Acosta","","","Moreno casi Corrientes","","LISTA","","","","Consumidor Final"
-"333","","Cantina hernandez pileta","","","Hernandez entre rios","","LISTA","","","","Consumidor Final"
-"335","","Noe sanchez","","","Dr paniego 909 lucas gonzalez","","LISTA","","","","Consumidor Final"
-"336","","Super Yrigoyen","","","Yrigoyen 1030","","LISTA","","","","Consumidor Final"
-"337","","Olivari 130","","","Mitre entre Brown e Yrigoyen","","LISTA","","","","Consumidor Final"
-"338","","Hector Chañar","","","Cha ar","","LISTA","","","","Consumidor Final"
-"339","","El Peke 3","","","Matanza y Congreso","","LISTA","","","","Consumidor Final"
-"340","","Vale calle corrientes","","","Corrientes antes de 9 de julio","","LISTA","","","","Consumidor Final"
-"341","","Vale calle caseros","","","Caseros antes de rocamora","","LISTA","","","","Consumidor Final"
-"342","","Despensa Lupy","","","Carmelo Asteciano y Juan XXIII","","LISTA","","","","Consumidor Final"
-"343","","Kiosco perez","","","Rincon del doll","","LISTA","","","","Consumidor Final"
-"344","","Supermercado iriza","","","Rincon del doll","","LISTA","","","","Consumidor Final"
-"345","","Jose ramirez","","","Rincon del doll","","LISTA","","","","Consumidor Final"
-"346","","Doña rosa","","","Rincon del doll","","LISTA","","","","Consumidor Final"
-"347","","Despensa atencio","","","Rincon del doll","","LISTA","","","","Consumidor Final"
-"348","","Mini mercado Valu","","","25 de Mayo entre angélica  y a","","LISTA","","","","Consumidor Final"
-"349","","Boyer Luis","","","Sixto Oris 151","","LISTA","","","","Consumidor Final"
-"350","","Despensa el Gringo","","","Avellaneda casi Alberdi","","LISTA","","","","Consumidor Final"
-"351","","Escuela 62 turno tarde","","","Macia entre ríos","","LISTA","","","","Consumidor Final"
-"352","","Escuela 62 turno mañana","","","Macia entre rios","","LISTA","","","","Consumidor Final"
-"353","","Polleria 2.0","","","Italia y Paraná","","LISTA","","","","Consumidor Final"
-"354","","Escuela 101","","","Sarmiento","","LISTA","","","","Consumidor Final"
-"355","","Rios Teresa","","","Juan XXIII y Dorrego","","LISTA","","","","Consumidor Final"
-"356","","Maxi kiosco rame","","","Hernandez entre rios","","LISTA","","","","Consumidor Final"
-"357","","Sole calle caseros","","Nogoya","Calle caseros entre rocamora y evaristo carriego","","LISTA","","","","Consumidor Final"
-"358","","Almacen denis","","Rincon del doll","","Entre Rios","LISTA","","","","Consumidor Final"
-"362","","Despensa la nona","","Victoria","Calle presidente peron","Entre Rios","LISTA","","","","Consumidor Final"
-"363","","Leo victoria","","Victoria","Calle copello","Entre Rios","LISTA","","","","Consumidor Final"
-"364","","La rotonda 9 de julio","","Nogoya","9 de julio entre centenario y alem","Entre Rios","LISTA","","","","Consumidor Final"
-"365","","Almacen vignola","","Nogoya","Calle caseros casi moreno","Entre Rios","LISTA","","","","Consumidor Final"
-"366","","Dani romero ( pedido que lleva nico )","","Nogoya","Barrio 130","","LISTA","","","","Consumidor Final"
-"367","","Juanma caseros","","Nogoya","Calle caseros casi 9 de julio","Entre Rios","LISTA","","","","Consumidor Final"
-"368","","Fabian","","Nogoya","","","LISTA","","","","Consumidor Final"
-"369","","Gaston irigoyen","","Nogoya","Calle irigoyen y sixto oris","Entre Rios","LISTA","","","","Consumidor Final"
-"370","","Walter calle alem","","Nogoya","Alem 1081 entre pipas y la cerrajería","Entre Rios","LISTA","","","","Consumidor Final"
-"371","","Escuela tecnica victoria","","Victoria","España y rondo","Entre Rios","LISTA","","","","Consumidor Final"
-"372","","Zak Gabriela","03435458868","Nogoyá","Francia 144","Entre Rios","LISTA","","","","Consumidor Final"
-"373","","Despensa al paso marchini y colon","","Nogoya","Marchini y colon esquina","Entre Rios","LISTA","","","","Consumidor Final"
-"374","","Tacuara octava","","Crucesita octava","","Entre Rios","LISTA","","","","Consumidor Final"
-"375","","Cristina octava","","Crucesita octava","Octava.","Entre Rios","LISTA","","","","Consumidor Final"
-"376","","Sanchez Juan","","","Republica de Entre Ríos 1098","","LISTA","","","","Consumidor Final"
-"377","","Roque Atencio","","","Moreno 1463","","LISTA","","","","Consumidor Final"
-"378","","Almacen de paso","","Macia","","Entre Rios","LISTA","","","","Consumidor Final"
-"379","","Gomez Valeria","","","Los Jacarandaes","","LISTA","","","","Consumidor Final"
-"380","","Lourdes betbeder","","Betbeder","","Entre Rios","LISTA","","","","Consumidor Final"
-"381","","Señora de Coya","","","","","LISTA","","","","Consumidor Final"
-"382","","Club Ferro","","","","","LISTA","","","","Consumidor Final"
-"383","","Fabiana xx de septiembre","","","","","LISTA","","32.388.369","","Consumidor Final"
-"384","","Escuela gob sola","","Gobernador sola","Dejar el pedido en lo cavin","Entre Rios","LISTA","","","","Consumidor Final"
-"385","","Tere koch","","","","","LISTA","","","","Consumidor Final"
-"386","","Kiosco Tiara","","","Federal casi Diamante","","LISTA","","","","Consumidor Final"
-"387","","Jorgelina molini esquina","","Nogoya","Barrio 18 viviendas","","LISTA","","","","Consumidor Final"
-"388","","Almacen iglesias","","Crucesitas septima","Ruta 18 vieja","Entre Rios","LISTA","","","","Consumidor Final"
-"389","","Kiosco Dario","","","25 de Mayo 1634","","LISTA","","","","Consumidor Final"
-"390","","Florencia Garcia","","","Mosconi y Paraná","","LISTA","","","","Consumidor Final"
-"391","","Gomez cecilia","","","3 de Febrero 647","","LISTA","","","","Consumidor Final"
-"392","","Don josesito polleria y verduleria","","Nogoya","Alfredo palacios 1170","Entre Rios","LISTA","","","","Consumidor Final"
-"393","","Damian barroso","","Lucas gonzalez",".","Entre Rios","LISTA","","","","Consumidor Final"
-"394","","El rey","","Nogoya","Diamante y villaguay","Entre Rios","LISTA","","","","Consumidor Final"
-"395","","Delfi","","Victoria","Calle copelo","Entre Rios","LISTA","","","","Consumidor Final"
-"396","","Lo de ana","","Macia entre rios","Andrade 187","Entre Rios","LISTA","","","","Consumidor Final"
-"397","","Barrios maria","","Victoria","Rocamora y viamonte","","LISTA","","","","Consumidor Final"
-"398","","Wen meifang","","","Viamonte y 3 de febrero","","LISTA","","","","Consumidor Final"
-"399","","Tamara moyano doña paula","","Victoria","Irigoyen 875","","LISTA","","","","Consumidor Final"
-"400","","Gonzales ester","","","San miguel 610","","LISTA","","","","Consumidor Final"
-"402","","Riffel facundo","","","Irigoyen 1073","","LISTA","","","","Consumidor Final"
-"404","","Chico bolazo sergio reynos","","Victoria","Matheu y camoirano esquina","","LISTA","","","","Consumidor Final"
-"405","","Rojas lucas","","","Rawson 382","","LISTA","","","","Consumidor Final"
-"406","","Kiosco lyt Leonel","","Victoria","Bv Brown 704","","LISTA","","0","0000","Consumidor Final"
-"413","","El peke 2","","Victoria","Bazualdo entre 9 de julio y españa","","LISTA","","","","Consumidor Final"
-"414","","Pipas","","Nogoyá","9 de Julio y Alem","","LISTA","","","","Consumidor Final"
-"415","","Rodriguez zulma","","Victoria","Moreno y sola","","LISTA","","","","Consumidor Final"
-"416","","Verbauvede marianela","","","Maipu 540","","LISTA","","","","Consumidor Final"
-"417","","Arias alejandra","","Victoria","Viamonte 943","","LISTA","","","","Consumidor Final"
-"418","","Diaz heydee","","","Marcos paz y rondeau","","LISTA","","","","Consumidor Final"
-"421","","Dotta lorena","","Victoria","Laprida y cuneo","","LISTA","","","","Consumidor Final"
-"422","","Ramos chevasco","","Victoria","Congreso y la matanza","","LISTA","","","","Consumidor Final"
-"423","","Zeballos diego","","Victoria","Suburbio este","","LISTA","","","","Consumidor Final"
-"424","","Bustamante liliana","","Victoria","Balvis 274","","LISTA","","","","Consumidor Final"
-"425","","Angeles rodriguez los gringos","","Victoria","Lamadril y balbis","","LISTA","","","","Consumidor Final"
-"426","","Autoservicios los gringos","","Victoria","Lamadril y balbis","","LISTA","","","","Consumidor Final"
-"427","","Estacho johoana","","Victoria","9 de julio y peron","","LISTA","","","","Consumidor Final"
-"428","","Riffer facundo","","","Irigoyen 1073","","LISTA","","","","Consumidor Final"
-"429","","Zalasar serguio","","","Yrigoyen y marcos paz","","LISTA","","","","Consumidor Final"
-"430","","Chicone edgardo","","Victoria","Caseros y lamadril","","LISTA","","","","Consumidor Final"
-"431","","Brambila gustavo","","","Bartoloni 545","","LISTA","","","","Consumidor Final"
-"432","","Saavedra ana","","Victoria","Corrientes y guemes","","LISTA","","","","Consumidor Final"
-"434","","Espindola liliana","","","Corrientes 321","","LISTA","","","","Consumidor Final"
-"435","","Despensa truri","","","Junin 1010","","LISTA","","","","Consumidor Final"
-"436","","Despensa turi","","Victoria","Junin 1010","","LISTA","","","","Consumidor Final"
-"437","","Manso lucrecia","","Victoria","San miguel y dorrego","","LISTA","","","","Consumidor Final"
-"438","","Sergio reynoso","","Victoria","Camoirano y matehus","","LISTA","","","","Consumidor Final"
-"441","","Lo de mariana","","Macia","Urquiza entre victoria y nogoya","","LISTA","","","","Consumidor Final"
-"442","","Kiosco lo de mariana","","Macia","Urquiza entre victoria y nogoya","","LISTA","","","","Consumidor Final"
-"443","","Ibiza","","Nogoyá","Sixto oris e Hirigoyen","","LISTA","","","","Consumidor Final"
-"444","","Ruiz Daniel","","Nogoyá","Gardel 2319","","LISTA","","","","Consumidor Final"
-"445","","Autoservicios koiy","","Victoria","Moreno y sola","","LISTA","","","","Consumidor Final"
-"446","","La esquina","","","Vianonte y rocamora","","LISTA","","","","Consumidor Final"
-"448","","Beron zulma","","","Maipu y liniers a una cuadra de brow","","LISTA","","","","Consumidor Final"
-"449","","La despensa de emma","","","Viamonte antes de san miguel","","LISTA","","","","Consumidor Final"
-"450","","Kiosco la chola","","","Paggio 429","","LISTA","","","","Consumidor Final"
-"451","","Kiosco chiris","","","Bartoloni 250","","LISTA","","","","Consumidor Final"
-"452","","Despensa la solapa","","","Alen 426","","LISTA","","","","Consumidor Final"
-"454","","Autoservicio la amistad","","Hernandez","Corrientes esquina","Entre Rios","LISTA","","","","Consumidor Final"
-"455","","Maxi ramirez","","","Islas del ibicuy 463","","LISTA","","","","Consumidor Final"
-"456","","Minimercado al pasp","","","Braw y stratta","","LISTA","","","","Consumidor Final"
-"457","","Autoservicio chico bolazo","","","Braw","","LISTA","","","","Consumidor Final"
-"458","","GamerLand Techno Bar","","","","","LISTA","","","","Consumidor Final"
-"459","","Pollita pia","","","Diamante y J J paso","","LISTA","","","","Consumidor Final"
-"460","","Oris","","Nogoyá","Rivadavia 1225, entre San Luis y Contin","","LISTA","","","","Consumidor Final"
-"461","","San Francisco primaria","","Nogoyá","","","LISTA","","","","Consumidor Final"
-"462","","Meradito zelnova","","","","","LISTA","","","","Consumidor Final"
-"463","","Muñoz ester kiosco","","","Basualdo 718","","LISTA","","","","Consumidor Final"
-"464","","Club libertad","","","Victoria","","LISTA","","","","Consumidor Final"
-"465","","King market","","","","","LISTA","","","","Consumidor Final"
-"466","","Norma zaneti","","","","","LISTA","","","","Consumidor Final"
-"467","","Norma Zanetti","","","","","LISTA","","","","Consumidor Final"
-"468","","Julio lopez","","","Brawn","","LISTA","","","","Consumidor Final"
-"469","","Lo de miguel","","","Marchini y villaguay","","LISTA","","","","Consumidor Final"
-"470","","Beti canova","","","","","LISTA","","","","Consumidor Final"
-"471","","Bety canova","","","","","LISTA","","","","Consumidor Final"
-"472","","Amabelia 130","","","130 M3 C25","","LISTA","","","","Consumidor Final"
-"473","","Despensa Fritsgerald","","","Fritsgeral entre San Luis y Contin","","LISTA","","","","Consumidor Final"
-"474","","Milagros kiosco Alison","","","Diamante 941","","LISTA","","","","Consumidor Final"
-"475","","Despensa Moreno","","","Moreno 1247","","LISTA","","","","Consumidor Final"
-"476","","Kiosco la terminal","","","Victoria","","LISTA","","","","Consumidor Final"
-"477","","Supermercado luna","","","Lucas Gonzales","","LISTA","","","","Consumidor Final"
-"478","","Papucho macia","","","Gualeguaychu 925","","LISTA","","","","Consumidor Final"
-"479","","Ramirez hernan lucas gonzales","","","","","LISTA","","","","Consumidor Final"
-"480","","Facultad secundario wesley","","Macia","Calle luis maria campos","Entre Rios","LISTA","","","","Consumidor Final"
-"481","","Punto express","","Nogoya","Calle belgrano","Entre Rios","LISTA","","","","Consumidor Final"
-"482","","Drspensa Guadalupe","","","Centenario entre Rocamora y Carriego","","LISTA","","","","Consumidor Final"
-"483","","ASCUA ACOSTA","","","Presidente Peron 315 nogoya","","LISTA","","","","Consumidor Final"
-"484","","Despensa de todo un poco nogoya","","","Presidente peron 315","","LISTA","","","","Consumidor Final"
-"485","","La Tota","","","San Martin y Guillani","","LISTA","","","","Consumidor Final"
-"486","","Kiosco las dos hermanas","","Lucas gonzalez","Calle roque saenz peña antes de viviana galizzi","Entre Rios","LISTA","","","","Consumidor Final"
-"487","","TyM despensa Gonzalez","","","San Luis 1069","","LISTA","","","","Consumidor Final"
-"488","","Desensa el rey","","","Villaguay y diamante","","LISTA","","","","Consumidor Final"
-"490","","Drugstore La Esquina","","Nogoya","España y San Lorenzo","","LISTA","","","","Consumidor Final"
-"491","","El trebol","","Victoria","Calle mitre entre pringles y hernandarias","Entre Rios","LISTA","","","","Consumidor Final"
-"492","","La casa de Gora","","Victoria","Larrea","","LISTA","","","","Consumidor Final"
-"493","","Supermercado lin macia","","Macia","","Entre Rios","LISTA","","","","Consumidor Final"
-"494","","Supermercado meri macia","","Macia","","Entre Rios","LISTA","","","","Consumidor Final"
-"495","","Polleria San Luis","","Nogoya","San Luis 575","","LISTA","","","","Consumidor Final"
-"496","","Polleria Rocamora","","Nogoyá","Rocamora 1098","","LISTA","","","","Consumidor Final"
-"497","","La rotonda bar","","Nogoya","Avenida italia esquina juliany","Entre Rios","LISTA","","","","Consumidor Final"
-"498","","Colegio Agote","","Nogoyá","16 de Julio e Ilia","","LISTA","","","","Consumidor Final"
-"499","","Brian Rau","","Nogoyá","Sixto Oris 859","","LISTA","","","","Consumidor Final"
-"500","","Susy Las Calandrias y Las Lechuzas (Victoria)","","Victoria","Las Calandrias y Las Lechuzas (Victoria)","Entre Rios","LISTA","","","","Consumidor Final"
-"501","","Walter Ventas","3435087823","Ramírez","Arenales","Entre Rios","LISTA","ventas.walter.spengler@gmail.com","12.345.678","12-34567891-0","Consumidor Final"
+ID,ACCION,NOMBRE,TELEFONO,LOCALIDAD,DIRECCION,PROVINCIA,PRECIO,MAIL,DNI,CUIT,IVA
+1,,Fernando Spengler,3435099362,,,,LISTA,,,,Responsable Inscripto
+2,,Veik humberto,3445459331,,Lucas echazarreta,,LISTA,,,,Consumidor Final
+3,,Kiosco Mario,3445576206,,Barrio 78 viviendas ruta 30 ma,,LISTA,,,,Consumidor Final
+4,,Gagolin graciela,,,Barrio 78 viviendas macia,,LISTA,,,,Consumidor Final
+5,,Sebastian macia,,,Barrio 78 viviendas ruta 30,,LISTA,,,,Consumidor Final
+6,,Gisela los chiquis,,,Barrio remi horisberger casa 8,,LISTA,,,,Consumidor Final
+7,,Nahuel baralle,,,Jorge Newbery s/n,,LISTA,,,,Consumidor Final
+8,,Despensa al paso avellaneda,,,Avenida avellaneda 1915,,LISTA,,,,Consumidor Final
+9,,Maxi,,Nogoya,Diamante y feliciano,,LISTA,,,,Consumidor Final
+10,,Moncho,,,Gualeguaychu 859,,LISTA,,,,Consumidor Final
+11,,Tachu 24/07,,,Gualeguaychu en la esquina,,LISTA,,,,Consumidor Final
+12,,Spinetti cristian,,,Sarmiento 319,,LISTA,,,,Consumidor Final
+13,,Kiosco lescano,,,Misael pereyra,,LISTA,,,,Consumidor Final
+14,,Despensa kiko,,,,,LISTA,,,,Consumidor Final
+15,,Cotillon frente a martin fierr,,,Calle gualeguaychu 738,,LISTA,,,,Consumidor Final
+16,,Griselda distribuidora,,,Gualeguaychu y mañasco,,LISTA,,,,Consumidor Final
+17,,Guada alfaro,,,Gualeguay y gualeguaychu 309,,LISTA,,,,Consumidor Final
+18,,Kiosco la villa,,,Gualeguay 716,,LISTA,,,,Consumidor Final
+19,,Doña eka,,,Diamante 737,,LISTA,,,,Consumidor Final
+20,,Polleria ana,,,Marchini y colon,,LISTA,,,,Consumidor Final
+21,,Leo perez,,,Calle colon cortada,,LISTA,,,,Consumidor Final
+22,,Dario esquina via,,,Enrique merini 691 via deltren,,LISTA,,,,Consumidor Final
+23,,Cotillon ferro,,,,,LISTA,,,,Consumidor Final
+24,,Dani romero,,,Barrio 130,,LISTA,,,,Consumidor Final
+25,,Telecabina,,,Al frente de los bomberos,,LISTA,,,,Consumidor Final
+26,,Ana krenz,,,Calle mosconi 505,,LISTA,,,,Consumidor Final
+27,,Almacen don blas,,,Al lado de la parrilla,,LISTA,,,,Consumidor Final
+28,,Toto,,,Al frente de la terminal,,LISTA,,,,Consumidor Final
+29,,Miami shop,,,Bv españa y belgrano esquina,,LISTA,,,,Consumidor Final
+30,,Punto campero,,,Bv españa,,LISTA,,,,Consumidor Final
+31,,Bruno,,,Esquina bvespaña y fritz geral,,LISTA,,,,Consumidor Final
+32,,Lo pazo,,,Calle 9 de julio,,LISTA,,,,Consumidor Final
+33,,Dietetica dar,,,Maipu 751 pegando al dar,,LISTA,,,,Consumidor Final
+34,,Kiosco lujan,,,Rocamora 1224,,LISTA,,,,Consumidor Final
+35,,Pablo lare,,,,,LISTA,,,,Consumidor Final
+36,,Despensa gonzalito,,,Calle 9 de julio,,LISTA,,,,Consumidor Final
+37,,Diego tio chupete,,,25 de mayo,,LISTA,,,,Consumidor Final
+38,,Perico los nonos,,,25 de mayo,,LISTA,,,,Consumidor Final
+39,,Seba,,,Mendoza y san martin,,LISTA,,,,Consumidor Final
+40,,Lo de aladio,,,Donde era kimica disco,,LISTA,,,,Consumidor Final
+41,,Marcelo la granja,,,Ramon vivanco y francia,,LISTA,,,,Consumidor Final
+42,,Facu ciscneros,,,Tristan frutos 1753,,LISTA,,,,Consumidor Final
+44,,Cotillon sanmiguel,,,Barrio sur,,LISTA,,,,Consumidor Final
+45,,Despensa cami,,,Supremo entrerriano y centenar,,LISTA,,,,Consumidor Final
+46,,Drugstore baron azul,,,Isla malvinas 1305,,LISTA,,,,Consumidor Final
+47,,Kiosco bvbrow,,,Bv brow,,LISTA,,,,Consumidor Final
+48,,Rana,,,Eva Perón y ilia,,LISTA,,,,Consumidor Final
+49,,La llave,,,Ramirez y arturo ilia,,LISTA,,,,Consumidor Final
+50,,Lucas esquina plaza,,,Hernandez y soberania,,LISTA,,,,Consumidor Final
+51,,Vale,,,Corrientes 1134,,LISTA,,,,Consumidor Final
+52,,Diaz febre,,,Febre,,LISTA,,,,Consumidor Final
+53,,Kiosco mario victoria,,,Dorrego 665,,LISTA,,,,Consumidor Final
+54,,Yesica cotillon,,,Rocamora 228,,LISTA,,,,Consumidor Final
+56,,Andres drugstore,,,Ezpeleta 93,,LISTA,,,,Consumidor Final
+57,,Lo pazo victoria,,,,,LISTA,,,,Consumidor Final
+58,,Claudia fiambreria,,,Laprida 567,,LISTA,,,,Consumidor Final
+59,,Ignacio punto campero,,,Urquiza 87,,LISTA,,,,Consumidor Final
+60,,Natali reposteria,,,Urquiza 84,,LISTA,,,,Consumidor Final
+61,,Celia,,,Junin 737,,LISTA,,,,Consumidor Final
+62,,Leo,,,Copello 128,,LISTA,,,,Consumidor Final
+63,,Caro drusgtore,,,Avenida congreso 645,,LISTA,,,,Consumidor Final
+65,,Despensa los abu,,,San miguel y dorrego esquin,,LISTA,,,,Consumidor Final
+66,,Pao,,,El arenal barrio,,LISTA,,,,Consumidor Final
+67,,Pochoclero,,,San martin y pazo,,LISTA,,,,Consumidor Final
+68,,Laura epuyen,,,Calle nestor Kirchner,,LISTA,,,,Consumidor Final
+69,,Autoservicio rivadavia,,,Bv rivadavia y bartoloni,,LISTA,,,,Consumidor Final
+70,,Pity antelo,,,Antelo,,LISTA,,,,Consumidor Final
+71,,Maria febre,,,Febre,,LISTA,,,,Consumidor Final
+72,,El remanso shopping,,,Ruta 12,,LISTA,,,,Consumidor Final
+73,,Belen,,,Calle diamante,,LISTA,,,,Consumidor Final
+74,,Facu,,,Barrio 130 calle nelly chibota,,LISTA,,,,Consumidor Final
+75,,Despensa la negrita,,,Calle marchini y villaguay,,LISTA,,,,Consumidor Final
+76,,Nancy,,,Calle victoria al fondo,,LISTA,,,,Consumidor Final
+77,,Javi diaz,,Nogoya,Avellaneda al frente de genova,,LISTA,,,,Consumidor Final
+78,,Kiosco irigoyen,,,Bv irigoyen,,LISTA,,,,Consumidor Final
+79,,Verduleria alberto,,,Parana y av italia (esquina),,LISTA,,,,Consumidor Final
+80,,Turquia drugstore,,,Bv españa,,LISTA,,,,Consumidor Final
+81,,Zucutrule cotillon,,,25 de mayo frente a sensei,,LISTA,,,,Consumidor Final
+82,,Almacen cavin,,,Gobernador sola,,LISTA,,,,Consumidor Final
+83,,Despensa lumi,,,Moreno y nesa boeri,,LISTA,,,,Consumidor Final
+84,,Autoservicio 2000,,,Goldarasena 801,,LISTA,,,,Consumidor Final
+85,,Diego,,,3 de febrero,,LISTA,,,,Consumidor Final
+86,,Daiana,,,Rocamora y urquiza esquina,,LISTA,,,,Consumidor Final
+87,,Susana,,,Contin y lavalle esquina,,LISTA,,,,Consumidor Final
+88,,Miguelito choio,,,Mendoza antes de san martin,,LISTA,,,,Consumidor Final
+89,,Fabiana,,,20 de septiembre,,LISTA,,,,Consumidor Final
+90,,Tere almacen ferreras,,,Betbeder,,LISTA,,,,Consumidor Final
+91,,Maria Betbeder,,,Betbeder,,LISTA,,,,Consumidor Final
+92,,Autoservicio hernandez,,,Avenida,,LISTA,,,,Consumidor Final
+93,,Pablo drugstore,,,Hernandez,,LISTA,,,,Consumidor Final
+94,,Emilce autoservicio,,,Hernandez,,LISTA,,,,Consumidor Final
+95,,Norma hefell,,,Hernandez,,LISTA,,,,Consumidor Final
+96,,Georgi,,,Hernandez,,LISTA,,,,Consumidor Final
+97,,Doña lorenzato,,,25 de mayo,,LISTA,,,,Consumidor Final
+98,,Loreto,,,Calle charrua,,LISTA,,,,Consumidor Final
+100,,Sandro godoy,,,Barrio sur,,LISTA,,,,Consumidor Final
+101,,Naty,,,Barrio 180,,LISTA,,,,Consumidor Final
+102,,Cristina,,,Barrio 180,,LISTA,,,,Consumidor Final
+103,,Lina,,,Al lado del desarmadero sur,,LISTA,,,,Consumidor Final
+104,,Damian carniceria,,,Barrio sur,,LISTA,,,,Consumidor Final
+105,,Virginia,,,Los 4 soles,,LISTA,,,,Consumidor Final
+106,,Paola marinelli,,,Alfredo Palacios barrio 50v,,LISTA,,,,Consumidor Final
+107,,Mirta sanchez,,,,,LISTA,,,,Consumidor Final
+108,,El chupacabra,,,,,LISTA,,,,Consumidor Final
+109,,Kiosco 5 amores,,,Calle maestro torres 1474,,LISTA,,,,Consumidor Final
+110,,Despensa y pescaderia,,,Bv brow 328,,LISTA,,,,Consumidor Final
+111,,Zulma,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+112,,Autoservicio la primera,,,,,LISTA,,,,Consumidor Final
+113,,Celi lg,,,Lucas González,,LISTA,,,,Consumidor Final
+114,,Cotillon jye,,,,,LISTA,,,,Consumidor Final
+115,,Sandra autoservicio,,,Lucas González,,LISTA,,,,Consumidor Final
+116,,La reina verduleria y despensa,,,Corrientes y Güemes,,LISTA,,,,Consumidor Final
+117,,Curandera febre,,,,,LISTA,,,,Consumidor Final
+118,,Sheraton drusgtore,,,Quiroga y taboada,,LISTA,,,,Consumidor Final
+119,,Maria emilio,,,Obispo angeleri 276,,LISTA,,,,Consumidor Final
+120,,Luciana clivio,,,Francia y marconi en la esquin,,LISTA,,,,Consumidor Final
+122,,Jose Kiosco JyE,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
+123,,Luisina,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
+124,,Reula,,,Don Cristóbal,,LISTA,,,,Consumidor Final
+126,,Anahí Zapata,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
+127,,Almacén El Escondido,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
+128,,María,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
+129,,Ana calle mosconi,,,Esquina marchini,,LISTA,,,,Consumidor Final
+130,,Dani ache,,,España shop bv españa,,LISTA,,,,Consumidor Final
+131,,El refuerzo provisiones,,,Bv españa,,LISTA,,,,Consumidor Final
+132,,Jesica polleria,,,25 de mayo y aldo muñoz,,LISTA,,,,Consumidor Final
+133,,Pao antelo,,,,,LISTA,,,,Consumidor Final
+134,,Despensa sola,,,Gobernador sola,,LISTA,,,,Consumidor Final
+135,,Panaderia unserbrot,,,Lucas gonzalez pegando a hotel,,LISTA,,,,Consumidor Final
+136,,Kiosco las vias,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+137,,Jairo,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+138,,Autoservicio la rural,,,Calle la rural,,LISTA,,,,Consumidor Final
+140,,La casona,,,Virginia quinodoz y leon sola,,LISTA,,,,Consumidor Final
+141,,Dietetica la finca,,,Calle alem frente a caramelo,,LISTA,,,,Consumidor Final
+142,,Silvi macia,,,9 de julio y goldaracena,,LISTA,,,,Consumidor Final
+143,,Escuela 62 macia,,,,,LISTA,,,,Consumidor Final
+144,,Walter,,,Gobernador sola,,LISTA,,,,Consumidor Final
+145,,Kiosco frente a la garita,,,Gob sola,,LISTA,,,,Consumidor Final
+146,,Despensa cavin,,,Gob sola,,LISTA,,,,Consumidor Final
+147,,Eduardo cancha pelota paleta,,,Calle marchini,,LISTA,,,,Consumidor Final
+148,,Kiosco pa ya,,,Bv españa casi 25,,LISTA,,,,Consumidor Final
+149,,Kiosco ana castañola,,,Calle justa Gómez,,LISTA,,,,Consumidor Final
+150,,Los 4 soles,,,Calle 25 de mayo,,LISTA,,,,Consumidor Final
+151,,Andres sheraton,,,Calle urquiza,,LISTA,,,,Consumidor Final
+152,,Agencia de quiniela,,,Victoria calle irigoyen,,LISTA,,,,Consumidor Final
+153,,Nora huerto,,,Colegio del huerto,,LISTA,,,,Consumidor Final
+154,,Kiosco 24/07,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+155,,El baul,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+156,,Juli calle francia,,,"Nogoya, antes de marchini",,LISTA,,,,Consumidor Final
+157,,Cantina deportivo fútbol,,,Francia 733 casi tristanfrutos,,LISTA,,,,Consumidor Final
+159,,Mica Ronchi,,,Sixto oriz y Uruguay,,LISTA,,,,Consumidor Final
+160,,La Rotonda panaderia,,,Calle 9 de julio,,LISTA,,,,Consumidor Final
+161,,Romi,,,Mendoza,,LISTA,,,,Consumidor Final
+162,,Grisel,,,Contin 1343 Polleria Macaca,,LISTA,,,,Consumidor Final
+164,,Minimercado king market,,,Av esteban lonne,,LISTA,,,,Consumidor Final
+165,,YPF la gruta,,,Ruta 12 y belgrano,,LISTA,,,,Consumidor Final
+166,,Viejo almacen,,,25 de mayo y bv España,,LISTA,,,,Consumidor Final
+167,,Peter pan,,,25 de mayo y Maipú,,LISTA,,,,Consumidor Final
+169,,Alto pollo,,,25 de mayo y Urquiza,,LISTA,,,,Consumidor Final
+170,,Kiosco peatonal,,,San Martin 686,,LISTA,,,,Consumidor Final
+171,,Al toque,,,25 de mayo y centenario,,LISTA,,,,Consumidor Final
+172,,Cipriano,,,25 de mayo y caseros,,LISTA,,,,Consumidor Final
+173,,Colegio nacional,,,Bv sarmiento,,LISTA,,,,Consumidor Final
+174,,Escuela 20,,,Macia entre rios,,LISTA,,,,Consumidor Final
+175,,Romon sandoval,,,Alfredo palacios 1469,,LISTA,,,,Consumidor Final
+176,,Juanjo,,,Macia entre rios,,LISTA,,,,Consumidor Final
+177,,Liborio,,,25 de mayo y Bernardo irigoyen,,LISTA,,,,Consumidor Final
+178,,Lucio albornoz,,,La valle 1322,,LISTA,,,,Consumidor Final
+179,,Escuela técnica,,,Mantegaza y Quiroga y taboada,,LISTA,,,,Consumidor Final
+180,,Escuela agrotecnica,,,Macia entre rios,,LISTA,,,,Consumidor Final
+181,,Polleria el rincon,,,Macia entre rios,,LISTA,,,,Consumidor Final
+182,,Eva tucumana,,,Vivanco 1632,,LISTA,,,,Consumidor Final
+183,,Victoria quinodoz,,,Marconi y feliciano,,LISTA,,,,Consumidor Final
+184,,Escuela 129,,,Almirante Brown,,LISTA,,,,Consumidor Final
+185,,Juana,,,Sixto Ortiz 788,,LISTA,,,,Consumidor Final
+186,,Club atlético san benito,,,Victoria entre rios,,LISTA,,,,Consumidor Final
+187,,Depor paleta,,,Almirante Brown 1411,,LISTA,,,,Consumidor Final
+188,,Iguazu,,,San Martin 1392,,LISTA,,,,Consumidor Final
+189,,Gugy,,,Barrio colminac MC C24,,LISTA,,,,Consumidor Final
+190,,Escuela Arca de noe,,,Quiroga y taboada,,LISTA,,,,Consumidor Final
+191,,Edgardo alfaro,,,Barrio 50V M2 Casa3,,LISTA,,,,Consumidor Final
+192,,Elida macia,,,Calle gualeguaychu,,LISTA,,,,Consumidor Final
+193,,Dardo Vergara pocha,,,Alem y fitz gerald,,LISTA,,,,Consumidor Final
+194,,Despensa la paz,,,La paz entre Sixto Ortiz y mar,,LISTA,,,,Consumidor Final
+195,,Maria Beron,,,Lavalle y maipu,,LISTA,,,,Consumidor Final
+196,,Verduler frente a bazar itati,,,9 de julio 0656,,LISTA,,,,Consumidor Final
+197,,Nahuel club libertad,,,Chanear,,LISTA,,,,Consumidor Final
+198,,Despensa stop,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
+200,,Almacen el escondido don crist,,,Don cristobal 2,,LISTA,,,,Consumidor Final
+201,,Jose don cristobal 2,,,Don cristobal 2,,LISTA,,,,Consumidor Final
+202,,Anahi,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
+203,,Luisina escudero,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
+204,,Despensa ceci,,,Belgrano 1280,,LISTA,,,,Consumidor Final
+205,,Carballo,,,Bv Ramirez 1281,,LISTA,,,,Consumidor Final
+206,,Estacion de servicio axion,,,Marchini y ruta 12,,LISTA,,,,Consumidor Final
+207,,Despensa bacre,,,Presidente Perón esqui la paz,,LISTA,,,,Consumidor Final
+208,,Clivio,,,Francia y Mosconi,,LISTA,,,,Consumidor Final
+209,,Cesar Zapata,,,Angelica Firpo 645,,LISTA,,,,Consumidor Final
+210,,Viviana viandas,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+211,,Martin ferrari,,,Eva Perón y bv ramirez,,LISTA,,,,Consumidor Final
+212,,Susana hobal,,,Nogoya contin,,LISTA,,,,Consumidor Final
+213,,Abraham kiosco plaza,,,Nogoya antes del semaforo,,LISTA,,,,Consumidor Final
+214,,Analia,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+215,,El almacen,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+216,,Daniela acevedo,,,Hernandez,,LISTA,,,,Consumidor Final
+217,,Despensa poli,,,Basualdo 344,,LISTA,,,,Consumidor Final
+218,,Despensa peke,,,Irigoyen y copello,,LISTA,,,,Consumidor Final
+219,,Margarita,,,Victoria entre rios,,LISTA,,,,Consumidor Final
+220,,Punto sur,,,25 de mayo esquina la rioja,,LISTA,,,,Consumidor Final
+221,,Club gobernador sola,,,Gob sola,,LISTA,,,,Consumidor Final
+222,,Escuela,,,Gob sola,,LISTA,,,,Consumidor Final
+223,,Popo pollería,,,San Martin antes de carbo,,LISTA,,,,Consumidor Final
+224,,Meurzet viajes,,,9 de julio 1488,,LISTA,,,,Consumidor Final
+225,,Vero,,,Santa fe 2230,,LISTA,,,,Consumidor Final
+226,,Cantina ferro futbol,,,La paz,,LISTA,,,,Consumidor Final
+227,,Naty y marcos,,,Victoria 231,,LISTA,,,,Consumidor Final
+228,,Lore frisanco,,,Marchini 982,,LISTA,,,,Consumidor Final
+229,,Loco despeinado de febre,,,Febre esquina comisaria,,LISTA,,,,Consumidor Final
+230,,Despensa lujan,,,Chanear,,LISTA,,,,Consumidor Final
+231,,La finca dietetica,,,Calle alem antes de moreno,,LISTA,,,,Consumidor Final
+232,,Despensa champe,,,Victoria entre rios,,LISTA,,,,Consumidor Final
+233,,Despensa la gringa,,,Villaguay y diamante,,LISTA,,,,Consumidor Final
+234,,Zona sur,,,Esquina de la escuela 103,,LISTA,,,,Consumidor Final
+235,,Coya,,,Barrio sur nogoya,,LISTA,,,,Consumidor Final
+236,,Full shop pegando a tinaco,,,Nogoya calle irigoyen,,LISTA,,,,Consumidor Final
+237,,Jesica negocio,,,Alfredo palacios 1064,,LISTA,,,,Consumidor Final
+238,,Bazar vignola,,,Calle caseros antes de moreno,,LISTA,,,,Consumidor Final
+239,,Despensa bazar y gomeria colos,,,Av irigoyen 286,,LISTA,,,,Consumidor Final
+240,,Bar el bun nogoya,,,Alem y belgrano esquina,,LISTA,,,,Consumidor Final
+241,,Verduleria y despensa diana,,,Macia entre rios,,LISTA,,,,Consumidor Final
+242,,Carballo Jorge,,,Ramirez 1287,,LISTA,,,,Consumidor Final
+243,,Retamal Griselda,,,J J Paso 854,,LISTA,,,,Consumidor Final
+244,,Zapata Carla,,,Alberdi al fondo,,LISTA,,,,Consumidor Final
+245,,Quinodoz Angelica,,,Barrio 24 casa 18,,LISTA,,,,Consumidor Final
+246,,Espinoza Marisa,,,Villa Guiano,,LISTA,,,,Consumidor Final
+247,,Silvia San Blas,,,9 de julio,,LISTA,,,,Consumidor Final
+248,,Leo Shi Mei,,,Hirigoyen 169,,LISTA,,,,Consumidor Final
+249,,Silvia Lopez,,,9 de julio 1654,,LISTA,,,,Consumidor Final
+250,,Gomez maria,,,Centenario y lavalle 483,,LISTA,,,,Consumidor Final
+251,,Kiosco wada,,,San luis 1472,,LISTA,,,,Consumidor Final
+252,,Chandare Elena,,,Cañada,,LISTA,,,,Consumidor Final
+253,,Albornoz Maria,,,Rivadavia 780,,LISTA,,,,Consumidor Final
+254,,Ceballos Laura,,,Balbin 2152,,LISTA,,,,Consumidor Final
+255,,Wendeler Luciana,,,Juan XXIII,,LISTA,,,,Consumidor Final
+256,,Polleria Don Jose,,,Lisandro de La Torre y Juan XX,,LISTA,,,,Consumidor Final
+257,,Kiosco caramelo,,,Alem 1254,,LISTA,,,,Consumidor Final
+258,,Kiosco Joako,,,3 de febrero 1565,,LISTA,,,,Consumidor Final
+259,,Kiosco Jazmin,,,180 M6 C12,,LISTA,,,,Consumidor Final
+260,,Despensa Don Corsino,,,Güemes 1060,,LISTA,,,,Consumidor Final
+261,,Despensa Providencia,,,Angeleri e Irigoyen,,LISTA,,,,Consumidor Final
+262,,Fragati 18 viviendas,,,18 viviendas casa 7,,LISTA,,,,Consumidor Final
+263,,Kiosco Benjamin,,,Catamarca 1350,,LISTA,,,,Consumidor Final
+264,,Banegas Claudia,,,Moreno 1463,,LISTA,,,,Consumidor Final
+265,,Beltaco Carlos,,,Contin 928,,LISTA,,,,Consumidor Final
+266,,Mercadito 25,,,25 de mayo 1385,,LISTA,,,,Consumidor Final
+267,,Fenandez Patricia,,,Moreno 91,,LISTA,,,,Consumidor Final
+268,,Ocampo Macarena,,,Gualeguaychu casi Mitre,,LISTA,,,,Consumidor Final
+269,,Lelu Romero,,,Fritsgerald 170,,LISTA,,,,Consumidor Final
+270,,Segovia Nadia,,,Charruas 1120,,LISTA,,,,Consumidor Final
+271,,Zurdo kiosco,,,Urquiza 785 lucas gonzalez,,LISTA,,,,Consumidor Final
+272,,La estacion resto bar,,,Lucas gonzalez pasando lo jair,,LISTA,,,,Consumidor Final
+273,,Lo de Lala,,,Ilia y Alsugaray,,LISTA,,,,Consumidor Final
+274,,Kindebaluc almacen,,,Don cristobal 2,,LISTA,,,,Consumidor Final
+275,,Graciela don cristobal 2,,,Don cristobal 2,,LISTA,,,,Consumidor Final
+276,,Ines Paes,,,Federación 239,,LISTA,,,,Consumidor Final
+277,,Kiosco 02/04,,,Falucho 1633,,LISTA,,,,Consumidor Final
+278,,Vergara Andrea,,,Barrio 36 M1 C6,,LISTA,,,,Consumidor Final
+279,,After,,,Bulevar España y 9 de Julio,,LISTA,,,,Consumidor Final
+280,,Tula Jose,,,Laurencena 1355,,LISTA,,,,Consumidor Final
+281,,Laura la tota,,,Diamante y villaguay,,LISTA,,,,Consumidor Final
+282,,Daiana Jaime,,,Cabo Monzon,,LISTA,,,,Consumidor Final
+283,,Floreciente 1,,,Espa a 33 Victoria,,LISTA,,,,Consumidor Final
+284,,Zhuang Bao,,,Italia y Rawson,,LISTA,,,,Consumidor Final
+285,,Super Nuevo Siglo,,,Rawson y Piaggio,,LISTA,,,,Consumidor Final
+286,,Floreciente 2,,,Camoirano 223,,LISTA,,,,Consumidor Final
+287,,Ziegler,,,Piaggio 520,,LISTA,,,,Consumidor Final
+288,,Meifang,,,3 de Febrero y Viamonte,,LISTA,,,,Consumidor Final
+289,,Matias nuñez,,,Nogoya entre rios,,LISTA,,,,Consumidor Final
+291,,Weng Ende,,,Yrigoyen 1024,,LISTA,,,,Consumidor Final
+292,,Merini Juan Carlos,,,Contin y Belgrano,,LISTA,,,,Consumidor Final
+293,,Solis,,,Barrio chañar,,LISTA,,,,Consumidor Final
+294,,Lin Wu,,,"25 de Mayo, casi Velez Sarfiel",,LISTA,,,,Consumidor Final
+295,,Do Re Mi,,,Mitre 589,,LISTA,,,,Consumidor Final
+296,,Chen Shunmei,,,España 27,,LISTA,,,,Consumidor Final
+297,,El Vasco,,,Linier y Marcos Paz,,LISTA,,,,Consumidor Final
+298,,Kiosco bella,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+299,,Exter tercera campo,,,Crucesitas tercera,,LISTA,,,,Consumidor Final
+300,,Elisa almacen rodriguez,,,Crucesita Tercera,,LISTA,,,,Consumidor Final
+301,,Carlos Correa,,,Alte Brown 1413,,LISTA,,,,Consumidor Final
+302,,Torito mimoso,,,"Ruta 12, pegado al Remanso",,LISTA,,,,Consumidor Final
+303,,Martinez Marcelo,,,"Diamante 27, casi Islas del Ib",,LISTA,,,,Consumidor Final
+304,,Fernando los caseritos,,,Victoria calle constitución,,LISTA,,,,Consumidor Final
+305,,Super time,,,Italia y Vivanco,,LISTA,,,,Consumidor Final
+306,,A dr paniego 909,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
+308,,Almacen del Carmen,,,Urquiza y San Lorenzo,,LISTA,,,,Consumidor Final
+309,,El Duende,,,Velez Cuneo,,LISTA,,,,Consumidor Final
+310,,Casiva Celia,,,Cuneo entre Güemes y Lamadrid,,LISTA,,,,Consumidor Final
+311,,Colo Multirubro,,,Irigoyeny Paraná,,LISTA,,,,Consumidor Final
+312,,Cantina polideportivo macia,,,Macia entre rios,,LISTA,,,,Consumidor Final
+313,,Maxi kiosco leo,,,Macia entre rios,,LISTA,,,,Consumidor Final
+314,,Walter el carrito,,,Carrito frente a panaderia 24h,,LISTA,,,,Consumidor Final
+315,,Super El triunfo,,,Corriente y Laprida,,LISTA,,,,Consumidor Final
+316,,Bustamante Noemi,,,Balbi 274,,LISTA,,,,Consumidor Final
+318,,Diaz Elsa,,,Marcos Paz y Rondeu,,LISTA,,,,Consumidor Final
+319,,Remanso ruta 26,,,Fermin Chavez,,LISTA,,,,Consumidor Final
+320,,Cantina club 25 de mayo,,,Nogoya entre rios,,LISTA,,,,Consumidor Final
+321,,Despensa Cabrera,,,Corrientes 321,,LISTA,,,,Consumidor Final
+322,,Dietetica Ahumada,,,Larrea 771,,LISTA,,,,Consumidor Final
+323,,Sergio,,,Hirigoyen y Marcos Paz,,LISTA,,,,Consumidor Final
+324,,Gonzalez Silvia,,,Contin 1150,,LISTA,,,,Consumidor Final
+325,,Sosa Matias lacho,,,Lopez Jordan casa 28,,LISTA,,,,Consumidor Final
+326,,Facello Nicolas,,,Moreno casi quiroga,,LISTA,,,,Consumidor Final
+327,,Kiosco Nogoyork,,,Corrientes casi 9 de Julio,,LISTA,,,,Consumidor Final
+328,,Zabala Mariela,,,Monte Caseros y Guemes,,LISTA,,,,Consumidor Final
+329,,Quingua,,,Camoirano 220,,LISTA,,,,Consumidor Final
+330,,Vigliano,,,Victoria entre JJ Paso y Guale,,LISTA,,,,Consumidor Final
+331,,Celestina miño macia,,,Barrio san roque,,LISTA,,,,Consumidor Final
+332,,Yohanna Acosta,,,Moreno casi Corrientes,,LISTA,,,,Consumidor Final
+333,,Cantina hernandez pileta,,,Hernandez entre rios,,LISTA,,,,Consumidor Final
+335,,Noe sanchez,,,Dr paniego 909 lucas gonzalez,,LISTA,,,,Consumidor Final
+336,,Super Yrigoyen,,,Yrigoyen 1030,,LISTA,,,,Consumidor Final
+337,,Olivari 130,,,Mitre entre Brown e Yrigoyen,,LISTA,,,,Consumidor Final
+338,,Hector Chañar,,,Cha ar,,LISTA,,,,Consumidor Final
+339,,El Peke 3,,,Matanza y Congreso,,LISTA,,,,Consumidor Final
+340,,Vale calle corrientes,,,Corrientes antes de 9 de julio,,LISTA,,,,Consumidor Final
+341,,Vale calle caseros,,,Caseros antes de rocamora,,LISTA,,,,Consumidor Final
+342,,Despensa Lupy,,,Carmelo Asteciano y Juan XXIII,,LISTA,,,,Consumidor Final
+343,,Kiosco perez,,,Rincon del doll,,LISTA,,,,Consumidor Final
+344,,Supermercado iriza,,,Rincon del doll,,LISTA,,,,Consumidor Final
+345,,Jose ramirez,,,Rincon del doll,,LISTA,,,,Consumidor Final
+346,,Doña rosa,,,Rincon del doll,,LISTA,,,,Consumidor Final
+347,,Despensa atencio,,,Rincon del doll,,LISTA,,,,Consumidor Final
+348,,Mini mercado Valu,,,25 de Mayo entre angélica  y a,,LISTA,,,,Consumidor Final
+349,,Boyer Luis,,,Sixto Oris 151,,LISTA,,,,Consumidor Final
+350,,Despensa el Gringo,,,Avellaneda casi Alberdi,,LISTA,,,,Consumidor Final
+351,,Escuela 62 turno tarde,,,Macia entre ríos,,LISTA,,,,Consumidor Final
+352,,Escuela 62 turno mañana,,,Macia entre rios,,LISTA,,,,Consumidor Final
+353,,Polleria 2.0,,,Italia y Paraná,,LISTA,,,,Consumidor Final
+354,,Escuela 101,,,Sarmiento,,LISTA,,,,Consumidor Final
+355,,Rios Teresa,,,Juan XXIII y Dorrego,,LISTA,,,,Consumidor Final
+356,,Maxi kiosco rame,,,Hernandez entre rios,,LISTA,,,,Consumidor Final
+357,,Sole calle caseros,,Nogoya,Calle caseros entre rocamora y evaristo carriego,,LISTA,,,,Consumidor Final
+358,,Almacen denis,,Rincon del doll,,Entre Rios,LISTA,,,,Consumidor Final
+362,,Despensa la nona,,Victoria,Calle presidente peron,Entre Rios,LISTA,,,,Consumidor Final
+363,,Leo victoria,,Victoria,Calle copello,Entre Rios,LISTA,,,,Consumidor Final
+364,,La rotonda 9 de julio,,Nogoya,9 de julio entre centenario y alem,Entre Rios,LISTA,,,,Consumidor Final
+365,,Almacen vignola,,Nogoya,Calle caseros casi moreno,Entre Rios,LISTA,,,,Consumidor Final
+366,,Dani romero ( pedido que lleva nico ),,Nogoya,Barrio 130,,LISTA,,,,Consumidor Final
+367,,Juanma caseros,,Nogoya,Calle caseros casi 9 de julio,Entre Rios,LISTA,,,,Consumidor Final
+368,,Fabian,,Nogoya,,,LISTA,,,,Consumidor Final
+369,,Gaston irigoyen,,Nogoya,Calle irigoyen y sixto oris,Entre Rios,LISTA,,,,Consumidor Final
+370,,Walter calle alem,,Nogoya,Alem 1081 entre pipas y la cerrajería,Entre Rios,LISTA,,,,Consumidor Final
+371,,Escuela tecnica victoria,,Victoria,España y rondo,Entre Rios,LISTA,,,,Consumidor Final
+372,,Zak Gabriela,3435458868,Nogoyá,Francia 144,Entre Rios,LISTA,,,,Consumidor Final
+373,,Despensa al paso marchini y colon,,Nogoya,Marchini y colon esquina,Entre Rios,LISTA,,,,Consumidor Final
+374,,Tacuara octava,,Crucesita octava,,Entre Rios,LISTA,,,,Consumidor Final
+375,,Cristina octava,,Crucesita octava,Octava.,Entre Rios,LISTA,,,,Consumidor Final
+376,,Sanchez Juan,,,Republica de Entre Ríos 1098,,LISTA,,,,Consumidor Final
+377,,Roque Atencio,,,Moreno 1463,,LISTA,,,,Consumidor Final
+378,,Almacen de paso,,Macia,,Entre Rios,LISTA,,,,Consumidor Final
+379,,Gomez Valeria,,,Los Jacarandaes,,LISTA,,,,Consumidor Final
+380,,Lourdes betbeder,,Betbeder,,Entre Rios,LISTA,,,,Consumidor Final
+381,,Señora de Coya,,,,,LISTA,,,,Consumidor Final
+382,,Club Ferro,,,,,LISTA,,,,Consumidor Final
+383,,Fabiana xx de septiembre,,,,,LISTA,,32.388.369,,Consumidor Final
+384,,Escuela gob sola,,Gobernador sola,Dejar el pedido en lo cavin,Entre Rios,LISTA,,,,Consumidor Final
+385,,Tere koch,,,,,LISTA,,,,Consumidor Final
+386,,Kiosco Tiara,,,Federal casi Diamante,,LISTA,,,,Consumidor Final
+387,,Jorgelina molini esquina,,Nogoya,Barrio 18 viviendas,,LISTA,,,,Consumidor Final
+388,,Almacen iglesias,,Crucesitas septima,Ruta 18 vieja,Entre Rios,LISTA,,,,Consumidor Final
+389,,Kiosco Dario,,,25 de mayo 1634,,LISTA,,,,Consumidor Final
+390,,Florencia Garcia,,,Mosconi y Paraná,,LISTA,,,,Consumidor Final
+391,,Gomez cecilia,,,3 de febrero 0647,,LISTA,,,,Consumidor Final
+392,,Don josesito polleria y verduleria,,Nogoya,Alfredo palacios 1170,Entre Rios,LISTA,,,,Consumidor Final
+393,,Damian barroso,,Lucas gonzalez,.,Entre Rios,LISTA,,,,Consumidor Final
+394,,El rey,,Nogoya,Diamante y villaguay,Entre Rios,LISTA,,,,Consumidor Final
+395,,Delfi,,Victoria,Calle copelo,Entre Rios,LISTA,,,,Consumidor Final
+396,,Lo de ana,,Macia entre rios,Andrade 187,Entre Rios,LISTA,,,,Consumidor Final
+397,,Barrios maria,,Victoria,Rocamora y viamonte,,LISTA,,,,Consumidor Final
+398,,Wen meifang,,,Viamonte y 3 de febrero,,LISTA,,,,Consumidor Final
+399,,Tamara moyano doña paula,,Victoria,Irigoyen 875,,LISTA,,,,Consumidor Final
+400,,Gonzales ester,,,San miguel 610,,LISTA,,,,Consumidor Final
+402,,Riffel facundo,,,Irigoyen 1073,,LISTA,,,,Consumidor Final
+404,,Chico bolazo sergio reynos,,Victoria,Matheu y camoirano esquina,,LISTA,,,,Consumidor Final
+405,,Rojas lucas,,,Rawson 382,,LISTA,,,,Consumidor Final
+406,,Kiosco lyt Leonel,,Victoria,Bv Brown 704,,LISTA,,0,0,Consumidor Final
+413,,El peke 2,,Victoria,Bazualdo entre 9 de julio y españa,,LISTA,,,,Consumidor Final
+414,,Pipas,,Nogoyá,9 de Julio y Alem,,LISTA,,,,Consumidor Final
+415,,Rodriguez zulma,,Victoria,Moreno y sola,,LISTA,,,,Consumidor Final
+416,,Verbauvede marianela,,,Maipu 540,,LISTA,,,,Consumidor Final
+417,,Arias alejandra,,Victoria,Viamonte 943,,LISTA,,,,Consumidor Final
+418,,Diaz heydee,,,Marcos paz y rondeau,,LISTA,,,,Consumidor Final
+421,,Dotta lorena,,Victoria,Laprida y cuneo,,LISTA,,,,Consumidor Final
+422,,Ramos chevasco,,Victoria,Congreso y la matanza,,LISTA,,,,Consumidor Final
+423,,Zeballos diego,,Victoria,Suburbio este,,LISTA,,,,Consumidor Final
+424,,Bustamante liliana,,Victoria,Balvis 274,,LISTA,,,,Consumidor Final
+425,,Angeles rodriguez los gringos,,Victoria,Lamadril y balbis,,LISTA,,,,Consumidor Final
+426,,Autoservicios los gringos,,Victoria,Lamadril y balbis,,LISTA,,,,Consumidor Final
+427,,Estacho johoana,,Victoria,9 de julio y peron,,LISTA,,,,Consumidor Final
+428,,Riffer facundo,,,Irigoyen 1073,,LISTA,,,,Consumidor Final
+429,,Zalasar serguio,,,Yrigoyen y marcos paz,,LISTA,,,,Consumidor Final
+430,,Chicone edgardo,,Victoria,Caseros y lamadril,,LISTA,,,,Consumidor Final
+431,,Brambila gustavo,,,Bartoloni 545,,LISTA,,,,Consumidor Final
+432,,Saavedra ana,,Victoria,Corrientes y guemes,,LISTA,,,,Consumidor Final
+434,,Espindola liliana,,,Corrientes 321,,LISTA,,,,Consumidor Final
+435,,Despensa truri,,,Junin 1010,,LISTA,,,,Consumidor Final
+436,,Despensa turi,,Victoria,Junin 1010,,LISTA,,,,Consumidor Final
+437,,Manso lucrecia,,Victoria,San miguel y dorrego,,LISTA,,,,Consumidor Final
+438,,Sergio reynoso,,Victoria,Camoirano y matehus,,LISTA,,,,Consumidor Final
+441,,Lo de mariana,,Macia,Urquiza entre victoria y nogoya,,LISTA,,,,Consumidor Final
+442,,Kiosco lo de mariana,,Macia,Urquiza entre victoria y nogoya,,LISTA,,,,Consumidor Final
+443,,Ibiza,,Nogoyá,Sixto oris e Hirigoyen,,LISTA,,,,Consumidor Final
+444,,Ruiz Daniel,,Nogoyá,Gardel 2319,,LISTA,,,,Consumidor Final
+445,,Autoservicios koiy,,Victoria,Moreno y sola,,LISTA,,,,Consumidor Final
+446,,La esquina,,,Vianonte y rocamora,,LISTA,,,,Consumidor Final
+448,,Beron zulma,,,Maipu y liniers a una cuadra de brow,,LISTA,,,,Consumidor Final
+449,,La despensa de emma,,,Viamonte antes de san miguel,,LISTA,,,,Consumidor Final
+450,,Kiosco la chola,,,Paggio 429,,LISTA,,,,Consumidor Final
+451,,Kiosco chiris,,,Bartoloni 250,,LISTA,,,,Consumidor Final
+452,,Despensa la solapa,,,Alen 426,,LISTA,,,,Consumidor Final
+454,,Autoservicio la amistad,,Hernandez,Corrientes esquina,Entre Rios,LISTA,,,,Consumidor Final
+455,,Maxi ramirez,,,Islas del ibicuy 463,,LISTA,,,,Consumidor Final
+456,,Minimercado al pasp,,,Braw y stratta,,LISTA,,,,Consumidor Final
+457,,Autoservicio chico bolazo,,,Braw,,LISTA,,,,Consumidor Final
+458,,GamerLand Techno Bar,,,,,LISTA,,,,Consumidor Final
+459,,Pollita pia,,,Diamante y J J paso,,LISTA,,,,Consumidor Final
+460,,Oris,,Nogoyá,"Rivadavia 1225, entre San Luis y Contin",,LISTA,,,,Consumidor Final
+461,,San Francisco primaria,,Nogoyá,,,LISTA,,,,Consumidor Final
+462,,Meradito zelnova,,,,,LISTA,,,,Consumidor Final
+463,,Muñoz ester kiosco,,,Basualdo 718,,LISTA,,,,Consumidor Final
+464,,Club libertad,,,Victoria,,LISTA,,,,Consumidor Final
+465,,King market,,,,,LISTA,,,,Consumidor Final
+466,,Norma zaneti,,,,,LISTA,,,,Consumidor Final
+467,,Norma Zanetti,,,,,LISTA,,,,Consumidor Final
+468,,Julio lopez,,,Brawn,,LISTA,,,,Consumidor Final
+469,,Lo de miguel,,,Marchini y villaguay,,LISTA,,,,Consumidor Final
+470,,Beti canova,,,,,LISTA,,,,Consumidor Final
+471,,Bety canova,,,,,LISTA,,,,Consumidor Final
+472,,Amabelia 130,,,130 M3 C25,,LISTA,,,,Consumidor Final
+473,,Despensa Fritsgerald,,,Fritsgeral entre San Luis y Contin,,LISTA,,,,Consumidor Final
+474,,Milagros kiosco Alison,,,Diamante 941,,LISTA,,,,Consumidor Final
+475,,Despensa Moreno,,,Moreno 1247,,LISTA,,,,Consumidor Final
+476,,Kiosco la terminal,,,Victoria,,LISTA,,,,Consumidor Final
+477,,Supermercado luna,,,Lucas Gonzales,,LISTA,,,,Consumidor Final
+478,,Papucho macia,,,Gualeguaychu 925,,LISTA,,,,Consumidor Final
+479,,Ramirez hernan lucas gonzales,,,,,LISTA,,,,Consumidor Final
+480,,Facultad secundario wesley,,Macia,Calle luis maria campos,Entre Rios,LISTA,,,,Consumidor Final
+481,,Punto express,,Nogoya,Calle belgrano,Entre Rios,LISTA,,,,Consumidor Final
+482,,Drspensa Guadalupe,,,Centenario entre Rocamora y Carriego,,LISTA,,,,Consumidor Final
+483,,ASCUA ACOSTA,,,Presidente Peron 315 nogoya,,LISTA,,,,Consumidor Final
+484,,Despensa de todo un poco nogoya,,,Presidente peron 315,,LISTA,,,,Consumidor Final
+485,,La Tota,,,San Martin y Guillani,,LISTA,,,,Consumidor Final
+486,,Kiosco las dos hermanas,,Lucas gonzalez,Calle roque saenz peña antes de viviana galizzi,Entre Rios,LISTA,,,,Consumidor Final
+487,,TyM despensa Gonzalez,,,San Luis 1069,,LISTA,,,,Consumidor Final
+488,,Desensa el rey,,,Villaguay y diamante,,LISTA,,,,Consumidor Final
+490,,Drugstore La Esquina,,Nogoya,España y San Lorenzo,,LISTA,,,,Consumidor Final
+491,,El trebol,,Victoria,Calle mitre entre pringles y hernandarias,Entre Rios,LISTA,,,,Consumidor Final
+492,,La casa de Gora,,Victoria,Larrea,,LISTA,,,,Consumidor Final
+493,,Supermercado lin macia,,Macia,,Entre Rios,LISTA,,,,Consumidor Final
+494,,Supermercado meri macia,,Macia,,Entre Rios,LISTA,,,,Consumidor Final
+495,,Polleria San Luis,,Nogoya,San Luis 575,,LISTA,,,,Consumidor Final
+496,,Polleria Rocamora,,Nogoyá,Rocamora 1098,,LISTA,,,,Consumidor Final
+497,,La rotonda bar,,Nogoya,Avenida italia esquina juliany,Entre Rios,LISTA,,,,Consumidor Final
+498,,Colegio Agote,,Nogoyá,16 de Julio e Ilia,,LISTA,,,,Consumidor Final
+499,,Brian Rau,,Nogoyá,Sixto Oris 859,,LISTA,,,,Consumidor Final
+500,,Susy Las Calandrias y Las Lechuzas (Victoria),,Victoria,Las Calandrias y Las Lechuzas (Victoria),Entre Rios,LISTA,,,,Consumidor Final
+501,,Walter Ventas,3435087823,Ramírez,Arenales,Entre Rios,LISTA,ventas.walter.spengler@gmail.com,12.345.678,12-34567891-0,Consumidor Final
+502,,Natalia Piffo,3436412070,Panadería Rotonda Shell Victoria,Desconocida,,,,,,
+503,,El Vasco,Desconocido,Almacén El Vasco Victoria,Detrás de mayorista Brown,,,,,,
+504,,Diana,3436617699,Desconocido Victoria,Desconocida,,,,,,
+505,,Yamila,3436495750,Kiosco Mitad de Cuadra Victoria,América y Mateu,,,,,,
+506,,Díaz Elsa,Desconocido,Almacén Negocio Esquina Victoria,Díaz Esquina,,,,,,
+507,,Estefania,3436474974,Minisuper Brown Victoria,Brown y otra,,,,,,
+508,,Alejandra,3436471313,El mercadito saludable Victoria,Desconocida,,,,,,
+509,,Celia,3436513374,Kiosko Pequeño Victoria,Maipú 656 y Matheu,,,,,,
+510,,Josefa Ferreira,3436470655,Kiosko Desconocido Victoria,Desconocida,,,,,,
+511,,Giselle,3436222876,Kiosko pequeño Victoria,Barrio nuevo,,,,,,
+512,,Susy,3436578357,Almacén Las Calandrias y Las Lechuzas Victoria,Las Calandrias y Las Lechuzas,,,,,,
+513,,Nerina,3436470847,Minisuper Esquina Brown Victoria,Esquina Brown,,,,,,
+514,,Chica Amable,3436475673,Kiosko el colombiano,San Miguel y Viamonte,,,,,,
+515,,Romina,3436410206,Autoservicio Maipú Victoria,Maipú y otra,,,,,,
+516,,Pibe amable,3436471679,Kiosko Vacano Victoria,Maipú Y Brown,,,,,,
+517,,Claudio Moreira,3436437292,Almacen La esquina Victoria,Desconocida,,,,,,
+518,,Desconocido,3436475abb,El Chaski Victoria ,Frente al Hospital de Victoria,,,,,,
+519,,Pibe amable,3436435488,Kiosko Obeid Victoria,Chacabuco 572,,,,,,
