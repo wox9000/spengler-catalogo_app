@@ -1,486 +1,1304 @@
-ID,ACCION,NOMBRE,TELEFONO,LOCALIDAD,DIRECCION,PROVINCIA,PRECIO,MAIL,DNI,CUIT,IVA
-1,,Fernando Spengler,3435099362,,,,LISTA,,,,Responsable Inscripto
-2,,Veik humberto,3445459331,,Lucas echazarreta,,LISTA,,,,Consumidor Final
-3,,Kiosco Mario,3445576206,,Barrio 78 viviendas ruta 30 ma,,LISTA,,,,Consumidor Final
-4,,Gagolin graciela,,,Barrio 78 viviendas macia,,LISTA,,,,Consumidor Final
-5,,Sebastian macia,,,Barrio 78 viviendas ruta 30,,LISTA,,,,Consumidor Final
-6,,Gisela los chiquis,,,Barrio remi horisberger casa 8,,LISTA,,,,Consumidor Final
-7,,Nahuel baralle,,,Jorge Newbery s/n,,LISTA,,,,Consumidor Final
-8,,Despensa al paso avellaneda,,,Avenida avellaneda 1915,,LISTA,,,,Consumidor Final
-9,,Maxi,,Nogoya,Diamante y feliciano,,LISTA,,,,Consumidor Final
-10,,Moncho,,,Gualeguaychu 859,,LISTA,,,,Consumidor Final
-11,,Tachu 24/07,,,Gualeguaychu en la esquina,,LISTA,,,,Consumidor Final
-12,,Spinetti cristian,,,Sarmiento 319,,LISTA,,,,Consumidor Final
-13,,Kiosco lescano,,,Misael pereyra,,LISTA,,,,Consumidor Final
-14,,Despensa kiko,,,,,LISTA,,,,Consumidor Final
-15,,Cotillon frente a martin fierr,,,Calle gualeguaychu 738,,LISTA,,,,Consumidor Final
-16,,Griselda distribuidora,,,Gualeguaychu y mañasco,,LISTA,,,,Consumidor Final
-17,,Guada alfaro,,,Gualeguay y gualeguaychu 309,,LISTA,,,,Consumidor Final
-18,,Kiosco la villa,,,Gualeguay 716,,LISTA,,,,Consumidor Final
-19,,Doña eka,,,Diamante 737,,LISTA,,,,Consumidor Final
-20,,Polleria ana,,,Marchini y colon,,LISTA,,,,Consumidor Final
-21,,Leo perez,,,Calle colon cortada,,LISTA,,,,Consumidor Final
-22,,Dario esquina via,,,Enrique merini 691 via deltren,,LISTA,,,,Consumidor Final
-23,,Cotillon ferro,,,,,LISTA,,,,Consumidor Final
-24,,Dani romero,,,Barrio 130,,LISTA,,,,Consumidor Final
-25,,Telecabina,,,Al frente de los bomberos,,LISTA,,,,Consumidor Final
-26,,Ana krenz,,,Calle mosconi 505,,LISTA,,,,Consumidor Final
-27,,Almacen don blas,,,Al lado de la parrilla,,LISTA,,,,Consumidor Final
-28,,Toto,,,Al frente de la terminal,,LISTA,,,,Consumidor Final
-29,,Miami shop,,,Bv españa y belgrano esquina,,LISTA,,,,Consumidor Final
-30,,Punto campero,,,Bv españa,,LISTA,,,,Consumidor Final
-31,,Bruno,,,Esquina bvespaña y fritz geral,,LISTA,,,,Consumidor Final
-32,,Lo pazo,,,Calle 9 de julio,,LISTA,,,,Consumidor Final
-33,,Dietetica dar,,,Maipu 751 pegando al dar,,LISTA,,,,Consumidor Final
-34,,Kiosco lujan,,,Rocamora 1224,,LISTA,,,,Consumidor Final
-35,,Pablo lare,,,,,LISTA,,,,Consumidor Final
-36,,Despensa gonzalito,,,Calle 9 de julio,,LISTA,,,,Consumidor Final
-37,,Diego tio chupete,,,25 de mayo,,LISTA,,,,Consumidor Final
-38,,Perico los nonos,,,25 de mayo,,LISTA,,,,Consumidor Final
-39,,Seba,,,Mendoza y san martin,,LISTA,,,,Consumidor Final
-40,,Lo de aladio,,,Donde era kimica disco,,LISTA,,,,Consumidor Final
-41,,Marcelo la granja,,,Ramon vivanco y francia,,LISTA,,,,Consumidor Final
-42,,Facu ciscneros,,,Tristan frutos 1753,,LISTA,,,,Consumidor Final
-44,,Cotillon sanmiguel,,,Barrio sur,,LISTA,,,,Consumidor Final
-45,,Despensa cami,,,Supremo entrerriano y centenar,,LISTA,,,,Consumidor Final
-46,,Drugstore baron azul,,,Isla malvinas 1305,,LISTA,,,,Consumidor Final
-47,,Kiosco bvbrow,,,Bv brow,,LISTA,,,,Consumidor Final
-48,,Rana,,,Eva Perón y ilia,,LISTA,,,,Consumidor Final
-49,,La llave,,,Ramirez y arturo ilia,,LISTA,,,,Consumidor Final
-50,,Lucas esquina plaza,,,Hernandez y soberania,,LISTA,,,,Consumidor Final
-51,,Vale,,,Corrientes 1134,,LISTA,,,,Consumidor Final
-52,,Diaz febre,,,Febre,,LISTA,,,,Consumidor Final
-53,,Kiosco mario victoria,,,Dorrego 665,,LISTA,,,,Consumidor Final
-54,,Yesica cotillon,,,Rocamora 228,,LISTA,,,,Consumidor Final
-56,,Andres drugstore,,,Ezpeleta 93,,LISTA,,,,Consumidor Final
-57,,Lo pazo victoria,,,,,LISTA,,,,Consumidor Final
-58,,Claudia fiambreria,,,Laprida 567,,LISTA,,,,Consumidor Final
-59,,Ignacio punto campero,,,Urquiza 87,,LISTA,,,,Consumidor Final
-60,,Natali reposteria,,,Urquiza 84,,LISTA,,,,Consumidor Final
-61,,Celia,,,Junin 737,,LISTA,,,,Consumidor Final
-62,,Leo,,,Copello 128,,LISTA,,,,Consumidor Final
-63,,Caro drusgtore,,,Avenida congreso 645,,LISTA,,,,Consumidor Final
-65,,Despensa los abu,,,San miguel y dorrego esquin,,LISTA,,,,Consumidor Final
-66,,Pao,,,El arenal barrio,,LISTA,,,,Consumidor Final
-67,,Pochoclero,,,San martin y pazo,,LISTA,,,,Consumidor Final
-68,,Laura epuyen,,,Calle nestor Kirchner,,LISTA,,,,Consumidor Final
-69,,Autoservicio rivadavia,,,Bv rivadavia y bartoloni,,LISTA,,,,Consumidor Final
-70,,Pity antelo,,,Antelo,,LISTA,,,,Consumidor Final
-71,,Maria febre,,,Febre,,LISTA,,,,Consumidor Final
-72,,El remanso shopping,,,Ruta 12,,LISTA,,,,Consumidor Final
-73,,Belen,,,Calle diamante,,LISTA,,,,Consumidor Final
-74,,Facu,,,Barrio 130 calle nelly chibota,,LISTA,,,,Consumidor Final
-75,,Despensa la negrita,,,Calle marchini y villaguay,,LISTA,,,,Consumidor Final
-76,,Nancy,,,Calle victoria al fondo,,LISTA,,,,Consumidor Final
-77,,Javi diaz,,Nogoya,Avellaneda al frente de genova,,LISTA,,,,Consumidor Final
-78,,Kiosco irigoyen,,,Bv irigoyen,,LISTA,,,,Consumidor Final
-79,,Verduleria alberto,,,Parana y av italia (esquina),,LISTA,,,,Consumidor Final
-80,,Turquia drugstore,,,Bv españa,,LISTA,,,,Consumidor Final
-81,,Zucutrule cotillon,,,25 de mayo frente a sensei,,LISTA,,,,Consumidor Final
-82,,Almacen cavin,,,Gobernador sola,,LISTA,,,,Consumidor Final
-83,,Despensa lumi,,,Moreno y nesa boeri,,LISTA,,,,Consumidor Final
-84,,Autoservicio 2000,,,Goldarasena 801,,LISTA,,,,Consumidor Final
-85,,Diego,,,3 de febrero,,LISTA,,,,Consumidor Final
-86,,Daiana,,,Rocamora y urquiza esquina,,LISTA,,,,Consumidor Final
-87,,Susana,,,Contin y lavalle esquina,,LISTA,,,,Consumidor Final
-88,,Miguelito choio,,,Mendoza antes de san martin,,LISTA,,,,Consumidor Final
-89,,Fabiana,,,20 de septiembre,,LISTA,,,,Consumidor Final
-90,,Tere almacen ferreras,,,Betbeder,,LISTA,,,,Consumidor Final
-91,,Maria Betbeder,,,Betbeder,,LISTA,,,,Consumidor Final
-92,,Autoservicio hernandez,,,Avenida,,LISTA,,,,Consumidor Final
-93,,Pablo drugstore,,,Hernandez,,LISTA,,,,Consumidor Final
-94,,Emilce autoservicio,,,Hernandez,,LISTA,,,,Consumidor Final
-95,,Norma hefell,,,Hernandez,,LISTA,,,,Consumidor Final
-96,,Georgi,,,Hernandez,,LISTA,,,,Consumidor Final
-97,,Doña lorenzato,,,25 de mayo,,LISTA,,,,Consumidor Final
-98,,Loreto,,,Calle charrua,,LISTA,,,,Consumidor Final
-100,,Sandro godoy,,,Barrio sur,,LISTA,,,,Consumidor Final
-101,,Naty,,,Barrio 180,,LISTA,,,,Consumidor Final
-102,,Cristina,,,Barrio 180,,LISTA,,,,Consumidor Final
-103,,Lina,,,Al lado del desarmadero sur,,LISTA,,,,Consumidor Final
-104,,Damian carniceria,,,Barrio sur,,LISTA,,,,Consumidor Final
-105,,Virginia,,,Los 4 soles,,LISTA,,,,Consumidor Final
-106,,Paola marinelli,,,Alfredo Palacios barrio 50v,,LISTA,,,,Consumidor Final
-107,,Mirta sanchez,,,,,LISTA,,,,Consumidor Final
-108,,El chupacabra,,,,,LISTA,,,,Consumidor Final
-109,,Kiosco 5 amores,,,Calle maestro torres 1474,,LISTA,,,,Consumidor Final
-110,,Despensa y pescaderia,,,Bv brow 328,,LISTA,,,,Consumidor Final
-111,,Zulma,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-112,,Autoservicio la primera,,,,,LISTA,,,,Consumidor Final
-113,,Celi lg,,,Lucas González,,LISTA,,,,Consumidor Final
-114,,Cotillon jye,,,,,LISTA,,,,Consumidor Final
-115,,Sandra autoservicio,,,Lucas González,,LISTA,,,,Consumidor Final
-116,,La reina verduleria y despensa,,,Corrientes y Güemes,,LISTA,,,,Consumidor Final
-117,,Curandera febre,,,,,LISTA,,,,Consumidor Final
-118,,Sheraton drusgtore,,,Quiroga y taboada,,LISTA,,,,Consumidor Final
-119,,Maria emilio,,,Obispo angeleri 276,,LISTA,,,,Consumidor Final
-120,,Luciana clivio,,,Francia y marconi en la esquin,,LISTA,,,,Consumidor Final
-122,,Jose Kiosco JyE,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
-123,,Luisina,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
-124,,Reula,,,Don Cristóbal,,LISTA,,,,Consumidor Final
-126,,Anahí Zapata,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
-127,,Almacén El Escondido,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
-128,,María,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
-129,,Ana calle mosconi,,,Esquina marchini,,LISTA,,,,Consumidor Final
-130,,Dani ache,,,España shop bv españa,,LISTA,,,,Consumidor Final
-131,,El refuerzo provisiones,,,Bv españa,,LISTA,,,,Consumidor Final
-132,,Jesica polleria,,,25 de mayo y aldo muñoz,,LISTA,,,,Consumidor Final
-133,,Pao antelo,,,,,LISTA,,,,Consumidor Final
-134,,Despensa sola,,,Gobernador sola,,LISTA,,,,Consumidor Final
-135,,Panaderia unserbrot,,,Lucas gonzalez pegando a hotel,,LISTA,,,,Consumidor Final
-136,,Kiosco las vias,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-137,,Jairo,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-138,,Autoservicio la rural,,,Calle la rural,,LISTA,,,,Consumidor Final
-140,,La casona,,,Virginia quinodoz y leon sola,,LISTA,,,,Consumidor Final
-141,,Dietetica la finca,,,Calle alem frente a caramelo,,LISTA,,,,Consumidor Final
-142,,Silvi macia,,,9 de julio y goldaracena,,LISTA,,,,Consumidor Final
-143,,Escuela 62 macia,,,,,LISTA,,,,Consumidor Final
-144,,Walter,,,Gobernador sola,,LISTA,,,,Consumidor Final
-145,,Kiosco frente a la garita,,,Gob sola,,LISTA,,,,Consumidor Final
-146,,Despensa cavin,,,Gob sola,,LISTA,,,,Consumidor Final
-147,,Eduardo cancha pelota paleta,,,Calle marchini,,LISTA,,,,Consumidor Final
-148,,Kiosco pa ya,,,Bv españa casi 25,,LISTA,,,,Consumidor Final
-149,,Kiosco ana castañola,,,Calle justa Gómez,,LISTA,,,,Consumidor Final
-150,,Los 4 soles,,,Calle 25 de mayo,,LISTA,,,,Consumidor Final
-151,,Andres sheraton,,,Calle urquiza,,LISTA,,,,Consumidor Final
-152,,Agencia de quiniela,,,Victoria calle irigoyen,,LISTA,,,,Consumidor Final
-153,,Nora huerto,,,Colegio del huerto,,LISTA,,,,Consumidor Final
-154,,Kiosco 24/07,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-155,,El baul,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-156,,Juli calle francia,,,"Nogoya, antes de marchini",,LISTA,,,,Consumidor Final
-157,,Cantina deportivo fútbol,,,Francia 733 casi tristanfrutos,,LISTA,,,,Consumidor Final
-159,,Mica Ronchi,,,Sixto oriz y Uruguay,,LISTA,,,,Consumidor Final
-160,,La Rotonda panaderia,,,Calle 9 de julio,,LISTA,,,,Consumidor Final
-161,,Romi,,,Mendoza,,LISTA,,,,Consumidor Final
-162,,Grisel,,,Contin 1343 Polleria Macaca,,LISTA,,,,Consumidor Final
-164,,Minimercado king market,,,Av esteban lonne,,LISTA,,,,Consumidor Final
-165,,YPF la gruta,,,Ruta 12 y belgrano,,LISTA,,,,Consumidor Final
-166,,Viejo almacen,,,25 de mayo y bv España,,LISTA,,,,Consumidor Final
-167,,Peter pan,,,25 de mayo y Maipú,,LISTA,,,,Consumidor Final
-169,,Alto pollo,,,25 de mayo y Urquiza,,LISTA,,,,Consumidor Final
-170,,Kiosco peatonal,,,San Martin 686,,LISTA,,,,Consumidor Final
-171,,Al toque,,,25 de mayo y centenario,,LISTA,,,,Consumidor Final
-172,,Cipriano,,,25 de mayo y caseros,,LISTA,,,,Consumidor Final
-173,,Colegio nacional,,,Bv sarmiento,,LISTA,,,,Consumidor Final
-174,,Escuela 20,,,Macia entre rios,,LISTA,,,,Consumidor Final
-175,,Romon sandoval,,,Alfredo palacios 1469,,LISTA,,,,Consumidor Final
-176,,Juanjo,,,Macia entre rios,,LISTA,,,,Consumidor Final
-177,,Liborio,,,25 de mayo y Bernardo irigoyen,,LISTA,,,,Consumidor Final
-178,,Lucio albornoz,,,La valle 1322,,LISTA,,,,Consumidor Final
-179,,Escuela técnica,,,Mantegaza y Quiroga y taboada,,LISTA,,,,Consumidor Final
-180,,Escuela agrotecnica,,,Macia entre rios,,LISTA,,,,Consumidor Final
-181,,Polleria el rincon,,,Macia entre rios,,LISTA,,,,Consumidor Final
-182,,Eva tucumana,,,Vivanco 1632,,LISTA,,,,Consumidor Final
-183,,Victoria quinodoz,,,Marconi y feliciano,,LISTA,,,,Consumidor Final
-184,,Escuela 129,,,Almirante Brown,,LISTA,,,,Consumidor Final
-185,,Juana,,,Sixto Ortiz 788,,LISTA,,,,Consumidor Final
-186,,Club atlético san benito,,,Victoria entre rios,,LISTA,,,,Consumidor Final
-187,,Depor paleta,,,Almirante Brown 1411,,LISTA,,,,Consumidor Final
-188,,Iguazu,,,San Martin 1392,,LISTA,,,,Consumidor Final
-189,,Gugy,,,Barrio colminac MC C24,,LISTA,,,,Consumidor Final
-190,,Escuela Arca de noe,,,Quiroga y taboada,,LISTA,,,,Consumidor Final
-191,,Edgardo alfaro,,,Barrio 50V M2 Casa3,,LISTA,,,,Consumidor Final
-192,,Elida macia,,,Calle gualeguaychu,,LISTA,,,,Consumidor Final
-193,,Dardo Vergara pocha,,,Alem y fitz gerald,,LISTA,,,,Consumidor Final
-194,,Despensa la paz,,,La paz entre Sixto Ortiz y mar,,LISTA,,,,Consumidor Final
-195,,Maria Beron,,,Lavalle y maipu,,LISTA,,,,Consumidor Final
-196,,Verduler frente a bazar itati,,,9 de julio 0656,,LISTA,,,,Consumidor Final
-197,,Nahuel club libertad,,,Chanear,,LISTA,,,,Consumidor Final
-198,,Despensa stop,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
-200,,Almacen el escondido don crist,,,Don cristobal 2,,LISTA,,,,Consumidor Final
-201,,Jose don cristobal 2,,,Don cristobal 2,,LISTA,,,,Consumidor Final
-202,,Anahi,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
-203,,Luisina escudero,,,Don Cristóbal 2,,LISTA,,,,Consumidor Final
-204,,Despensa ceci,,,Belgrano 1280,,LISTA,,,,Consumidor Final
-205,,Carballo,,,Bv Ramirez 1281,,LISTA,,,,Consumidor Final
-206,,Estacion de servicio axion,,,Marchini y ruta 12,,LISTA,,,,Consumidor Final
-207,,Despensa bacre,,,Presidente Perón esqui la paz,,LISTA,,,,Consumidor Final
-208,,Clivio,,,Francia y Mosconi,,LISTA,,,,Consumidor Final
-209,,Cesar Zapata,,,Angelica Firpo 645,,LISTA,,,,Consumidor Final
-210,,Viviana viandas,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-211,,Martin ferrari,,,Eva Perón y bv ramirez,,LISTA,,,,Consumidor Final
-212,,Susana hobal,,,Nogoya contin,,LISTA,,,,Consumidor Final
-213,,Abraham kiosco plaza,,,Nogoya antes del semaforo,,LISTA,,,,Consumidor Final
-214,,Analia,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-215,,El almacen,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-216,,Daniela acevedo,,,Hernandez,,LISTA,,,,Consumidor Final
-217,,Despensa poli,,,Basualdo 344,,LISTA,,,,Consumidor Final
-218,,Despensa peke,,,Irigoyen y copello,,LISTA,,,,Consumidor Final
-219,,Margarita,,,Victoria entre rios,,LISTA,,,,Consumidor Final
-220,,Punto sur,,,25 de mayo esquina la rioja,,LISTA,,,,Consumidor Final
-221,,Club gobernador sola,,,Gob sola,,LISTA,,,,Consumidor Final
-222,,Escuela,,,Gob sola,,LISTA,,,,Consumidor Final
-223,,Popo pollería,,,San Martin antes de carbo,,LISTA,,,,Consumidor Final
-224,,Meurzet viajes,,,9 de julio 1488,,LISTA,,,,Consumidor Final
-225,,Vero,,,Santa fe 2230,,LISTA,,,,Consumidor Final
-226,,Cantina ferro futbol,,,La paz,,LISTA,,,,Consumidor Final
-227,,Naty y marcos,,,Victoria 231,,LISTA,,,,Consumidor Final
-228,,Lore frisanco,,,Marchini 982,,LISTA,,,,Consumidor Final
-229,,Loco despeinado de febre,,,Febre esquina comisaria,,LISTA,,,,Consumidor Final
-230,,Despensa lujan,,,Chanear,,LISTA,,,,Consumidor Final
-231,,La finca dietetica,,,Calle alem antes de moreno,,LISTA,,,,Consumidor Final
-232,,Despensa champe,,,Victoria entre rios,,LISTA,,,,Consumidor Final
-233,,Despensa la gringa,,,Villaguay y diamante,,LISTA,,,,Consumidor Final
-234,,Zona sur,,,Esquina de la escuela 103,,LISTA,,,,Consumidor Final
-235,,Coya,,,Barrio sur nogoya,,LISTA,,,,Consumidor Final
-236,,Full shop pegando a tinaco,,,Nogoya calle irigoyen,,LISTA,,,,Consumidor Final
-237,,Jesica negocio,,,Alfredo palacios 1064,,LISTA,,,,Consumidor Final
-238,,Bazar vignola,,,Calle caseros antes de moreno,,LISTA,,,,Consumidor Final
-239,,Despensa bazar y gomeria colos,,,Av irigoyen 286,,LISTA,,,,Consumidor Final
-240,,Bar el bun nogoya,,,Alem y belgrano esquina,,LISTA,,,,Consumidor Final
-241,,Verduleria y despensa diana,,,Macia entre rios,,LISTA,,,,Consumidor Final
-242,,Carballo Jorge,,,Ramirez 1287,,LISTA,,,,Consumidor Final
-243,,Retamal Griselda,,,J J Paso 854,,LISTA,,,,Consumidor Final
-244,,Zapata Carla,,,Alberdi al fondo,,LISTA,,,,Consumidor Final
-245,,Quinodoz Angelica,,,Barrio 24 casa 18,,LISTA,,,,Consumidor Final
-246,,Espinoza Marisa,,,Villa Guiano,,LISTA,,,,Consumidor Final
-247,,Silvia San Blas,,,9 de julio,,LISTA,,,,Consumidor Final
-248,,Leo Shi Mei,,,Hirigoyen 169,,LISTA,,,,Consumidor Final
-249,,Silvia Lopez,,,9 de julio 1654,,LISTA,,,,Consumidor Final
-250,,Gomez maria,,,Centenario y lavalle 483,,LISTA,,,,Consumidor Final
-251,,Kiosco wada,,,San luis 1472,,LISTA,,,,Consumidor Final
-252,,Chandare Elena,,,Cañada,,LISTA,,,,Consumidor Final
-253,,Albornoz Maria,,,Rivadavia 780,,LISTA,,,,Consumidor Final
-254,,Ceballos Laura,,,Balbin 2152,,LISTA,,,,Consumidor Final
-255,,Wendeler Luciana,,,Juan XXIII,,LISTA,,,,Consumidor Final
-256,,Polleria Don Jose,,,Lisandro de La Torre y Juan XX,,LISTA,,,,Consumidor Final
-257,,Kiosco caramelo,,,Alem 1254,,LISTA,,,,Consumidor Final
-258,,Kiosco Joako,,,3 de febrero 1565,,LISTA,,,,Consumidor Final
-259,,Kiosco Jazmin,,,180 M6 C12,,LISTA,,,,Consumidor Final
-260,,Despensa Don Corsino,,,Güemes 1060,,LISTA,,,,Consumidor Final
-261,,Despensa Providencia,,,Angeleri e Irigoyen,,LISTA,,,,Consumidor Final
-262,,Fragati 18 viviendas,,,18 viviendas casa 7,,LISTA,,,,Consumidor Final
-263,,Kiosco Benjamin,,,Catamarca 1350,,LISTA,,,,Consumidor Final
-264,,Banegas Claudia,,,Moreno 1463,,LISTA,,,,Consumidor Final
-265,,Beltaco Carlos,,,Contin 928,,LISTA,,,,Consumidor Final
-266,,Mercadito 25,,,25 de mayo 1385,,LISTA,,,,Consumidor Final
-267,,Fenandez Patricia,,,Moreno 91,,LISTA,,,,Consumidor Final
-268,,Ocampo Macarena,,,Gualeguaychu casi Mitre,,LISTA,,,,Consumidor Final
-269,,Lelu Romero,,,Fritsgerald 170,,LISTA,,,,Consumidor Final
-270,,Segovia Nadia,,,Charruas 1120,,LISTA,,,,Consumidor Final
-271,,Zurdo kiosco,,,Urquiza 785 lucas gonzalez,,LISTA,,,,Consumidor Final
-272,,La estacion resto bar,,,Lucas gonzalez pasando lo jair,,LISTA,,,,Consumidor Final
-273,,Lo de Lala,,,Ilia y Alsugaray,,LISTA,,,,Consumidor Final
-274,,Kindebaluc almacen,,,Don cristobal 2,,LISTA,,,,Consumidor Final
-275,,Graciela don cristobal 2,,,Don cristobal 2,,LISTA,,,,Consumidor Final
-276,,Ines Paes,,,Federación 239,,LISTA,,,,Consumidor Final
-277,,Kiosco 02/04,,,Falucho 1633,,LISTA,,,,Consumidor Final
-278,,Vergara Andrea,,,Barrio 36 M1 C6,,LISTA,,,,Consumidor Final
-279,,After,,,Bulevar España y 9 de Julio,,LISTA,,,,Consumidor Final
-280,,Tula Jose,,,Laurencena 1355,,LISTA,,,,Consumidor Final
-281,,Laura la tota,,,Diamante y villaguay,,LISTA,,,,Consumidor Final
-282,,Daiana Jaime,,,Cabo Monzon,,LISTA,,,,Consumidor Final
-283,,Floreciente 1,,,Espa a 33 Victoria,,LISTA,,,,Consumidor Final
-284,,Zhuang Bao,,,Italia y Rawson,,LISTA,,,,Consumidor Final
-285,,Super Nuevo Siglo,,,Rawson y Piaggio,,LISTA,,,,Consumidor Final
-286,,Floreciente 2,,,Camoirano 223,,LISTA,,,,Consumidor Final
-287,,Ziegler,,,Piaggio 520,,LISTA,,,,Consumidor Final
-288,,Meifang,,,3 de Febrero y Viamonte,,LISTA,,,,Consumidor Final
-289,,Matias nuñez,,,Nogoya entre rios,,LISTA,,,,Consumidor Final
-291,,Weng Ende,,,Yrigoyen 1024,,LISTA,,,,Consumidor Final
-292,,Merini Juan Carlos,,,Contin y Belgrano,,LISTA,,,,Consumidor Final
-293,,Solis,,,Barrio chañar,,LISTA,,,,Consumidor Final
-294,,Lin Wu,,,"25 de Mayo, casi Velez Sarfiel",,LISTA,,,,Consumidor Final
-295,,Do Re Mi,,,Mitre 589,,LISTA,,,,Consumidor Final
-296,,Chen Shunmei,,,España 27,,LISTA,,,,Consumidor Final
-297,,El Vasco,,,Linier y Marcos Paz,,LISTA,,,,Consumidor Final
-298,,Kiosco bella,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-299,,Exter tercera campo,,,Crucesitas tercera,,LISTA,,,,Consumidor Final
-300,,Elisa almacen rodriguez,,,Crucesita Tercera,,LISTA,,,,Consumidor Final
-301,,Carlos Correa,,,Alte Brown 1413,,LISTA,,,,Consumidor Final
-302,,Torito mimoso,,,"Ruta 12, pegado al Remanso",,LISTA,,,,Consumidor Final
-303,,Martinez Marcelo,,,"Diamante 27, casi Islas del Ib",,LISTA,,,,Consumidor Final
-304,,Fernando los caseritos,,,Victoria calle constitución,,LISTA,,,,Consumidor Final
-305,,Super time,,,Italia y Vivanco,,LISTA,,,,Consumidor Final
-306,,A dr paniego 909,,,Lucas gonzalez,,LISTA,,,,Consumidor Final
-308,,Almacen del Carmen,,,Urquiza y San Lorenzo,,LISTA,,,,Consumidor Final
-309,,El Duende,,,Velez Cuneo,,LISTA,,,,Consumidor Final
-310,,Casiva Celia,,,Cuneo entre Güemes y Lamadrid,,LISTA,,,,Consumidor Final
-311,,Colo Multirubro,,,Irigoyeny Paraná,,LISTA,,,,Consumidor Final
-312,,Cantina polideportivo macia,,,Macia entre rios,,LISTA,,,,Consumidor Final
-313,,Maxi kiosco leo,,,Macia entre rios,,LISTA,,,,Consumidor Final
-314,,Walter el carrito,,,Carrito frente a panaderia 24h,,LISTA,,,,Consumidor Final
-315,,Super El triunfo,,,Corriente y Laprida,,LISTA,,,,Consumidor Final
-316,,Bustamante Noemi,,,Balbi 274,,LISTA,,,,Consumidor Final
-318,,Diaz Elsa,,,Marcos Paz y Rondeu,,LISTA,,,,Consumidor Final
-319,,Remanso ruta 26,,,Fermin Chavez,,LISTA,,,,Consumidor Final
-320,,Cantina club 25 de mayo,,,Nogoya entre rios,,LISTA,,,,Consumidor Final
-321,,Despensa Cabrera,,,Corrientes 321,,LISTA,,,,Consumidor Final
-322,,Dietetica Ahumada,,,Larrea 771,,LISTA,,,,Consumidor Final
-323,,Sergio,,,Hirigoyen y Marcos Paz,,LISTA,,,,Consumidor Final
-324,,Gonzalez Silvia,,,Contin 1150,,LISTA,,,,Consumidor Final
-325,,Sosa Matias lacho,,,Lopez Jordan casa 28,,LISTA,,,,Consumidor Final
-326,,Facello Nicolas,,,Moreno casi quiroga,,LISTA,,,,Consumidor Final
-327,,Kiosco Nogoyork,,,Corrientes casi 9 de Julio,,LISTA,,,,Consumidor Final
-328,,Zabala Mariela,,,Monte Caseros y Guemes,,LISTA,,,,Consumidor Final
-329,,Quingua,,,Camoirano 220,,LISTA,,,,Consumidor Final
-330,,Vigliano,,,Victoria entre JJ Paso y Guale,,LISTA,,,,Consumidor Final
-331,,Celestina miño macia,,,Barrio san roque,,LISTA,,,,Consumidor Final
-332,,Yohanna Acosta,,,Moreno casi Corrientes,,LISTA,,,,Consumidor Final
-333,,Cantina hernandez pileta,,,Hernandez entre rios,,LISTA,,,,Consumidor Final
-335,,Noe sanchez,,,Dr paniego 909 lucas gonzalez,,LISTA,,,,Consumidor Final
-336,,Super Yrigoyen,,,Yrigoyen 1030,,LISTA,,,,Consumidor Final
-337,,Olivari 130,,,Mitre entre Brown e Yrigoyen,,LISTA,,,,Consumidor Final
-338,,Hector Chañar,,,Cha ar,,LISTA,,,,Consumidor Final
-339,,El Peke 3,,,Matanza y Congreso,,LISTA,,,,Consumidor Final
-340,,Vale calle corrientes,,,Corrientes antes de 9 de julio,,LISTA,,,,Consumidor Final
-341,,Vale calle caseros,,,Caseros antes de rocamora,,LISTA,,,,Consumidor Final
-342,,Despensa Lupy,,,Carmelo Asteciano y Juan XXIII,,LISTA,,,,Consumidor Final
-343,,Kiosco perez,,,Rincon del doll,,LISTA,,,,Consumidor Final
-344,,Supermercado iriza,,,Rincon del doll,,LISTA,,,,Consumidor Final
-345,,Jose ramirez,,,Rincon del doll,,LISTA,,,,Consumidor Final
-346,,Doña rosa,,,Rincon del doll,,LISTA,,,,Consumidor Final
-347,,Despensa atencio,,,Rincon del doll,,LISTA,,,,Consumidor Final
-348,,Mini mercado Valu,,,25 de Mayo entre angélica  y a,,LISTA,,,,Consumidor Final
-349,,Boyer Luis,,,Sixto Oris 151,,LISTA,,,,Consumidor Final
-350,,Despensa el Gringo,,,Avellaneda casi Alberdi,,LISTA,,,,Consumidor Final
-351,,Escuela 62 turno tarde,,,Macia entre ríos,,LISTA,,,,Consumidor Final
-352,,Escuela 62 turno mañana,,,Macia entre rios,,LISTA,,,,Consumidor Final
-353,,Polleria 2.0,,,Italia y Paraná,,LISTA,,,,Consumidor Final
-354,,Escuela 101,,,Sarmiento,,LISTA,,,,Consumidor Final
-355,,Rios Teresa,,,Juan XXIII y Dorrego,,LISTA,,,,Consumidor Final
-356,,Maxi kiosco rame,,,Hernandez entre rios,,LISTA,,,,Consumidor Final
-357,,Sole calle caseros,,Nogoya,Calle caseros entre rocamora y evaristo carriego,,LISTA,,,,Consumidor Final
-358,,Almacen denis,,Rincon del doll,,Entre Rios,LISTA,,,,Consumidor Final
-362,,Despensa la nona,,Victoria,Calle presidente peron,Entre Rios,LISTA,,,,Consumidor Final
-363,,Leo victoria,,Victoria,Calle copello,Entre Rios,LISTA,,,,Consumidor Final
-364,,La rotonda 9 de julio,,Nogoya,9 de julio entre centenario y alem,Entre Rios,LISTA,,,,Consumidor Final
-365,,Almacen vignola,,Nogoya,Calle caseros casi moreno,Entre Rios,LISTA,,,,Consumidor Final
-366,,Dani romero ( pedido que lleva nico ),,Nogoya,Barrio 130,,LISTA,,,,Consumidor Final
-367,,Juanma caseros,,Nogoya,Calle caseros casi 9 de julio,Entre Rios,LISTA,,,,Consumidor Final
-368,,Fabian,,Nogoya,,,LISTA,,,,Consumidor Final
-369,,Gaston irigoyen,,Nogoya,Calle irigoyen y sixto oris,Entre Rios,LISTA,,,,Consumidor Final
-370,,Walter calle alem,,Nogoya,Alem 1081 entre pipas y la cerrajería,Entre Rios,LISTA,,,,Consumidor Final
-371,,Escuela tecnica victoria,,Victoria,España y rondo,Entre Rios,LISTA,,,,Consumidor Final
-372,,Zak Gabriela,3435458868,Nogoyá,Francia 144,Entre Rios,LISTA,,,,Consumidor Final
-373,,Despensa al paso marchini y colon,,Nogoya,Marchini y colon esquina,Entre Rios,LISTA,,,,Consumidor Final
-374,,Tacuara octava,,Crucesita octava,,Entre Rios,LISTA,,,,Consumidor Final
-375,,Cristina octava,,Crucesita octava,Octava.,Entre Rios,LISTA,,,,Consumidor Final
-376,,Sanchez Juan,,,Republica de Entre Ríos 1098,,LISTA,,,,Consumidor Final
-377,,Roque Atencio,,,Moreno 1463,,LISTA,,,,Consumidor Final
-378,,Almacen de paso,,Macia,,Entre Rios,LISTA,,,,Consumidor Final
-379,,Gomez Valeria,,,Los Jacarandaes,,LISTA,,,,Consumidor Final
-380,,Lourdes betbeder,,Betbeder,,Entre Rios,LISTA,,,,Consumidor Final
-381,,Señora de Coya,,,,,LISTA,,,,Consumidor Final
-382,,Club Ferro,,,,,LISTA,,,,Consumidor Final
-383,,Fabiana xx de septiembre,,,,,LISTA,,32.388.369,,Consumidor Final
-384,,Escuela gob sola,,Gobernador sola,Dejar el pedido en lo cavin,Entre Rios,LISTA,,,,Consumidor Final
-385,,Tere koch,,,,,LISTA,,,,Consumidor Final
-386,,Kiosco Tiara,,,Federal casi Diamante,,LISTA,,,,Consumidor Final
-387,,Jorgelina molini esquina,,Nogoya,Barrio 18 viviendas,,LISTA,,,,Consumidor Final
-388,,Almacen iglesias,,Crucesitas septima,Ruta 18 vieja,Entre Rios,LISTA,,,,Consumidor Final
-389,,Kiosco Dario,,,25 de mayo 1634,,LISTA,,,,Consumidor Final
-390,,Florencia Garcia,,,Mosconi y Paraná,,LISTA,,,,Consumidor Final
-391,,Gomez cecilia,,,3 de febrero 0647,,LISTA,,,,Consumidor Final
-392,,Don josesito polleria y verduleria,,Nogoya,Alfredo palacios 1170,Entre Rios,LISTA,,,,Consumidor Final
-393,,Damian barroso,,Lucas gonzalez,.,Entre Rios,LISTA,,,,Consumidor Final
-394,,El rey,,Nogoya,Diamante y villaguay,Entre Rios,LISTA,,,,Consumidor Final
-395,,Delfi,,Victoria,Calle copelo,Entre Rios,LISTA,,,,Consumidor Final
-396,,Lo de ana,,Macia entre rios,Andrade 187,Entre Rios,LISTA,,,,Consumidor Final
-397,,Barrios maria,,Victoria,Rocamora y viamonte,,LISTA,,,,Consumidor Final
-398,,Wen meifang,,,Viamonte y 3 de febrero,,LISTA,,,,Consumidor Final
-399,,Tamara moyano doña paula,,Victoria,Irigoyen 875,,LISTA,,,,Consumidor Final
-400,,Gonzales ester,,,San miguel 610,,LISTA,,,,Consumidor Final
-402,,Riffel facundo,,,Irigoyen 1073,,LISTA,,,,Consumidor Final
-404,,Chico bolazo sergio reynos,,Victoria,Matheu y camoirano esquina,,LISTA,,,,Consumidor Final
-405,,Rojas lucas,,,Rawson 382,,LISTA,,,,Consumidor Final
-406,,Kiosco lyt Leonel,,Victoria,Bv Brown 704,,LISTA,,0,0,Consumidor Final
-413,,El peke 2,,Victoria,Bazualdo entre 9 de julio y españa,,LISTA,,,,Consumidor Final
-414,,Pipas,,Nogoyá,9 de Julio y Alem,,LISTA,,,,Consumidor Final
-415,,Rodriguez zulma,,Victoria,Moreno y sola,,LISTA,,,,Consumidor Final
-416,,Verbauvede marianela,,,Maipu 540,,LISTA,,,,Consumidor Final
-417,,Arias alejandra,,Victoria,Viamonte 943,,LISTA,,,,Consumidor Final
-418,,Diaz heydee,,,Marcos paz y rondeau,,LISTA,,,,Consumidor Final
-421,,Dotta lorena,,Victoria,Laprida y cuneo,,LISTA,,,,Consumidor Final
-422,,Ramos chevasco,,Victoria,Congreso y la matanza,,LISTA,,,,Consumidor Final
-423,,Zeballos diego,,Victoria,Suburbio este,,LISTA,,,,Consumidor Final
-424,,Bustamante liliana,,Victoria,Balvis 274,,LISTA,,,,Consumidor Final
-425,,Angeles rodriguez los gringos,,Victoria,Lamadril y balbis,,LISTA,,,,Consumidor Final
-426,,Autoservicios los gringos,,Victoria,Lamadril y balbis,,LISTA,,,,Consumidor Final
-427,,Estacho johoana,,Victoria,9 de julio y peron,,LISTA,,,,Consumidor Final
-428,,Riffer facundo,,,Irigoyen 1073,,LISTA,,,,Consumidor Final
-429,,Zalasar serguio,,,Yrigoyen y marcos paz,,LISTA,,,,Consumidor Final
-430,,Chicone edgardo,,Victoria,Caseros y lamadril,,LISTA,,,,Consumidor Final
-431,,Brambila gustavo,,,Bartoloni 545,,LISTA,,,,Consumidor Final
-432,,Saavedra ana,,Victoria,Corrientes y guemes,,LISTA,,,,Consumidor Final
-434,,Espindola liliana,,,Corrientes 321,,LISTA,,,,Consumidor Final
-435,,Despensa truri,,,Junin 1010,,LISTA,,,,Consumidor Final
-436,,Despensa turi,,Victoria,Junin 1010,,LISTA,,,,Consumidor Final
-437,,Manso lucrecia,,Victoria,San miguel y dorrego,,LISTA,,,,Consumidor Final
-438,,Sergio reynoso,,Victoria,Camoirano y matehus,,LISTA,,,,Consumidor Final
-441,,Lo de mariana,,Macia,Urquiza entre victoria y nogoya,,LISTA,,,,Consumidor Final
-442,,Kiosco lo de mariana,,Macia,Urquiza entre victoria y nogoya,,LISTA,,,,Consumidor Final
-443,,Ibiza,,Nogoyá,Sixto oris e Hirigoyen,,LISTA,,,,Consumidor Final
-444,,Ruiz Daniel,,Nogoyá,Gardel 2319,,LISTA,,,,Consumidor Final
-445,,Autoservicios koiy,,Victoria,Moreno y sola,,LISTA,,,,Consumidor Final
-446,,La esquina,,,Vianonte y rocamora,,LISTA,,,,Consumidor Final
-448,,Beron zulma,,,Maipu y liniers a una cuadra de brow,,LISTA,,,,Consumidor Final
-449,,La despensa de emma,,,Viamonte antes de san miguel,,LISTA,,,,Consumidor Final
-450,,Kiosco la chola,,,Paggio 429,,LISTA,,,,Consumidor Final
-451,,Kiosco chiris,,,Bartoloni 250,,LISTA,,,,Consumidor Final
-452,,Despensa la solapa,,,Alen 426,,LISTA,,,,Consumidor Final
-454,,Autoservicio la amistad,,Hernandez,Corrientes esquina,Entre Rios,LISTA,,,,Consumidor Final
-455,,Maxi ramirez,,,Islas del ibicuy 463,,LISTA,,,,Consumidor Final
-456,,Minimercado al pasp,,,Braw y stratta,,LISTA,,,,Consumidor Final
-457,,Autoservicio chico bolazo,,,Braw,,LISTA,,,,Consumidor Final
-458,,GamerLand Techno Bar,,,,,LISTA,,,,Consumidor Final
-459,,Pollita pia,,,Diamante y J J paso,,LISTA,,,,Consumidor Final
-460,,Oris,,Nogoyá,"Rivadavia 1225, entre San Luis y Contin",,LISTA,,,,Consumidor Final
-461,,San Francisco primaria,,Nogoyá,,,LISTA,,,,Consumidor Final
-462,,Meradito zelnova,,,,,LISTA,,,,Consumidor Final
-463,,Muñoz ester kiosco,,,Basualdo 718,,LISTA,,,,Consumidor Final
-464,,Club libertad,,,Victoria,,LISTA,,,,Consumidor Final
-465,,King market,,,,,LISTA,,,,Consumidor Final
-466,,Norma zaneti,,,,,LISTA,,,,Consumidor Final
-467,,Norma Zanetti,,,,,LISTA,,,,Consumidor Final
-468,,Julio lopez,,,Brawn,,LISTA,,,,Consumidor Final
-469,,Lo de miguel,,,Marchini y villaguay,,LISTA,,,,Consumidor Final
-470,,Beti canova,,,,,LISTA,,,,Consumidor Final
-471,,Bety canova,,,,,LISTA,,,,Consumidor Final
-472,,Amabelia 130,,,130 M3 C25,,LISTA,,,,Consumidor Final
-473,,Despensa Fritsgerald,,,Fritsgeral entre San Luis y Contin,,LISTA,,,,Consumidor Final
-474,,Milagros kiosco Alison,,,Diamante 941,,LISTA,,,,Consumidor Final
-475,,Despensa Moreno,,,Moreno 1247,,LISTA,,,,Consumidor Final
-476,,Kiosco la terminal,,,Victoria,,LISTA,,,,Consumidor Final
-477,,Supermercado luna,,,Lucas Gonzales,,LISTA,,,,Consumidor Final
-478,,Papucho macia,,,Gualeguaychu 925,,LISTA,,,,Consumidor Final
-479,,Ramirez hernan lucas gonzales,,,,,LISTA,,,,Consumidor Final
-480,,Facultad secundario wesley,,Macia,Calle luis maria campos,Entre Rios,LISTA,,,,Consumidor Final
-481,,Punto express,,Nogoya,Calle belgrano,Entre Rios,LISTA,,,,Consumidor Final
-482,,Drspensa Guadalupe,,,Centenario entre Rocamora y Carriego,,LISTA,,,,Consumidor Final
-483,,ASCUA ACOSTA,,,Presidente Peron 315 nogoya,,LISTA,,,,Consumidor Final
-484,,Despensa de todo un poco nogoya,,,Presidente peron 315,,LISTA,,,,Consumidor Final
-485,,La Tota,,,San Martin y Guillani,,LISTA,,,,Consumidor Final
-486,,Kiosco las dos hermanas,,Lucas gonzalez,Calle roque saenz peña antes de viviana galizzi,Entre Rios,LISTA,,,,Consumidor Final
-487,,TyM despensa Gonzalez,,,San Luis 1069,,LISTA,,,,Consumidor Final
-488,,Desensa el rey,,,Villaguay y diamante,,LISTA,,,,Consumidor Final
-490,,Drugstore La Esquina,,Nogoya,España y San Lorenzo,,LISTA,,,,Consumidor Final
-491,,El trebol,,Victoria,Calle mitre entre pringles y hernandarias,Entre Rios,LISTA,,,,Consumidor Final
-492,,La casa de Gora,,Victoria,Larrea,,LISTA,,,,Consumidor Final
-493,,Supermercado lin macia,,Macia,,Entre Rios,LISTA,,,,Consumidor Final
-494,,Supermercado meri macia,,Macia,,Entre Rios,LISTA,,,,Consumidor Final
-495,,Polleria San Luis,,Nogoya,San Luis 575,,LISTA,,,,Consumidor Final
-496,,Polleria Rocamora,,Nogoyá,Rocamora 1098,,LISTA,,,,Consumidor Final
-497,,La rotonda bar,,Nogoya,Avenida italia esquina juliany,Entre Rios,LISTA,,,,Consumidor Final
-498,,Colegio Agote,,Nogoyá,16 de Julio e Ilia,,LISTA,,,,Consumidor Final
-499,,Brian Rau,,Nogoyá,Sixto Oris 859,,LISTA,,,,Consumidor Final
-500,,Susy Las Calandrias y Las Lechuzas (Victoria),,Victoria,Las Calandrias y Las Lechuzas (Victoria),Entre Rios,LISTA,,,,Consumidor Final
-501,,Walter Ventas,3435087823,Ramírez,Arenales,Entre Rios,LISTA,ventas.walter.spengler@gmail.com,12.345.678,12-34567891-0,Consumidor Final
-502,,Natalia Piffo,3436412070,Panadería Rotonda Shell Victoria,Desconocida,,,,,,
-503,,Almacén El Vasco,Desconocido,Almacén El Vasco Victoria,Detrás de mayorista Brown,,,,,,
-504,,Diana,3436617699,Desconocido Victoria,Desconocida,,,,,,
-505,,Yamila,3436495750,Kiosco Mitad de Cuadra Victoria,América y Mateu,,,,,,
-506,,Díaz Elsa,Desconocido,Almacén Negocio Esquina Victoria,Díaz Esquina,,,,,,
-507,,Estefania,3436474974,Minisuper Brown Victoria,Brown y otra,,,,,,
-508,,Alejandra,3436471313,El mercadito saludable Victoria,Desconocida,,,,,,
-509,,Celia,3436513374,Kiosko Pequeño Victoria,Maipú 656 y Matheu,,,,,,
-510,,Josefa Ferreira,3436470655,Kiosko Desconocido Victoria,Desconocida,,,,,,
-511,,Giselle,3436222876,Kiosko pequeño Victoria,Barrio nuevo,,,,,,
-512,,Susy,3436578357,Almacén Las Calandrias y Las Lechuzas Victoria,Las Calandrias y Las Lechuzas,,,,,,
-513,,Nerina,3436470847,Minisuper Esquina Brown Victoria,Esquina Brown,,,,,,
-514,,Kiosko,3436475673,Kiosko el colombiano,San Miguel y Viamonte,,,,,,
-515,,Romina,3436410206,Autoservicio Maipú Victoria,Maipú y otra,,,,,,
-516,,Kiosko Vacano,3436471679,Kiosko Vacano Victoria,Maipú Y Brown,,,,,,
-517,,Claudio Moreira,3436437292,Almacen La esquina Victoria,Desconocida,,,,,,
-518,,El Chaski,3436475abb,El Chaski Victoria ,Frente al Hospital de Victoria,,,,,,
-519,,Kiosko Obeid,3436435488,Kiosko Obeid Victoria,Chacabuco 572,,,,,,
+"NOMBRE","CODIGO","STOCK","PRECIO","MIN","PROVEEDOR","MARCA","CATEGORIA","ESTADO"
+"9 de Oro agridulce x200g","8975560313752","133","950.00","0","","","Arcor","DISPONIBLE"
+"9 de oro azucarada x200g","1069025437135","23","950.00","0","","","Arcor","DISPONIBLE"
+"9 de Oro clasicas x200g","9027311456223","221","950.00","0","","","Arcor","DISPONIBLE"
+"9 de Oro Cookies blancos x120g","2690742773744","0","700.00","0","","","Arcor","DISPONIBLE"
+"9 de Oro Cookies chips x120g","5716047034468","0","700.00","0","","","Arcor","DISPONIBLE"
+"9 de Oro Cookies colores x120g","3818470589465","0","700.00","0","","","Arcor","DISPONIBLE"
+"9 de oro salvado x200g","7256424534556","0","650.00","0","","","Arcor","DISPONIBLE"
+"Above Repelente x150ml","4419568357822","38","4570.00","0","","","Arcor","DISPONIBLE"
+"Aceite Alsamar x900","1032025003665","0","1100.00","0","","","Arcor","DISPONIBLE"
+"Aceite Cañuelas x1,5l","1506547995872","0","2550.00","0","","","Arcor","DISPONIBLE"
+"Aceite Legitimo x900","5798563767833","0","1590.00","0","","","Arcor","DISPONIBLE"
+"Actron 400mg tableta x10u","4139863714008","12","2370.00","0","","","Arcor","DISPONIBLE"
+"Actron 600mg tableta x10u","3709469858858","9","6800.00","0","","","Arcor","DISPONIBLE"
+"Actron Plus 400 tableta x8u","2894251549490","0","3280.00","0","","","Arcor","DISPONIBLE"
+"Afeitadora Geeleete 3 filos x24u","5661646311373","13","10780.00","0","","","Arcor","DISPONIBLE"
+"Afeitadoras Bic 3","1117973651721","14","1000.00","0","","","Productos","DISPONIBLE"
+"Alfajor Aguila Minitorta Brownie x72g","5214503272409","0","1280.00","0","","","Arcor","DISPONIBLE"
+"Alfajor arroz Lulemuu x12u","9573129759444","10","7150.00","0","","","Productos","DISPONIBLE"
+"Alfajor Barrigon Blanco x10u","9625592859512","1","13100.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Barrigon Negro x10u","4341694994592","0","13100.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Bon o Bon simple x40g","1135988679529","21","630.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Capitan Espacio SIMPLE","9781351844097","116","1200.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Capitan Espacio TRIPLE","8753675431272","0","1890.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Escolar x60u surtido","5424431491871","0","9500.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Fantoche cuadruple x12","8404793149871","0","13200.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Fantoche mini blan x6u","2406852507102","0","1490.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Fantoche mini negr x6u","4577630806948","43","1490.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Fantoche Mini x18u","5291250499375","0","1081.21","0","","","Productos","DISPONIBLE"
+"Alfajor Fantoche triple x24u","4757218091107","27","17350.00","0","","","Productos","DISPONIBLE"
+"Alfajor Fulbito x40u","6565191548073","0","6690.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Guaymallen Oro x24u","4597223899122","0","6846.53","0","","","Arcor","DISPONIBLE"
+"Alfajor Guaymallen simple x40u","5335965510175","12","10800.00","0","","","Productos","DISPONIBLE"
+"Alfajor Guaymallen triple x24u","4041615223711","24","10600.00","0","","","Productos","DISPONIBLE"
+"Alfajor Gula blanco unidad","9372865451695","1","1080.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Gula negro unidad","3832187500065","0","1080.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Guliver triple x24u","4985658399711","29","7300.00","0","","","Productos","DISPONIBLE"
+"Alfajor Jorgelin triple","3235405106749","0","8900.48","0","","","Arcor","DISPONIBLE"
+"Alfajor Jorgito simple","7846072295986","0","7120.39","0","","","Arcor","DISPONIBLE"
+"Alfajor Juana la loca blanco x10u","5001701660090","1","17400.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Juana la loca chocolate con merengue x10u","8769512078375","0","17400.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Juana La Loca chocolate x10u","6909825155155","0","16800.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Juana La Loca Clasico Blanco x80g x24u","9983097481739","0","28500.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Juana La Loca Clasico Negro x80g x24u","8163244098327","1","28500.00","0","","","Arcor","DISPONIBLE"
+"Alfajor La Recova 60gx24u","1629253578355","0","13820.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Maradona x 24 u","9608672591129","0","14500.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Marley x20u","1342317469758","0","20600.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Milka 3 Dulce de Leche x70g","3773848352080","0","1040.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Milka 3 Mousse blanco x55g","2659726790375","42","1160.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Milka 3 Mousse x55g","4479450541388","0","1200.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Milka 3 torta Oreo x61g","2015248152253","0","1160.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Mogy simple x40u","8886925452481","16","9990.00","0","","","Productos","DISPONIBLE"
+"Alfajor OREO triple x56g","3048676381746","28","1160.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Pepitos x57g","5469876219262","0","1040.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Rasta x18u","2808628939528","45","18500.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Riquito simple x50u","1261159412819","0","6800.00","0","","","Productos","DISPONIBLE"
+"Alfajor Salchichon Juana La Loca Chocolate x92g x18u","6152715472362","2","30600.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Shot Pasta de Mani simple x44g","4760567190141","69","715.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Sin Culpa x8u","9175064764753","0","8800.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Terrabusi Choco clasico x50g","5687166835099","0","870.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Terrabusi Glaseado x38g","5957587908645","0","870.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Terrabusi Triple clasico x70g","2168736811833","0","1160.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Terrabusi triple torta 70g","4542118904661","0","1200.00","0","","","Arcor","DISPONIBLE"
+"Alfajor triple Fantasio","3225571102304","0","7000.00","0","","","Arcor","DISPONIBLE"
+"Alfajor Trishot x60g","9887560822148","46","1160.00","0","","","Arcor","DISPONIBLE"
+"Alikal sobre","4310407245290","8","720.00","0","","","Arcor","DISPONIBLE"
+"Alka bolsa chico x200g (100u)","1902812955047","0","1830.00","0","","","Arcor","DISPONIBLE"
+"Alka caramelo bolsa x800g","5117146991490","0","8400.00","0","","","Productos","DISPONIBLE"
+"Almohadita limon x1kg LR","2521083128904","17","6900.00","0","","","Arcor","DISPONIBLE"
+"Almohaditas  Frutilla x1kg LR","7535157052119","56","6350.00","0","","","Productos","DISPONIBLE"
+"Almohaditas chocolate x1kg LR","1474573906497","24","6820.00","0","","","Arcor","DISPONIBLE"
+"Amoxicilina tableta x500mg x8u","9913901125692","0","1640.00","0","","","Arcor","DISPONIBLE"
+"Anillos DDLN x150g","7813621816656","0","204.20","0","","","Productos","DISPONIBLE"
+"Anillos DDLN x300g","2129582459270","0","436.33","0","","","Productos","DISPONIBLE"
+"Anillos de cebolla Juli Croc x70g","2381051372861","86","919.00","0","","","Juli Croc","DISPONIBLE"
+"Animacion Solitas x400g","5381896899472","0","852.01","0","","","Arcor","DISPONIBLE"
+"Arañas paleta c/ juguete x10u","3562046584820","0","2632.12","0","","","Arcor","DISPONIBLE"
+"Arcor Cereal Mix x20u","5483709901216","0","7450.00","0","","","Arcor","DISPONIBLE"
+"Arcor menta con chocolate car","3201445816220","0","5800.00","0","","","Productos","DISPONIBLE"
+"Aritos frutales x1kg Los Rusit","2152214180622","51","4800.00","0","","","Productos","DISPONIBLE"
+"Aros de cebolla Los Rusitos","1533893996567","0","2430.00","0","","","Arcor","DISPONIBLE"
+"Arroz Dominante x1kg","3354014248061","0","1570.00","0","","","Arcor","DISPONIBLE"
+"Arroz Dominante x500g","1326013587157","0","840.00","0","","","Arcor","DISPONIBLE"
+"Arroz Don Marcos x1kg","4361258304272","0","1680.00","0","","","Arcor","DISPONIBLE"
+"Arroz Don Marcos x500g","9739612364288","0","895.00","0","","","Arcor","DISPONIBLE"
+"Aspirinetas TABLETA x14 compr.","5725059108029","2","700.00","0","","","Arcor","DISPONIBLE"
+"Auriculares Inalambricos","1476118200524","0","9500.00","0","","","Arcor","DISPONIBLE"
+"Azucar Dolce x1kg","4997757329067","0","740.00","0","","","Arcor","DISPONIBLE"
+"Azuquita c/ billete x50u Mandu","3482116872746","0","1300.00","0","","","Arcor","DISPONIBLE"
+"Baby doll blister x18x4u","4490842836593","10","10400.00","0","","","Productos","DISPONIBLE"
+"Baggio Fresh Limone x1500ml","5201741999967","0","5900.00","0","","","Arcor","DISPONIBLE"
+"Baggio Fresh manzana 6x1500ml","6751851817934","0","5165.00","0","","","Arcor","DISPONIBLE"
+"Baggio Fresh manzana 6x600ml","8718402426469","0","3300.00","0","","","Arcor","DISPONIBLE"
+"Baggio Fresh Naranja 6x1500cc","5227431063540","0","5900.00","0","","","Arcor","DISPONIBLE"
+"Baggio Fresh naranja 6x600ml","3506362685907","0","2280.00","0","","","Arcor","DISPONIBLE"
+"Baggio Fresh Pomelo 6x1500cc","3001884001183","96","5900.00","0","","","Arcor","DISPONIBLE"
+"Baggio Fresh pomelo 6x600ml","6853330869926","6","2280.00","0","","","Arcor","DISPONIBLE"
+"Baggio Pronto Durazno x1 litro","9140998905532","0","1190.00","0","","","Arcor","DISPONIBLE"
+"Baggio Pronto Multifruta 18x200cc","8666549833401","117","8100.00","0","","","Arcor","DISPONIBLE"
+"Baggio Pronto Multifruta x1 LITRO","7230036718382","90","1340.00","0","","","Arcor","DISPONIBLE"
+"Baggio Pronto naranja 18x200cc","5125677990440","0","6230.00","0","","","Arcor","DISPONIBLE"
+"Baggio Pronto Naranja x1 litro","3777629381565","0","1175.00","0","","","Arcor","DISPONIBLE"
+"Baggio VIDA Multifrut 6x1500cc","6697937681611","0","5420.00","0","","","Arcor","DISPONIBLE"
+"BanaChoc DDLN x200g","9501340348172","0","247.84","0","","","Productos","DISPONIBLE"
+"Bananas Fini x500g","7972801027997","0","5250.00","0","","","Arcor","DISPONIBLE"
+"Bananina Felfort 30x15g","2826394894694","0","17370.00","0","","","Productos","DISPONIBLE"
+"Bananina Split FelFort 30x20g","4652588436301","0","17890.00","0","","","Productos","DISPONIBLE"
+"Bananita Dolca 16x14g","8729111403987","9","10880.00","0","","","Productos","DISPONIBLE"
+"Bananita Dolca 16x30g grande","6425246699243","0","18800.00","0","","","Arcor","DISPONIBLE"
+"Barbie Labial x30u","6071426015580","0","10900.00","0","","","Arcor","DISPONIBLE"
+"Barbie Ring Anillos x30u","7100114978743","11","12800.00","0","","","Arcor","DISPONIBLE"
+"Bariloche Bombonett x50u","3227151386638","0","2146.73","0","","","Productos","DISPONIBLE"
+"Barra cereal Riquito","5552350200767","0","6100.00","0","","","Arcor","DISPONIBLE"
+"Barra de arroz Lulemuu x20u","7276031185586","0","7300.00","0","","","Productos","DISPONIBLE"
+"Barra de mani crocante lheriti","4829448818782","26","448.97","0","","","Productos","DISPONIBLE"
+"Barra Smack rell mousse x12u","2790496253484","0","3800.00","0","","","Arcor","DISPONIBLE"
+"Barrita FelFort mani leche 20g","8904806203459","0","2844.84","0","","","Productos","DISPONIBLE"
+"Basquet Bronco x1u","8811500733768","0","1007.92","0","","","Arcor","DISPONIBLE"
+"Baston navideño bolsa x48u","7654818846086","0","394.01","0","","","Productos","DISPONIBLE"
+"Batatas Fritas x90g","3643315652814","78","1070.00","0","","","Arcor","DISPONIBLE"
+"Batatas Tryms x60g","2006660916558","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Bay Biscuit x142g","6741871847993","0","188.76","0","","","Productos","DISPONIBLE"
+"Bayaspirina tableta x10u","8987467416622","4","1660.00","0","","","Arcor","DISPONIBLE"
+"Bebeto Caja de sorpresas de ceramica con golosinas x20u","7254651069736","0","19300.00","0","","","Arcor","DISPONIBLE"
+"Beldent Frutilla x20u","1272852311411","0","10150.00","0","","","Arcor","DISPONIBLE"
+"Beldent Menta Fuerte x20u","8189764853830","0","10150.00","0","","","Arcor","DISPONIBLE"
+"Beldent Menta x20u","6310833114264","18","11870.00","0","","","Arcor","DISPONIBLE"
+"Beldent Mentol x20u","3758446057511","7","11870.00","0","","","Arcor","DISPONIBLE"
+"Beldent Tutti x20u","8682614011503","0","10150.00","0","","","Arcor","DISPONIBLE"
+"Bengalas Candela x4u.","4190797355656","0","1970.00","0","","","Productos","DISPONIBLE"
+"Benjamin Anillos coco x160g","2965810013527","72","480.00","0","","","Arcor","DISPONIBLE"
+"Benjamin Chips x300g","3590867037489","56","1350.00","0","","","Productos","DISPONIBLE"
+"Benjamin Nankin vainilla x160g","8558715199209","69","480.00","0","","","Arcor","DISPONIBLE"
+"Benjamin Yabila limon x160g","6415589403638","71","490.00","0","","","Arcor","DISPONIBLE"
+"Bibs con leche 18x40g","3162207982843","0","15120.00","0","","","Arcor","DISPONIBLE"
+"Bichos paleta c/juguete x10u","8799050892343","4","4000.00","0","","","Arcor","DISPONIBLE"
+"Billiken bombonera corazon fru","6492305705885","0","2770.00","0","","","Productos","DISPONIBLE"
+"Billiken confitado","1025556383336","0","6085.80","0","","","Arcor","DISPONIBLE"
+"Billiken goma citricas x800g","4913749608832","0","4560.00","0","","","Arcor","DISPONIBLE"
+"Billiken goma Mentol x800g","2244778606082","0","4560.00","0","","","Arcor","DISPONIBLE"
+"Billiken goma Tutti x800g","3257249368559","0","4560.00","0","","","Arcor","DISPONIBLE"
+"Billiken goma yogur 12x30g","5887986515866","0","4650.00","0","","","Arcor","DISPONIBLE"
+"Billiken goma Yogur x800g","4527195551140","0","4975.00","0","","","Arcor","DISPONIBLE"
+"Billiken gomas frutal x800g","3875574200135","0","4560.00","0","","","Arcor","DISPONIBLE"
+"Billiken gotita de amor 12x35g","5274700808971","0","1186.80","0","","","Productos","DISPONIBLE"
+"Billiken mast plegado x300g","1062964842052","0","1100.00","0","","","Arcor","DISPONIBLE"
+"Billiken Party Mix x339g","5000184734646","19","4700.00","0","","","Arcor","DISPONIBLE"
+"Billiken pastilla Punch x60u","7545884052096","0","3300.00","0","","","Productos","DISPONIBLE"
+"Billiken pote Cream frutilla","3625237325240","4","5700.00","0","","","Arcor","DISPONIBLE"
+"Billiken Ritz x70g","5549622962193","0","317.65","0","","","Productos","DISPONIBLE"
+"Billiken Yum Yum","5295994322140","0","1675.49","0","","","Productos","DISPONIBLE"
+"Bit pico dulce caramelo","1377001123563","0","439.82","0","","","Productos","DISPONIBLE"
+"Biyu x12u","1392407262599","0","13000.00","0","","","Productos","DISPONIBLE"
+"Bizcochos Alem","9676907848250","0","450.00","0","","","Arcor","DISPONIBLE"
+"Bizcochos La Reina x170g","2190944662452","0","253.07","0","","","Productos","DISPONIBLE"
+"Blister Cofler Graffiti 12x45g","8106146824838","9","16600.00","0","","","Productos","DISPONIBLE"
+"Block Miti Miti x170g","6078410945915","0","733.02","0","","","Productos","DISPONIBLE"
+"Bluper Chicle botellita 6x6u","8844096181577","0","8500.00","0","","","Arcor","DISPONIBLE"
+"Bluper Chicle Cajita Loca x6u","7735444068406","0","1412.77","0","","","Productos","DISPONIBLE"
+"Bluper chicle huevo 200u","6956058705994","0","9825.60","0","","","Arcor","DISPONIBLE"
+"Bluper chicle Maxi Frutas x30u","9185265299599","0","1588.21","0","","","Productos","DISPONIBLE"
+"Bluper Pastillero Destapador x6u","9736151018944","13","17700.00","0","","","Arcor","DISPONIBLE"
+"Bluper Smartphone 4x4u","5992875909600","0","7750.00","0","","","Arcor","DISPONIBLE"
+"Bocadito ddl x52u Lheritier","4200828869812","0","3500.00","0","","","Arcor","DISPONIBLE"
+"Bocadito dulce de leche Lherit","4525199019499","0","897.97","0","","","Productos","DISPONIBLE"
+"Bocadito FelFort De a 2 cereal 20ux12g","1610924807775","7","18000.00","0","","","Arcor","DISPONIBLE"
+"Bocadito Obli Bon x36u","8862246108814","0","6235.00","0","","","Arcor","DISPONIBLE"
+"Bola loca tarro x 24u","6897522110652","0","3550.00","0","","","Arcor","DISPONIBLE"
+"Bolillas Tinka Campeones x15u","9452384436883","50","3230.00","0","","","Arcor","DISPONIBLE"
+"Bolillas Tinka x100u","1049382324384","5","1690.00","0","","","Productos","DISPONIBLE"
+"Bolita licor Palmesano pote","8267678670773","0","13570.00","0","","","Arcor","DISPONIBLE"
+"Bolita Media Hora","8876645689848","2","11800.00","0","","","Productos","DISPONIBLE"
+"Bolitas Chocolate x1kg Los Rus","4988053697240","48","4800.00","0","","","Productos","DISPONIBLE"
+"Bolitas licor Palmesano x400g","9697480878040","0","6760.00","0","","","Arcor","DISPONIBLE"
+"Bolitas ácidas Marengo x810g","5057464667997","4","2600.00","0","","","Arcor","DISPONIBLE"
+"Bomba de agua comun x50u","3873669618989","0","155.77","0","","","Productos","DISPONIBLE"
+"Bombitas de agua Candela  x100","1055006559159","147","990.00","0","","","Arcor","DISPONIBLE"
+"Bombon Bel x50u","5073494868375","0","5939.00","0","","","Open Candy","DISPONIBLE"
+"Bombon Classic Billiken x60u","7937994653003","4","6200.00","0","","","Productos","DISPONIBLE"
+"Bombon Corazon Peluche Yosyelan x5u","8852628390415","0","7000.00","0","","","Arcor","DISPONIBLE"
+"Bombon Dancing x50u","6063801500231","3","6550.00","0","","","Productos","DISPONIBLE"
+"Bombon frutal Billiken x350g","9345291155711","0","3200.00","0","","","Productos","DISPONIBLE"
+"Bombon Hamlet","1260611418486","0","6270.00","0","","","Productos","DISPONIBLE"
+"Bombon Nestle display x250g","8970421409612","0","861.31","0","","","Productos","DISPONIBLE"
+"Bombon Nestle especialidades","2602141446415","0","5510.00","0","","","Arcor","DISPONIBLE"
+"Bombon Obli Bon x30u","9155631602192","3","5780.00","0","","","Productos","DISPONIBLE"
+"Bombon Peluche Yosyelan cajita x12u","5111531529512","0","12000.00","0","","","Arcor","DISPONIBLE"
+"Bombon Plenario licor x350g","1095664135470","0","1134.44","0","","","Productos","DISPONIBLE"
+"Bombon Plenario licor x700g","9754675259898","0","2600.48","0","","","Productos","DISPONIBLE"
+"Bombon Seleccion Arcor x229g","6062105176775","0","7930.00","0","","","Arcor","DISPONIBLE"
+"Bombon Surtido Garoto x250g","2617064388622","0","7470.00","0","","","Productos","DISPONIBLE"
+"Bombon Tokke ddl x30u","7986126932834","0","8400.00","0","","","Productos","DISPONIBLE"
+"Bombon Vauquita x30u","4360249118926","4","7030.00","0","","","Arcor","DISPONIBLE"
+"Bombucha x100u","3237141248438","0","1159.20","0","","","Productos","DISPONIBLE"
+"Bonafide Chocman Black","9780684566222","0","8310.00","0","","","Arcor","DISPONIBLE"
+"Bonafide Chocman Clasico x18u","8957695351245","0","8310.00","0","","","Arcor","DISPONIBLE"
+"Bonafide Taza 60% cacao  x100g","8077081128551","0","1740.00","0","","","Productos","DISPONIBLE"
+"BonoBon COCO 18x15g","6063624902263","0","4500.00","0","","","Arcor","DISPONIBLE"
+"Botella tomate triturado","3625160148063","0","219.91","0","","","Productos","DISPONIBLE"
+"Botellita chupetin chispas Illumin x24u","2467026027432","3","11800.00","0","","","Arcor","DISPONIBLE"
+"Botellon Uvita tinto 6x1125","1818795683479","10","15800.00","0","","","Arcor","DISPONIBLE"
+"Bubbaloo Frutilla x60u","6316305973324","0","5500.00","0","","","Productos","DISPONIBLE"
+"Bubbaloo Menta x60u","2605151032292","11","5500.00","0","","","Arcor","DISPONIBLE"
+"Bubbaloo Tutti x60u","4765906812117","14","5500.00","0","","","Arcor","DISPONIBLE"
+"Bubbaloo Uva x60u","6715204179874","4","5500.00","0","","","Arcor","DISPONIBLE"
+"Bubble Roll x8u","6131475309330","0","14550.00","0","","","Productos","DISPONIBLE"
+"Bucoangin x9u","1319147496769","3","1950.00","0","","","Arcor","DISPONIBLE"
+"Budin Bonafide x200g","7119976746423","0","750.00","0","","","Arcor","DISPONIBLE"
+"Budin Dos en uno x150g","2035855950922","0","496.80","0","","","Arcor","DISPONIBLE"
+"Budin Fantasia Nevares chocolate x180g","7505201692502","0","1350.00","0","","","Arcor","DISPONIBLE"
+"Budin Fantasia Nevares limon x180g","9582690528873","0","1350.00","0","","","Productos","DISPONIBLE"
+"Budin Fantasio chocolate con chips negros x200g","3101006509865","194","1500.00","0","","","Arcor","DISPONIBLE"
+"Budin Fantasio fruta x200g","6251022963654","193","1500.00","0","","","Arcor","DISPONIBLE"
+"Budin Fantasio marmolado x200g","9958880993409","181","1500.00","0","","","Arcor","DISPONIBLE"
+"Budin Fantasio vainilla con chips x200g","1832620689776","183","1500.00","0","","","Arcor","DISPONIBLE"
+"Budin Fantoche chips x220g","5128309942630","3","1700.00","0","","","Productos","DISPONIBLE"
+"Budin Fantoche frutas x200g","1180407398273","9","1700.00","0","","","Arcor","DISPONIBLE"
+"Budin Fantoche Marmolado x200g","4457682271279","0","1700.00","0","","","Arcor","DISPONIBLE"
+"Budin Fantoche sin frutas x220g","1941504709922","5","1700.00","0","","","Arcor","DISPONIBLE"
+"Budin Ivette","6718533966338","0","119.11","0","","","Productos","DISPONIBLE"
+"Budin Lanin chips x170g","5813350712137","0","1050.00","0","","","Arcor","DISPONIBLE"
+"Budin Lanin marmolado x170g","9842909930607","0","1050.00","0","","","Arcor","DISPONIBLE"
+"Budin Lanin vainilla x170g","6976596841571","0","1050.00","0","","","Arcor","DISPONIBLE"
+"Buffys 6x20g trenza corazon","9515402175166","0","311.53","0","","","Productos","DISPONIBLE"
+"Buffys Gol Pelota choc 6x26g","5514912938976","0","3910.00","0","","","Arcor","DISPONIBLE"
+"Buffys Jungle choc x24u","7865882533444","9","4720.00","0","","","Arcor","DISPONIBLE"
+"Buffys Simpson 12x30g","5508081305416","0","2920.00","0","","","Arcor","DISPONIBLE"
+"Buffys Stick 32x12g","8907686923132","11","5590.00","0","","","Productos","DISPONIBLE"
+"Buffys Stick Display","7358864329493","0","1980.91","0","","","Productos","DISPONIBLE"
+"Buffys x200g","5258826416758","0","1790.00","0","","","Productos","DISPONIBLE"
+"Bulldog cable chico","9134478979575","0","2260.44","0","","","Productos","DISPONIBLE"
+"Bulldog cintas acidas x60g","5605415681693","34","570.00","0","","","Arcor","DISPONIBLE"
+"Bulldog Crazy  x10u","3534032388906","5","5450.00","0","","","Productos","DISPONIBLE"
+"Bulldog goma Regaliz cable pote x360g","7736165545313","21","5600.00","0","","","Productos","DISPONIBLE"
+"Bulldog goma rollito acido x12","4945930501401","0","3750.00","0","","","Productos","DISPONIBLE"
+"Bulldog Huesitos 12x30g","5440572664561","11","4400.00","0","","","Arcor","DISPONIBLE"
+"Bulldog MiniRegaliz x500g","8357133679509","0","4330.00","0","","","Arcor","DISPONIBLE"
+"Bulldog Pastilla x12u.","6148936711526","0","4150.00","0","","","Productos","DISPONIBLE"
+"Bulldog regaliz 12x18g","7448829206806","0","3100.00","0","","","Arcor","DISPONIBLE"
+"Bulldog Regaliz bolsa x75g PICANTE","7778800994026","55","830.00","0","","","Arcor","DISPONIBLE"
+"Bulldog regaliz cable x600 gde","4526173742217","0","4595.40","0","","","Arcor","DISPONIBLE"
+"Bulldog Regaliz cable x75g","1697914552739","229","870.00","0","","","Arcor","DISPONIBLE"
+"Bulldog Regaliz ROLL x24u","3655806418593","17","13200.00","0","","","Arcor","DISPONIBLE"
+"Buscapina Duo tableta x10u","7325798456930","14","6300.00","0","","","Arcor","DISPONIBLE"
+"Buzzycroc chicle relleno","6249001779570","10","2070.00","0","","","Productos","DISPONIBLE"
+"Cadburys Intense 12x25g","4365779042329","0","4260.70","0","","","Arcor","DISPONIBLE"
+"Cadburys Yogur frutilla x162g","3236152659366","0","4330.00","0","","","Arcor","DISPONIBLE"
+"Cafe Sensaciones saq int. x18u","3646552675657","0","3360.00","0","","","Productos","DISPONIBLE"
+"Caja navideña","9782540162365","0","4886.83","0","","","Productos","DISPONIBLE"
+"Cajita de chicles Gaseosas x30u","4719034022167","23","20000.00","0","","","Arcor","DISPONIBLE"
+"Cajita de chicles Gaseosas x30u","1862216162574","14","20000.00","0","","","Arcor","DISPONIBLE"
+"Caloventor 2000w","2313523938325","9","29000.00","0","","","Arcor","DISPONIBLE"
+"Candy Port chupetin anillo Tutti x500g","7150452780180","5","14600.00","0","","","Arcor","DISPONIBLE"
+"Candy Port chupetin masticable yogur x30u","9263106428979","0","16480.00","0","","","Arcor","DISPONIBLE"
+"Candy Port chupetin Pizza x30u","7777543392153","0","16400.00","0","","","Arcor","DISPONIBLE"
+"Candy Port Crema Bumper x12x12g","1628964244656","15","19900.00","0","","","Arcor","DISPONIBLE"
+"Candy Port Crema Choki 12x12g","1291512128024","17","19900.00","0","","","Arcor","DISPONIBLE"
+"Candy Port Crema Halfie x12u","9107830049208","12","19900.00","0","","","Arcor","DISPONIBLE"
+"Candy Port Emoji Pop x30u","3244723408213","9","14800.00","0","","","Arcor","DISPONIBLE"
+"Candy Port Goma Frutitas x30u","7877758134794","9","12200.00","0","","","Arcor","DISPONIBLE"
+"Candy Port Papas Fritas x30u","4933575566286","5","16400.00","0","","","Arcor","DISPONIBLE"
+"Candy Port patita chispas x24u","9469501088254","0","12520.00","0","","","Arcor","DISPONIBLE"
+"Candy Port Pincho de frutilla x30u","6644614773649","0","14800.00","0","","","Arcor","DISPONIBLE"
+"Candy Port polvo acido botella x30u","5898143020331","10","12300.00","0","","","Arcor","DISPONIBLE"
+"Candy Toys botella x30u","9971538651778","0","13400.00","0","","","Arcor","DISPONIBLE"
+"Candy Toys cajita x30u","8817762281307","0","11550.00","0","","","Arcor","DISPONIBLE"
+"Candy Toys Hombre araña x30u","8186501446289","0","12200.00","0","","","Arcor","DISPONIBLE"
+"Candy Toys latita x30u","7072092458843","0","14080.00","0","","","Arcor","DISPONIBLE"
+"Candy Toys Oso saltarin x30u","7045853065565","4","13084.48","0","","","Arcor","DISPONIBLE"
+"Candy Toys x30u","1461092013595","0","10180.00","0","","","Productos","DISPONIBLE"
+"Canuto c/billete Paysandu x50u","2684238034058","0","1150.00","0","","","Arcor","DISPONIBLE"
+"Canuto vaso emoticon x40u","7923081459545","7","3300.00","0","","","Arcor","DISPONIBLE"
+"Canuto vaso Hombre araña x40u","3786240087070","17","3300.00","0","","","Arcor","DISPONIBLE"
+"Canuto vaso princesa x40u","6406075941922","11","3300.00","0","","","Arcor","DISPONIBLE"
+"Capibara Colgante","9575982889312","10","7500.00","0","","","Arcor","DISPONIBLE"
+"Caramelo Acido Pinta Boca Dra Loka x30u","5952926697034","0","14400.00","0","","","Arcor","DISPONIBLE"
+"Caramelo bolita Marengo x454g","2377147035735","8","2910.00","0","","","Productos","DISPONIBLE"
+"Caramelo Brazilian Coffee cafe bolsa x500g","8944496987580","0","5000.00","0","","","Arcor","DISPONIBLE"
+"Caramelo cafe marengo x100g.","5870337261588","0","91.63","0","","","Productos","DISPONIBLE"
+"Caramelo duro Pico Dulce x90u","4160543240709","6","5120.00","0","","","Arcor","DISPONIBLE"
+"Caramelo Florestal lata redonda sin azucar x40g","5534109042502","0","2800.00","0","","","Arcor","DISPONIBLE"
+"Caramelo Florestal lata x40g bala corazon","5716986295271","0","3600.00","0","","","Arcor","DISPONIBLE"
+"Caramelo Malvavisco Brocheta x30u","4252772929732","0","11500.00","0","","","Arcor","DISPONIBLE"
+"Cascarones Los Rusitos","8271772283344","0","4650.00","0","","","Arcor","DISPONIBLE"
+"Cascarones Los Rusitos x1kg","5428857008601","6","8900.00","0","","","Arcor","DISPONIBLE"
+"Cascarones x1kg. Oritas","4945121399698","16","9800.00","0","","","Productos","DISPONIBLE"
+"Catch Pop x8u.","8749823610959","0","9273.60","0","","","Productos","DISPONIBLE"
+"Catz Pop x6u","6819816781094","0","11870.00","0","","","Arcor","DISPONIBLE"
+"Celosas x350g.","8056241469234","0","331.62","0","","","Productos","DISPONIBLE"
+"Cereal azucarado x1kg Los Rusi","8085548982957","0","3400.00","0","","","Productos","DISPONIBLE"
+"Cereal Fort 24x19g","3168713615794","0","14960.00","0","","","Productos","DISPONIBLE"
+"Chalitas Pancetas Oritas","4695563681392","0","6000.00","0","","","Arcor","DISPONIBLE"
+"Chicken Chat","9078642986303","0","1231.66","0","","","Productos","DISPONIBLE"
+"Chicle Alka plegado fruta","7002716802078","0","3000.00","0","","","Productos","DISPONIBLE"
+"Chicle Bazooka x80u","4974902794142","11","5850.00","0","","","Productos","DISPONIBLE"
+"Chicle bolas Zed Candy x975g","1274988953003","1","15870.00","0","","","Arcor","DISPONIBLE"
+"Chicle Gallina Coquita x8u","1715769735740","0","18500.00","0","","","Arcor","DISPONIBLE"
+"Chicle globo Sapito","1959924696427","0","1215.00","0","","","Arcor","DISPONIBLE"
+"Chicle Pico Dulce Acido Power x80u","8217984674416","4","4120.00","0","","","Arcor","DISPONIBLE"
+"Chicle Pico Dulce Tutti x80u","2630700540784","2","4120.00","0","","","Arcor","DISPONIBLE"
+"Chicle Redondito granel","8766742737378","0","1081.21","0","","","Productos","DISPONIBLE"
+"Chicle Rollo Candy Loka 3 gustos","1766566459701","2","14500.00","0","","","Arcor","DISPONIBLE"
+"Chicles Flics","4312125302214","0","1439.86","0","","","Productos","DISPONIBLE"
+"Chips de mandioca, batata y papas Juli Croc x90g","8717701597501","76","1090.00","0","","","Arcor","DISPONIBLE"
+"Chips Riquito x340g","7144266971883","0","990.00","0","","","Productos","DISPONIBLE"
+"Chisitos extra queso x65g","6516751607919","47","720.00","0","","","Juli Croc","DISPONIBLE"
+"Chisitos Los Rusitos x45g Chicos","6661607410066","11","490.00","0","","","Arcor","DISPONIBLE"
+"Chisitos queso Juli Croc x80g","6948076260767","0","450.00","0","","","Arcor","DISPONIBLE"
+"Chisitos x1kg Los Rusitos","8450851833975","441","4100.00","0","","","Productos","DISPONIBLE"
+"Choc. Nestle mani 15ux33g","7094165264098","0","8210.00","0","","","Productos","DISPONIBLE"
+"Choc. Nestle mani x90g","7549845315861","0","1460.00","0","","","Productos","DISPONIBLE"
+"Choco Pamela x220g","1049018144002","0","770.00","0","","","Arcor","DISPONIBLE"
+"Chocofan Mini torta x15u","7122548816074","0","4572.23","0","","","Arcor","DISPONIBLE"
+"Chocolatada Latte 18x200cc","5715698573793","138","10600.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Arcor Milk 20x12g","1844427018304","0","5490.00","0","","","Productos","DISPONIBLE"
+"Chocolate Cadbury Tres Sueños 12x25g","4993168752870","2","14500.00","0","","","Arcor","DISPONIBLE"
+"Chocolate con leche Hersheys x82g","6776429025089","0","1800.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Hamlet x45g","2383152786492","147","600.00","0","","","Productos","DISPONIBLE"
+"Chocolate Kinder x50gx 4u","8002700508665","4","2500.00","0","","","Arcor","DISPONIBLE"
+"Chocolate leche Minions 24ux12","2003750838604","0","2338.69","0","","","Productos","DISPONIBLE"
+"Chocolate Mecano relleno x45g","8024093433062","69","1640.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Meltz Pistachios x192g","7408833973646","0","23200.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Misky CRUNCH x25g","1460415216284","0","500.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Misky taza x100g","4636151900900","6","2450.00","0","","","Misky","DISPONIBLE"
+"Chocolate Misky x25g","1418513572248","475","710.00","0","","","Misky","DISPONIBLE"
+"Chocolate Misky x50g","6253028914894","53","1350.00","0","","","Misky","DISPONIBLE"
+"Chocolate Shot x35g","4906582310041","0","150.29","0","","","Productos","DISPONIBLE"
+"Chocolate Taza Bonafide x100g","2323547858550","0","3500.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Toddy tableta blanco cookies x60g","9601847024654","19","2700.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Toddy tableta chocolate x60g","7862445925929","18","2700.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Toddy tableta mousse x60g","6739178897378","18","2700.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Tokke blanco relleno x72g","4355414462277","99","2200.00","0","","","Arcor","DISPONIBLE"
+"Chocolate Tokke comun x65g","6901032305247","0","296.70","0","","","Productos","DISPONIBLE"
+"Chocolate Tokke leche y mani x62g","4383842183414","30","1990.00","0","","","Productos","DISPONIBLE"
+"Chocolate Tokke relleno Dulce de leche x72g","5881453485656","4","1990.00","0","","","Productos","DISPONIBLE"
+"Chocolate Vizzio x35g","7100793409755","0","109.96","0","","","Productos","DISPONIBLE"
+"Chocolate Vizzio x85g","5044120426233","0","274.91","0","","","Productos","DISPONIBLE"
+"Chocolatin Georgalos 40ux8g","4863550610808","0","14670.00","0","","","Arcor","DISPONIBLE"
+"Chocolatin Jack Emoji 20x14g","5024062183019","0","7330.25","0","","","Arcor","DISPONIBLE"
+"Chocolatin Misky x8g.","7812644313821","12","6500.00","0","","","Misky","DISPONIBLE"
+"ChocoLia x170g","9503765844815","19","900.00","0","","","Arcor","DISPONIBLE"
+"Chocolina choc blanco x245g","1174475707854","33","1630.00","0","","","Arcor","DISPONIBLE"
+"Chup masticable pinta lengua","1715122921481","0","1178.08","0","","","Productos","DISPONIBLE"
+"Chupelatin FelFort 32x15g","5298059407990","0","4370.65","0","","","Productos","DISPONIBLE"
+"Chupete Trompito colgante x10u","8253724004634","0","3150.00","0","","","Productos","DISPONIBLE"
+"Chupetin Bob Esponja x30u","9022253140181","3","19000.00","0","","","Arcor","DISPONIBLE"
+"Chupetin Bola Loca relleno chicle x24u","4530260778491","76","3160.00","0","","","Productos","DISPONIBLE"
+"Chupetin Doblete Marengo x50u","7424353846413","0","1650.00","0","","","Arcor","DISPONIBLE"
+"Chupetin Florestal Baby corazo","6827615864871","0","610.86","0","","","Productos","DISPONIBLE"
+"Chupetin Florestal pir/princes","9655761099088","0","698.11","0","","","Productos","DISPONIBLE"
+"Chupetin frutal Mr Pops x50u","6989085227077","0","5380.00","0","","","Arcor","DISPONIBLE"
+"Chupetin masticable Baby Doll","1640061350811","0","3650.00","0","","","Productos","DISPONIBLE"
+"Chupetin masticable Fierita Super Tattoo","9576140118484","3","6383.00","0","","","Open Candy","DISPONIBLE"
+"Chupetin Masticable Nitro x50u","9741097230558","28","4700.00","0","","","Arcor","DISPONIBLE"
+"Chupetin Mr Pops c chicle x24u","9741472075711","0","4480.00","0","","","Arcor","DISPONIBLE"
+"Chupetin Mr Pops Yogus x50u","6959774941556","0","5600.00","0","","","Arcor","DISPONIBLE"
+"Chupetin Paysandu Conejo x30u","3241109067252","6","15300.00","0","","","Arcor","DISPONIBLE"
+"Chupetin Peccin Blong chicle","4051381430613","0","760.52","0","","","Productos","DISPONIBLE"
+"Chupetin Pelotitas Lheritier x50u","2312749342542","238","2300.00","0","","","Productos","DISPONIBLE"
+"Chupetin Topolin sorpresa x10u","6016344487793","0","714.71","0","","","Productos","DISPONIBLE"
+"Chupetin Trompito Arcor x50u","8848174944353","0","5500.00","0","","","Arcor","DISPONIBLE"
+"Chupeton con aro Manduvi x15u","1477232681227","2","2100.00","0","","","Arcor","DISPONIBLE"
+"Chupetoncito Lheritier","5258057458159","0","4014.17","0","","","Productos","DISPONIBLE"
+"Cigarrera madera","9785202291581","1","25000.00","0","","","Arcor","DISPONIBLE"
+"Cigarritos Temflor x1kg","5439085478876","0","4275.98","0","","","Productos","DISPONIBLE"
+"Cintitas Tostex bañadas crema cookies x88gx2u","2855532486155","0","660.00","0","","","Arcor","DISPONIBLE"
+"Cintitas Tostex salame x125g","6977451552351","0","930.00","0","","","Arcor","DISPONIBLE"
+"Clight Anana x20u","2650799085954","0","5300.00","0","","","Arcor","DISPONIBLE"
+"Clight Limonada x20u","5291067551468","24","5300.00","0","","","Arcor","DISPONIBLE"
+"Clight Mandarina x20u","1687536972610","0","5300.00","0","","","Arcor","DISPONIBLE"
+"Clight Manzana deliciosa x20u","4858536556505","23","5300.00","0","","","Arcor","DISPONIBLE"
+"Clight Naranja Dulce x20u","4754884384307","0","5300.00","0","","","Arcor","DISPONIBLE"
+"Clight Naranja Durazno x20u","8565630136432","0","5010.00","0","","","Arcor","DISPONIBLE"
+"Clight Naranja Mango x20u","9714972556127","0","5010.00","0","","","Arcor","DISPONIBLE"
+"Clight Naranja VIT C x20u","9182575326964","10","5300.00","0","","","Arcor","DISPONIBLE"
+"Clight Pomelo amarillo x20u","2141925273244","12","5300.00","0","","","Arcor","DISPONIBLE"
+"Clight Pomelo Rosado x20u","4290757458355","0","5300.00","0","","","Arcor","DISPONIBLE"
+"Clix Mini8 x100u","1846074763264","0","1535.86","0","","","Productos","DISPONIBLE"
+"Club Social x145g","8635612050722","0","2800.00","0","","","Arcor","DISPONIBLE"
+"Coco Pop x8u","7394710564997","0","10360.36","0","","","Productos","DISPONIBLE"
+"Cofler aireado x55g","4671624930152","0","733.02","0","","","Arcor","DISPONIBLE"
+"Cofler Block x110g","6746634838519","0","3330.00","0","","","Productos","DISPONIBLE"
+"Cofler Block x38g","6872948823762","0","1290.00","0","","","Arcor","DISPONIBLE"
+"Conejito FelFort blanco x38g","9959184482490","0","2060.00","0","","","Arcor","DISPONIBLE"
+"Conejito FelFort x38g","6921389667372","0","2060.00","0","","","Arcor","DISPONIBLE"
+"Conejo Bonobon","6105560454390","0","8759.65","0","","","Productos","DISPONIBLE"
+"Conejo Magico x30u","2585605342774","1","13500.00","0","","","Arcor","DISPONIBLE"
+"Conejo Pascuas Ferrero Rocher","9927036326435","0","1768.43","0","","","Productos","DISPONIBLE"
+"Conejo Plano Bonafide x60g","6624833727122","0","523.58","0","","","Productos","DISPONIBLE"
+"Conejo Rocklets x55g","7687692720914","0","8191.55","0","","","Productos","DISPONIBLE"
+"Conejos Bonafide bolsa x50u","7776768720307","0","3720.00","0","","","Arcor","DISPONIBLE"
+"Confite chocolate Corazonito surtido x500g","2290797167351","7","7500.00","0","","","Arcor","DISPONIBLE"
+"Confite Color Latin x60g","2773384659270","85","570.00","0","","","Arcor","DISPONIBLE"
+"Confite palmesano","8910760475799","0","0.00","0","","","Productos","DISPONIBLE"
+"Conitos Los Rusitos x1kg","6027007751516","0","8900.00","0","","","Arcor","DISPONIBLE"
+"Conitos x1kg Oritas","9641137438206","19","10800.00","0","","","Productos","DISPONIBLE"
+"Conix x70g. Juli Croc","8301022337901","114","1164.00","0","","","Juli Croc","DISPONIBLE"
+"Cookies Bauducco x12x40g","7531785297680","0","934.61","0","","","Productos","DISPONIBLE"
+"Cool Mint x30u","9173409551678","0","8700.00","0","","","Arcor","DISPONIBLE"
+"Copitos dulce de leche Riquito x24u","3140765917841","0","12000.00","0","","","Productos","DISPONIBLE"
+"Copitos Turimar","7453187358962","0","5700.00","0","","","Arcor","DISPONIBLE"
+"Corazonito surtido 12ux30g","2844031256377","7","6000.00","0","","","Arcor","DISPONIBLE"
+"Crazy Pop tira x20u","7577860885418","0","8600.00","0","","","Productos","DISPONIBLE"
+"Creepy Pop x8u","6674356624667","0","7900.00","0","","","Arcor","DISPONIBLE"
+"Cubanito Chocostar x40u","5643892422379","0","3050.00","0","","","Arcor","DISPONIBLE"
+"Cubanito FelFort Winning 25ux20g","1925726277197","0","24000.00","0","","","Arcor","DISPONIBLE"
+"Cubanito Oblita x48u","8697491699472","0","3350.00","0","","","Productos","DISPONIBLE"
+"Cubanito Smack 48ux25g","1833210476034","0","8970.00","0","","","Arcor","DISPONIBLE"
+"Curitas tela caja x8u","6680304276612","39","830.00","0","","","Arcor","DISPONIBLE"
+"Curvis Juli Croc x65g","7983223190417","0","737.00","0","","","Juli Croc","DISPONIBLE"
+"Daqui almendras x90g","4279156472275","0","750.00","0","","","Productos","DISPONIBLE"
+"Daqui chico x40g","2346584488058","12","680.00","0","","","Arcor","DISPONIBLE"
+"Daqui Duo x70g","7200010176111","0","930.00","0","","","Arcor","DISPONIBLE"
+"Daqui leche y mani x70g","5591456682979","0","900.00","0","","","Productos","DISPONIBLE"
+"Daqui Max x120g","7752530194175","0","1430.00","0","","","Productos","DISPONIBLE"
+"Delicias de la Nona chip","3530948949420","0","296.70","0","","","Productos","DISPONIBLE"
+"Dentaduras Fini x250g","1032851801217","0","2930.00","0","","","Arcor","DISPONIBLE"
+"Diclofenac tableta x15u","4987507290640","3","570.00","0","","","Arcor","DISPONIBLE"
+"Dino Huevos Saurus x30u","4426456956472","0","18000.00","0","","","Arcor","DISPONIBLE"
+"Dinosaurio paleta c/ juguete","9805319788378","0","3651.48","0","","","Arcor","DISPONIBLE"
+"Dismar Repelente Aktiol x143","9274844022951","0","6490.00","0","","","Arcor","DISPONIBLE"
+"Dispenser Bluper","4420603323212","0","4260.06","0","","","Arcor","DISPONIBLE"
+"Dispenser Pistola x8u","3991692523763","0","62000.00","0","","","Arcor","DISPONIBLE"
+"Docile Canudinho 12x15g","4367260561600","1","3150.00","0","","","Arcor","DISPONIBLE"
+"Docile Canudinho 24x26g (1u)","2160587960933","0","11680.00","0","","","Arcor","DISPONIBLE"
+"Docile Pastille Mini 8 100u","2933223585043","0","3710.00","0","","","Productos","DISPONIBLE"
+"Dodi Limon y Poleo","6007793697538","10","3300.00","0","","","Arcor","DISPONIBLE"
+"Dodi Mandarina y Burrito x15u","1325860481082","11","3300.00","0","","","Arcor","DISPONIBLE"
+"Doggy Pop x6u","3159733719590","0","14500.00","0","","","Productos","DISPONIBLE"
+"Don Satur bizc agridulce x200g","4976097740291","43","870.00","0","","","Arcor","DISPONIBLE"
+"Don Satur bizc clasico x200g","9138787450654","0","790.00","0","","","Arcor","DISPONIBLE"
+"Don Satur bizc negrito x200g","9232437700422","80","870.00","0","","","Arcor","DISPONIBLE"
+"Donuts Bonafide blancas x78g","8043772415883","1","1450.00","0","","","Productos","DISPONIBLE"
+"Dos corazones FelFort x20u","1413146213903","0","28000.00","0","","","Productos","DISPONIBLE"
+"DRF Anis x12u","6132338213820","10","3100.00","0","","","Arcor","DISPONIBLE"
+"DRF Frutos Citricos x12u","3830769714984","3","3100.00","0","","","Arcor","DISPONIBLE"
+"DRF Frutos Rojos x12u","7129227490481","4","3100.00","0","","","Arcor","DISPONIBLE"
+"DRF Limon x12u","1241774250336","6","3100.00","0","","","Arcor","DISPONIBLE"
+"DRF Menta x12u","7477602073036","10","3100.00","0","","","Arcor","DISPONIBLE"
+"DRF Mentol x12u","1111159573763","10","3100.00","0","","","Arcor","DISPONIBLE"
+"DRF Naranja x12u","9754269289440","4","3100.00","0","","","Arcor","DISPONIBLE"
+"DRF Surtida x24u","3074647669708","0","7120.00","0","","","Arcor","DISPONIBLE"
+"Drink Candy Open x50u","4338714147703","17","3000.00","0","","","Arcor","DISPONIBLE"
+"Dropsy Acuario","1208598367117","0","366.53","0","","","Productos","DISPONIBLE"
+"Ducrem BALL x18u","3399628755832","0","6030.00","0","","","Arcor","DISPONIBLE"
+"Ducrem Dip Coloreti x18u","1784319628349","0","6030.00","0","","","Arcor","DISPONIBLE"
+"Ducrem LOVE x18u","2834960926015","0","6030.00","0","","","Arcor","DISPONIBLE"
+"Ducrem x36u","2147536609737","0","4300.00","0","","","Productos","DISPONIBLE"
+"Dulce de leche familiar CHICO x1kg","8848451655389","3","3900.00","0","","","Arcor","DISPONIBLE"
+"Dulce de leche familiar GRANDE x10kg","4084735858978","1","32400.00","0","","","Arcor","DISPONIBLE"
+"Dulce de leche repostero CHICO x1kg","1222811926331","9","3900.00","0","","","Arcor","DISPONIBLE"
+"Dulce de leche repostero GRANDE x10kg","2886523318522","9","32400.00","0","","","Productos","DISPONIBLE"
+"Eccole adhesivo x9g","5719769740015","0","4550.00","0","","","Arcor","DISPONIBLE"
+"Edulcorante SiDiet x200","4855258638972","38","1030.00","0","","","Arcor","DISPONIBLE"
+"Emoti Pop x9u","1536623422931","2","15280.00","0","","","Productos","DISPONIBLE"
+"Encendedor Candela Extensible (unidad)","6157622273965","17","1850.00","0","","","Arcor","DISPONIBLE"
+"Encendedor Candela Recargable Mini x10u","8974682931338","0","4960.00","0","","","Arcor","DISPONIBLE"
+"Encendedor Candela x25u.","5599567057557","2","7500.00","0","","","Productos","DISPONIBLE"
+"Encendedor Electronico Candela Black x20u","3038965781113","0","11500.00","0","","","Arcor","DISPONIBLE"
+"EspacialFort FelFort air x20u","9978034709642","0","2739.68","0","","","Productos","DISPONIBLE"
+"Espirales Fuyi 12x4u","5971103330789","0","2815.20","0","","","Arcor","DISPONIBLE"
+"Estrellitas Frutales x100u","3983794088767","20","4650.00","0","","","Arcor","DISPONIBLE"
+"Exhibidor Juli Croc","6323117776975","0","20000.00","0","","","Productos","DISPONIBLE"
+"Exhibidor Push Pop mix x30u","3849814593746","0","11780.38","0","","","Productos","DISPONIBLE"
+"Exhibidor Tryms","6302179637571","0","20000.00","0","","","Arcor","DISPONIBLE"
+"Fantoche bocadito relleno dulce de leche x20u","9851180600182","5","5900.00","0","","","Arcor","DISPONIBLE"
+"Fantoche gta chispas x155g","5550115594915","0","795.00","0","","","Arcor","DISPONIBLE"
+"Fantoche triple day x12u","5882918462932","0","8900.00","0","","","Arcor","DISPONIBLE"
+"Fantoche Triple Estrella x12u","2645522278485","0","8140.00","0","","","Arcor","DISPONIBLE"
+"Fantoche triple Night x12u","9007628977334","0","8750.00","0","","","Arcor","DISPONIBLE"
+"Fantoche XS Rose MTV x20u","1692683776507","0","5260.00","0","","","Arcor","DISPONIBLE"
+"Feeling Felfort 30x20g","1571240107368","0","22000.00","0","","","Productos","DISPONIBLE"
+"FelFort Chocolate mani x75g","4136866266560","0","439.82","0","","","Productos","DISPONIBLE"
+"Felfort Tableta mani 12x30g","4361995632202","0","1797.66","0","","","Productos","DISPONIBLE"
+"Fernet Branca x750ml","5921145988766","0","7600.00","0","","","Arcor","DISPONIBLE"
+"Ferrero acrilico x12","6740216813649","0","12500.00","0","","","Productos","DISPONIBLE"
+"Ferrero acrilico x16","6180587870160","0","1777.60","0","","","Productos","DISPONIBLE"
+"Ferrero Corazon x8u","6898313806839","0","1972.19","0","","","Productos","DISPONIBLE"
+"Ferrero display x4u","5762226446714","0","4500.00","0","","","Productos","DISPONIBLE"
+"Ferrero Nutella x140g","3025215479080","25","4300.00","0","","","Arcor","DISPONIBLE"
+"Ferrero Nutella x350g","9758784688751","19","8150.00","0","","","Arcor","DISPONIBLE"
+"Ferrero Rocher caja x8u","9568640481397","0","8600.00","0","","","Productos","DISPONIBLE"
+"Ferrero x24 acrilico","5834446432939","2","23200.00","0","","","Productos","DISPONIBLE"
+"Ferrero x3x16u.","5198259633078","3","44700.00","0","","","Productos","DISPONIBLE"
+"Fierita Chicle","4893009561799","233","3219.00","0","","","Open Candy","DISPONIBLE"
+"Fierita Comefuego x50u","1049033262090","606","1600.00","0","","","Productos","DISPONIBLE"
+"Fierita Metrico 24cm Nitro","6679555618373","0","5850.00","0","","","Arcor","DISPONIBLE"
+"Fierita Metrico 24cmx24u","1790182619751","0","5700.00","0","","","Arcor","DISPONIBLE"
+"Fierita MINI recargado x12u","2888956224638","9","3350.00","0","","","Arcor","DISPONIBLE"
+"Flow Cereal Choco y naranja x20u","4300264012078","2","13400.00","0","","","Arcor","DISPONIBLE"
+"Flow Cereal Frutas x20u","4066652436824","0","13400.00","0","","","Arcor","DISPONIBLE"
+"Flow Cereal Frutos del bosque c/ yogur x20u","6152678376638","0","13400.00","0","","","Arcor","DISPONIBLE"
+"Flow Cereal Georgalos Avellana y arandanos x20u","3829925945456","1","15800.00","0","","","Productos","DISPONIBLE"
+"Flow Cereal Granola con chips chocolate x20u","8937745983870","2","13400.00","0","","","Arcor","DISPONIBLE"
+"Flow Cereal Granola frutos del bosque x20u","5504515424345","2","13400.00","0","","","Arcor","DISPONIBLE"
+"Flow Cereal Manzana Light x20u","1876080809624","3","13400.00","0","","","Arcor","DISPONIBLE"
+"Flow Cereal Yogur Light x20u","6299524639875","0","13400.00","0","","","Arcor","DISPONIBLE"
+"Flynn Paff chup masticable x24","4969063537810","3","2564.74","0","","","Productos","DISPONIBLE"
+"Flynn Paff Monkey","4394339840718","0","5225.00","0","","","Productos","DISPONIBLE"
+"Flynn Paff x70u","3677326266354","3","6400.00","0","","","Productos","DISPONIBLE"
+"Flynn Paff XXL","8119488741363","0","2399.78","0","","","Productos","DISPONIBLE"
+"Frosty Pop x8u","3032310199928","0","14300.00","0","","","Productos","DISPONIBLE"
+"Fruti Gelatin","6986787169368","0","2380.00","0","","","Productos","DISPONIBLE"
+"Frutilla Gelatina Tipo Pizza x30u","1416274446531","0","20000.00","0","","","Arcor","DISPONIBLE"
+"Frutimania Crunch x100u","5881270943490","0","4050.00","0","","","Arcor","DISPONIBLE"
+"Full mani 15x35g.","8719550247334","0","10090.00","0","","","Productos","DISPONIBLE"
+"FullMint menta con chocolate x12u","3194446768079","0","4750.00","0","","","Arcor","DISPONIBLE"
+"Fun Pop Mix Stand x12u","6678755815085","0","20400.00","0","","","Arcor","DISPONIBLE"
+"Gajitos Lipo x454g","3688369916672","42","2790.00","0","","","Arcor","DISPONIBLE"
+"Gajitos Lipo x907g","1084220227958","0","5200.00","0","","","Arcor","DISPONIBLE"
+"Galletita Hamlet x152g","8304903938936","0","830.00","0","","","Arcor","DISPONIBLE"
+"Galletita Onix x90g","1134326832783","2","630.00","0","","","Arcor","DISPONIBLE"
+"Galletita salada La Providenci","4425227075394","0","219.91","0","","","Productos","DISPONIBLE"
+"Galletitas Doninas c/ semillas x200g","6263665111990","28","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Doninas chocolate y mani x200g","5598017932307","37","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Doninas coco y dulce de leche x200g","4278476075605","12","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Doninas con chips x200g","9803613991645","16","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Doninas con nueces x200g","9350506910442","7","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Doninas de limon x150g","4603811052342","0","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Doninas de naranja x150g","1754183977678","0","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Doninas Frutos del bosque x200g","8112359162038","32","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Doninas saladas x180g","2262820727991","1","1750.00","0","","","Arcor","DISPONIBLE"
+"Galletitas exhibicion x4kg.","8130744935106","0","2670.30","0","","","Productos","DISPONIBLE"
+"Galletitas Fauna Mauri x150g","9008865913533","37","550.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Formis Dulce de leche x72g","5779942845080","127","670.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Formis Frutilla x72g","1728486812451","112","670.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Fun Fantoche x150g","7620220681400","12","314.16","0","","","Productos","DISPONIBLE"
+"Galletitas Kokis x200g","1161720477802","0","164.94","0","","","Productos","DISPONIBLE"
+"Galletitas Toddy x126g","4748980438443","0","317.03","0","","","Productos","DISPONIBLE"
+"Galletitas Tostex Chips de chocolate x270g","8607604866660","0","1490.00","0","","","Arcor","DISPONIBLE"
+"Galletitas Tostex Coco con chips de chocolate x240g","8466181439890","0","1490.00","0","","","Arcor","DISPONIBLE"
+"Gallinita con jugo el Gordito x25u","7126969601841","0","2550.00","0","","","Arcor","DISPONIBLE"
+"Gallinita Felfort blanca x38g","8849266753692","0","2060.00","0","","","Arcor","DISPONIBLE"
+"Gallinita FelFort x38g","7693160432906","0","2060.00","0","","","Arcor","DISPONIBLE"
+"Gallinitas Popy x25u","7685372173908","13","4800.00","0","","","Productos","DISPONIBLE"
+"Garoto Almeidom","4275091855199","0","183.24","0","","","Productos","DISPONIBLE"
+"GarrapiÃ±ada mani Bonafide x80g","7482438238924","0","650.00","0","","","Arcor","DISPONIBLE"
+"Garrapiñada Latin x60g","5994859286912","0","450.00","0","","","Arcor","DISPONIBLE"
+"Gaseosa Fresh cola 6x2250ml","9188054131881","0","6680.00","0","","","Arcor","DISPONIBLE"
+"Gaseosa Fresh lima limo 6x2250","1257235908197","0","6680.00","0","","","Arcor","DISPONIBLE"
+"Gaseosa Fresh Naranja 6x2250ml","2367007310431","0","6680.00","0","","","Arcor","DISPONIBLE"
+"Gaseosa Fresh pomelo 6x2250ml","9423332624620","0","6680.00","0","","","Arcor","DISPONIBLE"
+"Gaseosa Fresh Pomelo rosado","8841807632191","0","5940.00","0","","","Arcor","DISPONIBLE"
+"Gel en sobre Super Sour x24u","2798515351039","13","15000.00","0","","","Arcor","DISPONIBLE"
+"Genio 3","1925216251958","0","971.27","0","","","Productos","DISPONIBLE"
+"Genio torta ddl x20u","7456362292062","0","7670.00","0","","","Arcor","DISPONIBLE"
+"Girasol crudo x20kg","6374681474370","0","35000.00","0","","","Productos","DISPONIBLE"
+"Girasol Meli x1,5kg.","9786441195213","169","3800.00","0","","","Productos","DISPONIBLE"
+"Glins Merengue frutilla x90g","4953737660767","0","550.00","0","","","Arcor","DISPONIBLE"
+"Globo liso surtido x50u","6544541803239","0","1890.00","0","","","Productos","DISPONIBLE"
+"Go Dipperz x12","7642797863036","8","17900.00","0","","","Arcor","DISPONIBLE"
+"Goma baby doll x600g.","5053576742014","0","549.77","0","","","Productos","DISPONIBLE"
+"Goma Billiken Eucalipto x800g","6129635186226","0","4560.00","0","","","Arcor","DISPONIBLE"
+"Goma Docile Moras x50u","3448994654337","0","2280.00","0","","","Arcor","DISPONIBLE"
+"Goma Docile Ositos x50u","3391011117615","5","2280.00","0","","","Arcor","DISPONIBLE"
+"Goma Dori rollo x30u.","9852574954474","0","1136.20","0","","","Productos","DISPONIBLE"
+"Goma Eucalipto Misky x1kg","8622472952029","14","6600.00","0","","","Arcor","DISPONIBLE"
+"Goma Fantasia Misky x1kg","2062984039041","90","6800.00","0","","","Misky","DISPONIBLE"
+"Goma Fierita Button x500g","9771343227922","0","2800.00","0","","","Arcor","DISPONIBLE"
+"Goma Fierita clasica x500g","7102277205863","8","2800.00","0","","","Arcor","DISPONIBLE"
+"Goma Fierita Corazon x500g","8215647993836","0","2280.00","0","","","Arcor","DISPONIBLE"
+"Goma Fierita Gajos x500g","4671020155157","0","2550.00","0","","","Arcor","DISPONIBLE"
+"Goma Fierita Yogur x500g","7087433279052","0","2550.00","0","","","Arcor","DISPONIBLE"
+"Goma Jelly Roll Misky x1kg","3680127549564","30","6800.00","0","","","Arcor","DISPONIBLE"
+"Goma Misky ACIDAS x500g","9914542081967","0","4620.00","0","","","Arcor","DISPONIBLE"
+"Goma Misky rollo x12u","5571846366269","18","3700.00","0","","","Productos","DISPONIBLE"
+"Goma Mogul 12x30g","7716423000012","0","5660.00","0","","","Arcor","DISPONIBLE"
+"Goma Pinata Anillos Acidos x700g","1109518253639","0","4500.00","0","","","Arcor","DISPONIBLE"
+"Goma Pinata Anillos Crunch x700g","9143433163670","0","4500.00","0","","","Arcor","DISPONIBLE"
+"Goma Pinata anillos x700g","9432740536484","19","4400.00","0","","","Productos","DISPONIBLE"
+"Goma Pinata chupete x700g","7013010035580","16","4500.00","0","","","Arcor","DISPONIBLE"
+"Goma Pinata eucalipto x700g","2886956333219","0","4500.00","0","","","Arcor","DISPONIBLE"
+"Goma Pinata huesitos x700g","8702926507996","2","4500.00","0","","","Arcor","DISPONIBLE"
+"Goma Pinata redonditas x700g","8477490186664","0","4500.00","0","","","Arcor","DISPONIBLE"
+"Goma Pinata surtidas x700g","3551527072610","0","4500.00","0","","","Arcor","DISPONIBLE"
+"Goma Plenario Besitos x500g","2292586715018","0","4920.00","0","","","Productos","DISPONIBLE"
+"Goma Plenario Pote","1149900669471","0","6500.00","0","","","Arcor","DISPONIBLE"
+"Goma Rellenola pote x125u/65u.","6849996551514","0","2492.28","0","","","Productos","DISPONIBLE"
+"Goma Rollo Billiken x12u","6813181071747","0","2700.00","0","","","Productos","DISPONIBLE"
+"Goma Rollo Fierita x30u","1108866836910","0","5050.00","0","","","Arcor","DISPONIBLE"
+"Goma Vidal x900g","3666289249119","0","14380.00","0","","","Arcor","DISPONIBLE"
+"Goma Yummy Bananitas x500g","4165475841751","0","4450.00","0","","","Productos","DISPONIBLE"
+"Goma Yummy Botellita x500g","7471700556752","0","4450.00","0","","","Arcor","DISPONIBLE"
+"Goma Yummy Frutilla crema x500g","1009388022557","0","4450.00","0","","","Arcor","DISPONIBLE"
+"Goma Yummy Huevo Frito x500g","6023550819029","0","4450.00","0","","","Arcor","DISPONIBLE"
+"Goma Yummy Moritas x500g","2960532517362","9","4450.00","0","","","Arcor","DISPONIBLE"
+"Goma Yummy Ositos Acidos x500g","4097901120718","0","4450.00","0","","","Arcor","DISPONIBLE"
+"Goma Yummy Ositos x500g","3532615104859","0","4450.00","0","","","Arcor","DISPONIBLE"
+"Goma Yummy Sandias x500g","9015128911259","0","4450.00","0","","","Arcor","DISPONIBLE"
+"Goma Yummy x12","7607710855789","42","4600.00","0","","","Productos","DISPONIBLE"
+"Gomas Fundipperz x12u","5106164934714","0","15200.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Alfajores 30ux15g","2470053714493","5","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Astronauta 30ux15g","9413726013591","39","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Bananitas x30u","5306137969801","1","22500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Boca Juniors x30ux15g","5725922558615","33","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Calabazas Halloween 30ux15g","4736796280018","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Capivara 30ux15g","2263189375597","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Cerebros x30ux15g","5415389234275","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Dragon Ball x30ux15g","4896074724501","11","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Emoji 30ux15g","4874124559802","0","9900.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Freddy x30ux15g","5121064738178","9","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Frutillas 30ux15g","3670467235996","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Frutillas Pote x60u","6523073636717","0","20500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Hombre Araña 30ux15g","6105741325750","0","9300.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Juego del Calamar 30ux15g","2318480227484","0","9300.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Latitas Gaseosa x30ux15g","5536183575858","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Malefica 30ux15g","3304428534135","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Mario Bros 30ux15g","4456454167295","2","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Messi 30ux15g","9487150987805","10","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Monster Inc x30ux15g","6867015019907","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Monstruos 30ux15g","6153409696475","19","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Mundos x30ux15g","1516608223034","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Murcielagos 30ux15g","7423976704018","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Ojitos Minions x30u","8558349703882","0","11000.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Ojitos x30ux15g","6176267658765","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Pokemon x30ux15g","6183898384097","0","9900.00","0","","","Arcor","DISPONIBLE"
+"Gomitas River 30ux15g","7714003435900","8","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Starbucks x60u","5471058373433","0","27000.00","0","","","Arcor","DISPONIBLE"
+"Gomitas Zombies Halloween x30ux15g","9936539997361","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Gomutcho Goma rollo x30u","7700914987873","0","1319.44","0","","","Productos","DISPONIBLE"
+"Gongys x200g","9045187768395","233","2100.00","0","","","Productos","DISPONIBLE"
+"Gongys x28g","1667162664618","910","310.00","0","","","Productos","DISPONIBLE"
+"Granix Frutigran avenas y pas","5015602728153","0","1590.00","0","","","Arcor","DISPONIBLE"
+"Granix Frutigran chips chocola","7056404270151","19","2670.00","0","","","Arcor","DISPONIBLE"
+"Grasa Grabya x1kg","1862660370787","0","3760.00","0","","","Arcor","DISPONIBLE"
+"Grasa Grabya x500g","9935092255467","239","1890.00","0","","","Arcor","DISPONIBLE"
+"Guaymallen Platino x24u","1940064494421","3","17900.00","0","","","Arcor","DISPONIBLE"
+"Gula King x24u","3350978028941","6","29000.00","0","","","Arcor","DISPONIBLE"
+"Gumballs display 20x16u","5099135238470","0","10040.00","0","","","Arcor","DISPONIBLE"
+"Gumballs Flow 18x4u","6053187352120","0","4829.00","0","","","Open Candy","DISPONIBLE"
+"Gumballs mini 7u","5667311046405","0","7915.00","0","","","Productos","DISPONIBLE"
+"Gumballs pote 24 tiras","5479279813152","1","26640.00","0","","","Open Candy","DISPONIBLE"
+"Gummi Burger x 24u","9564691679967","8","4650.00","0","","","Productos","DISPONIBLE"
+"Gummi Pancho Doggie x24u","2504980272704","3","4650.00","0","","","Arcor","DISPONIBLE"
+"Gummi Pizza x24u","6282659279544","8","6500.00","0","","","Productos","DISPONIBLE"
+"Hamlet Mega x165g","2630971347215","0","2070.00","0","","","Productos","DISPONIBLE"
+"Hamlet Way x30g","3819100306905","159","350.00","0","","","Arcor","DISPONIBLE"
+"Hamleton Oblea banada x16u","1237389409122","0","9300.00","0","","","Productos","DISPONIBLE"
+"Hamleton Oblea blanco x16u","9652616859014","10","9100.00","0","","","Arcor","DISPONIBLE"
+"Heladitos Max billetes x30u","7946340370187","21","4600.00","0","","","Productos","DISPONIBLE"
+"Helices Pulsera Ojos x30u","2274343269133","6","10900.00","0","","","Arcor","DISPONIBLE"
+"Hersheys Aireado chocolate con leche x85g","8089770125175","0","1800.00","0","","","Productos","DISPONIBLE"
+"Hersheys Cookies and Creme x77g","4486526833816","0","1800.00","0","","","Arcor","DISPONIBLE"
+"Hersheys Cookies N Creme x77g","2798335607362","0","1730.00","0","","","Arcor","DISPONIBLE"
+"Hersheys Semi Amargo 40% cacao x82g","5417446081373","0","2180.00","0","","","Arcor","DISPONIBLE"
+"Hersheys Special Dark 73% Cacao x85g","4392543764117","0","2820.00","0","","","Arcor","DISPONIBLE"
+"Hojalmar Larguitas azucaradas x150g","6802834343321","304","900.00","0","","","Productos","DISPONIBLE"
+"Hojalmar Palmeras x150g","4822963124714","63","1240.00","0","","","Arcor","DISPONIBLE"
+"Hojalmar Snack Matero x180g","8026080918896","160","920.00","0","","","Productos","DISPONIBLE"
+"Hormiguicida GelTex","7023839138307","14","2400.00","0","","","Arcor","DISPONIBLE"
+"Huevo Bariloche Amoroso x80g","8138592469301","1","4700.00","0","","","Arcor","DISPONIBLE"
+"Huevo Bariloche Bombonett x80g","8650795473796","0","4800.00","0","","","Arcor","DISPONIBLE"
+"Huevo Bariloche decorado x90g","6633493607049","0","5020.00","0","","","Arcor","DISPONIBLE"
+"Huevo Barilochito x70g","5885110546837","2","4900.00","0","","","Arcor","DISPONIBLE"
+"Huevo Block x1kg","9513337423035","0","8246.51","0","","","Productos","DISPONIBLE"
+"Huevo Bonobon x110g","9013880592042","0","1649.29","0","","","Productos","DISPONIBLE"
+"Huevo Cabsha x115g","1109205849583","0","989.60","0","","","Productos","DISPONIBLE"
+"Huevo Dos Corazones x200g","7081462097030","0","16400.00","0","","","Arcor","DISPONIBLE"
+"Huevo Face Monster/Zoombie x9u","2379812692805","0","2898.00","0","","","Productos","DISPONIBLE"
+"Huevo FelFort Marroc x200g","1118125057093","0","16400.00","0","","","Arcor","DISPONIBLE"
+"Huevo Ferrero Rocher Dark 137g","4371790303893","0","13100.00","0","","","Arcor","DISPONIBLE"
+"Huevo Ferrero Rocher x137g","6275764862282","0","13250.00","0","","","Arcor","DISPONIBLE"
+"Huevo Georgalos bombones 75g","6636436859004","0","733.02","0","","","Productos","DISPONIBLE"
+"Huevo Georgalos bombones x145g","4472877142593","2","1227.82","0","","","Productos","DISPONIBLE"
+"Huevo Georgalos confites","4604274896806","0","1786.74","0","","","Productos","DISPONIBLE"
+"Huevo Jack/Marroc x150g","7979683769792","0","1759.26","0","","","Productos","DISPONIBLE"
+"Huevo Kinder Minions 100g","4282805143833","0","2052.46","0","","","Productos","DISPONIBLE"
+"Huevo Kinder x150g","5830936107068","0","16750.00","0","","","Productos","DISPONIBLE"
+"Huevo Magicornios x157g","6093549032846","0","1484.36","0","","","Productos","DISPONIBLE"
+"Huevo Milka Batman Mujer marav","7514024871111","0","1850.89","0","","","Productos","DISPONIBLE"
+"Huevo Milka x170g","9709974763892","0","3610.14","0","","","Arcor","DISPONIBLE"
+"Huevo Paraguitas x200g","9989231088643","0","16400.00","0","","","Arcor","DISPONIBLE"
+"Huevo Sapito confites x12x28g","8652999355360","0","8990.00","0","","","Productos","DISPONIBLE"
+"Huevo Shot x210g","1963906892236","0","3940.01","0","","","Arcor","DISPONIBLE"
+"Huevo Super Rocklets 12x28g","7155514651969","0","8730.00","0","","","Arcor","DISPONIBLE"
+"Huevo Vizzio x167g","7916589619064","0","2792.47","0","","","Productos","DISPONIBLE"
+"Huevos artesanales N° 0","5061461329278","0","76.98","0","","","Productos","DISPONIBLE"
+"Huevos artesanales N° 3","1498069319183","0","384.85","0","","","Productos","DISPONIBLE"
+"Huevos artesanales N° 6","3094129889602","0","769.67","0","","","Productos","DISPONIBLE"
+"Huevos artesanales N°2","3983774120009","0","179.60","0","","","Productos","DISPONIBLE"
+"Huevos Biyu x200g","4061690074086","0","8300.00","0","","","Productos","DISPONIBLE"
+"Huevos de Pascuas Dibu x22g","1378788711703","2","1190.00","0","","","Arcor","DISPONIBLE"
+"Huevos de Pascuas Dibu x80g","9323207410116","12","4280.00","0","","","Arcor","DISPONIBLE"
+"Huevos FelFort Fantasia 40x17g","2145155285797","0","43000.00","0","","","Productos","DISPONIBLE"
+"Huevos FelFort Mini 25ux10g","2769011626049","0","11800.00","0","","","Arcor","DISPONIBLE"
+"Huevos Gongys x200g","1650374322958","0","8300.00","0","","","Productos","DISPONIBLE"
+"Huevos Jack","5210476474150","0","2492.28","0","","","Productos","DISPONIBLE"
+"Huevos Mecano bolsa 20x80g","7890374219010","0","1483.51","0","","","Productos","DISPONIBLE"
+"Huevos Mecano bolsa x168g","8309673924447","0","3125.00","0","","","Arcor","DISPONIBLE"
+"Huevos Minions","2483271710287","0","1869.23","0","","","Productos","DISPONIBLE"
+"Huevos Mundosaurios","3480150219724","0","1576.00","0","","","Productos","DISPONIBLE"
+"Huevos Richy","6345010679965","0","4701.62","0","","","Productos","DISPONIBLE"
+"Huevos Roig x22g","8956886588905","0","850.00","0","","","Arcor","DISPONIBLE"
+"Huevos sorpresa ANL","5097212943747","0","9215.15","0","","","Productos","DISPONIBLE"
+"Huevos Sorpresa Shopskins x30u","6787196161522","0","12000.00","0","","","Arcor","DISPONIBLE"
+"Huevos Toca Toca x16u","1386940148063","0","5419.26","0","","","Productos","DISPONIBLE"
+"Huevos Vizzio bolsa x148g","8023802419602","0","3465.00","0","","","Arcor","DISPONIBLE"
+"Huevos Yummy x200g","8185177309553","0","8300.00","0","","","Productos","DISPONIBLE"
+"Ibu Evanol Forte CAJA x20u","1633851484011","0","4990.00","0","","","Arcor","DISPONIBLE"
+"Ibu Evanol Plus CAJA x20u","2145050742918","0","4220.00","0","","","Arcor","DISPONIBLE"
+"Ibu Evanol Rapida ac CAJA x20u","6721490120302","0","3750.00","0","","","Arcor","DISPONIBLE"
+"Ibuprofeno 400mg tableta x10u","1583286503346","0","670.00","0","","","Arcor","DISPONIBLE"
+"Ibuprofeno 600mg tableta x10u","3006733856852","0","930.00","0","","","Arcor","DISPONIBLE"
+"Ice Cream Candy x60u","4967543748089","0","15000.00","0","","","Arcor","DISPONIBLE"
+"Insecticida Fuyi x360","1984355371845","0","3640.00","0","","","Arcor","DISPONIBLE"
+"Insecticida Raid x380","6095918354680","0","5000.00","0","","","Arcor","DISPONIBLE"
+"Jabon Rexona x125g","4754066246835","0","119.11","0","","","Productos","DISPONIBLE"
+"Jackelin FelFort x30u.","8631146986562","0","2309.03","0","","","Productos","DISPONIBLE"
+"Jeringa Caramelo Liquido Barbie x30u","6824384134902","17","14000.00","0","","","Arcor","DISPONIBLE"
+"Jugo Big Choice x200cc","9667050457464","0","340.00","0","","","Arcor","DISPONIBLE"
+"Jugo Minyo común","1111651828156","0","219.91","0","","","Productos","DISPONIBLE"
+"Jugo noel x18u.","1223670672995","0","523.58","0","","","Productos","DISPONIBLE"
+"Jugo para preparar Mocoreta Naranja 6x1.5","8697216710724","3","6800.00","0","","","Arcor","DISPONIBLE"
+"Jugo para preparar Mocoreta Pomelo 6x1.5l","4231972033860","10","6800.00","0","","","Arcor","DISPONIBLE"
+"Jugo Pepito bebible x18u.","9113236525124","0","6000.00","0","","","Productos","DISPONIBLE"
+"Jugos Dodi Anana Piña x15u","9397550052216","1","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Durazno x15u","2420205571752","36","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Granadina x15u","4964090091229","0","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Limon x15u","8825512291337","41","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Limonada x15u","7990966157314","34","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Mandarina x15u","6118589793609","0","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Mango Dulce x15u","7467337129192","32","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Manzana x15u","1171696930474","43","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Mix Tropical x15u","2910412487678","12","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Naranja Banana x15u","2148743171317","52","3300.00","0","","","Productos","DISPONIBLE"
+"Jugos Dodi Naranja Mango x15u","4176705996822","43","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Naranja x15u","9628981129933","116","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Pera x15u","3220185447861","18","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Pomelo Rosado x15u","5816537933674","28","3300.00","0","","","Arcor","DISPONIBLE"
+"Jugos Dodi Uva x15u","7124805132988","0","3300.00","0","","","Arcor","DISPONIBLE"
+"Juguito minyo crem 2","4397345237165","0","293.21","0","","","Productos","DISPONIBLE"
+"Juguitos p/ congelar Pololin","3472664836253","108","2450.00","0","","","Productos","DISPONIBLE"
+"Juguitos Pepito 2 sabor 4x24u","1042366930499","0","13200.00","0","","","Arcor","DISPONIBLE"
+"Juguitos Pepito 3 sabores x30u","6918982323590","0","7290.00","0","","","Arcor","DISPONIBLE"
+"Juguitos Pepito 6x24x45cc chic","8700643629722","4","14400.00","0","","","Arcor","DISPONIBLE"
+"Kesitas x125g","5527639242094","0","1350.00","0","","","Arcor","DISPONIBLE"
+"Ketchup Natura x250cm","5594496928228","0","201.59","0","","","Productos","DISPONIBLE"
+"Keterolac tableta x10u","9175211916891","13","660.00","0","","","Arcor","DISPONIBLE"
+"Kinder Bueno x43g","5576788171303","0","2460.00","0","","","Arcor","DISPONIBLE"
+"Kinder con leche chocolate display x24u","3849011045537","0","14200.00","0","","","Arcor","DISPONIBLE"
+"Kinder gigante x100g","4549984352569","0","4141.58","0","","","Arcor","DISPONIBLE"
+"Kinder Joy 12x20g","1478736402585","0","25000.00","0","","","Arcor","DISPONIBLE"
+"Kinder MAXI x10u","1062358763093","0","9800.00","0","","","Arcor","DISPONIBLE"
+"Kinder Sorpresa 12ux20g","1004753765425","0","26400.00","0","","","Arcor","DISPONIBLE"
+"Kooky Bon FelFort x30u","7228209341930","4","12080.00","0","","","Productos","DISPONIBLE"
+"Kroomy Napolitano","8519478751438","0","2007.10","0","","","Productos","DISPONIBLE"
+"Kroomy x24u.","2080357746527","3","3950.00","0","","","Productos","DISPONIBLE"
+"Kukinas anillo chocolate x150g","5328623029049","0","178.02","0","","","Productos","DISPONIBLE"
+"La gotita pegamento","3914533438976","0","1400.00","0","","","Productos","DISPONIBLE"
+"Labubu colgante","1511563188854","31","7500.00","0","","","Arcor","DISPONIBLE"
+"Lampara Led 12w fria","1366339795808","0","1460.00","0","","","Arcor","DISPONIBLE"
+"Lampara Led 7w fria","2379298543951","19","1040.00","0","","","Arcor","DISPONIBLE"
+"Lampara Led 9w fria","7565538220248","23","1120.00","0","","","Arcor","DISPONIBLE"
+"Lapicera Barbie Candy Loka x30u","9621648171074","0","14000.00","0","","","Arcor","DISPONIBLE"
+"Laser Pop x6u","5615998873263","2","10930.00","0","","","Productos","DISPONIBLE"
+"Lata durazno SyP","1704227173217","0","1480.00","0","","","Arcor","DISPONIBLE"
+"Lata Heineken x473ml","3650250700124","0","1600.00","0","","","Arcor","DISPONIBLE"
+"Latitas importadas x20gx30u","5297491738864","0","20000.00","0","","","Arcor","DISPONIBLE"
+"Leche chocolat 7 dias x1 LITRO","6447595517222","0","1200.00","0","","","Arcor","DISPONIBLE"
+"Leche chocolatada 7 dias 200cc","3059240754987","0","7750.00","0","","","Arcor","DISPONIBLE"
+"Leche descremada Latte x1 litr","4021356337220","0","1100.00","0","","","Arcor","DISPONIBLE"
+"Lentejas Chook x1kg","3159269440479","0","12200.00","0","","","Arcor","DISPONIBLE"
+"Lentejas Chook x500g","7341819233694","0","6500.00","0","","","Arcor","DISPONIBLE"
+"Lipo Praline x907g","2343800325381","14","4880.00","0","","","Arcor","DISPONIBLE"
+"Lipo rell menta chocolate x800g","9781491836599","0","4880.00","0","","","Arcor","DISPONIBLE"
+"Lipo Super Acidos x454g","2767306978589","19","2760.00","0","","","Arcor","DISPONIBLE"
+"Lipo Viena x454g","9735360010530","36","2760.00","0","","","Productos","DISPONIBLE"
+"LOL Surprise","1375082217149","0","1722.61","0","","","Productos","DISPONIBLE"
+"Loly Choc Bonafide x24u","6658000451337","0","1264.48","0","","","Productos","DISPONIBLE"
+"Loratadina tableta x10u","4584865816339","33","630.00","0","","","Arcor","DISPONIBLE"
+"Lucky 8 Pastillas x385g","9161249202097","22","3200.00","0","","","Arcor","DISPONIBLE"
+"Maestros del terror chicle x50","6940954497290","3","1912.68","0","","","Productos","DISPONIBLE"
+"Magdalena Don Satur Vainilla Dulce de leche x200g","7533255134576","0","1880.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Gaona bicolor x200g","6468652030896","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Gaona coco rellena dulce de leche x215g","1535077192628","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Gaona rellena chocolate x200g","6938586419354","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Gaona rellena dulce de leche x200g","8568999894842","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Gaona rellena frutilla x215g","8312968257235","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Gaona vainilla x200g","6531551142324","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Marmolada Don Satur x200g","3844988509036","17","1880.00","0","","","Productos","DISPONIBLE"
+"Magdalena Pozo coco rellena ddl x220g","6615611991639","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Pozo con chips x220g","1062091574848","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Pozo marmolada x220g","1441480444900","0","1575.00","0","","","Arcor","DISPONIBLE"
+"Magdalena Vainilla Don Satur x200g","3297023878011","35","1880.00","0","","","Arcor","DISPONIBLE"
+"Magdalenas 9 de Oro x200g","4278286918692","0","1400.00","0","","","Arcor","DISPONIBLE"
+"Magdalenas Pozo clasicas x220g","4418111869971","0","1450.00","0","","","Arcor","DISPONIBLE"
+"Magdalenas Pozo DDL x220g","7377233835129","0","1550.00","0","","","Productos","DISPONIBLE"
+"Malta El Pocillo fort. x500g","1878917099931","2","5690.00","0","","","Arcor","DISPONIBLE"
+"Malta Pocillo doypack x115g","5817407757166","0","1470.00","0","","","Arcor","DISPONIBLE"
+"Malta Pocillo intens doy x100g","1178940759388","0","1450.00","0","","","Arcor","DISPONIBLE"
+"Malta Pocillo intens pote 170g","1299100554773","0","1470.00","0","","","Arcor","DISPONIBLE"
+"Malteadas Nutrilar x1kg","6605006301819","0","2415.00","0","","","Arcor","DISPONIBLE"
+"Malvavisco Burger x30u","2762338239456","0","21000.00","0","","","Arcor","DISPONIBLE"
+"Malvavisco Triple Barbie Halloween x48u","6385890040209","0","72000.00","0","","","Arcor","DISPONIBLE"
+"Malvavisco triple Bob Esponja x24u","5938525996411","0","72000.00","0","","","Arcor","DISPONIBLE"
+"Malvavisco Triple Happy Halloween x48u","9459016522815","0","72000.00","0","","","Arcor","DISPONIBLE"
+"Malvaviscos Hamburguesas x30u","5367657710718","1","22500.00","0","","","Arcor","DISPONIBLE"
+"Malvaviscos Zootopia x30u","7583745190779","5","22500.00","0","","","Arcor","DISPONIBLE"
+"Mana rellena x156g","2253040823504","0","755.00","0","","","Arcor","DISPONIBLE"
+"Mandiocas fritas x90g","1292218858821","80","1215.00","0","","","Juli Croc","DISPONIBLE"
+"Mani cascara x1kg.","8058937618823","28","5350.00","0","","","Productos","DISPONIBLE"
+"Mani chocolate Imperial 24x25g","9629164202781","0","7760.00","0","","","Productos","DISPONIBLE"
+"Mani chocolate Latin x60g","1587739403933","94","570.00","0","","","Arcor","DISPONIBLE"
+"Mani crocante JL x65g x12u","6940967591271","29","8900.00","0","","","Productos","DISPONIBLE"
+"Mani Juli Croc x1kg","7118792053759","0","586.43","0","","","Productos","DISPONIBLE"
+"Mani manteca Juli Croc x100g.","7549852397337","76","862.00","0","","","Juli Croc","DISPONIBLE"
+"Mani pel/sabor Cuatro Hoj x1kg","5924940788399","0","1680.84","0","","","Productos","DISPONIBLE"
+"Mani repelado salado DC x1kg","4880673802623","0","4650.00","0","","","Arcor","DISPONIBLE"
+"Mani Roteda x1kg","8955413327710","0","641.40","0","","","Productos","DISPONIBLE"
+"Mani saborizado DC x1kg","2064791941802","0","4650.00","0","","","Arcor","DISPONIBLE"
+"Mani saborizado x 1kg Bolicrok","1461750586227","64","7400.00","0","","","Productos","DISPONIBLE"
+"Mani x1kg repelado BoliCrok","2639870460916","39","7400.00","0","","","Arcor","DISPONIBLE"
+"Mantecol x41g x12u","8995102403771","9","13300.00","0","","","Productos","DISPONIBLE"
+"Mantecol x64g x9u","7693157008910","0","11050.00","0","","","Productos","DISPONIBLE"
+"Mantenonnas DDLN x150g","9376763793939","0","132.65","0","","","Productos","DISPONIBLE"
+"Mantenonnas DDLN x300g","4205554634882","82","830.00","0","","","Productos","DISPONIBLE"
+"Manzanita rayada Manduvi x30u","7380324606504","0","1939.85","0","","","Arcor","DISPONIBLE"
+"Marengo masticable Dulce de Leche x75u","1545879895716","0","3650.00","0","","","Arcor","DISPONIBLE"
+"Marengo No Hay Plata x400g","5512469280982","22","2900.00","0","","","Arcor","DISPONIBLE"
+"Marengo tira ácida x454g Hallo","6546733061394","0","513.12","0","","","Productos","DISPONIBLE"
+"Marengo tiras acidas x454g","5827740126933","0","2970.00","0","","","Productos","DISPONIBLE"
+"Marengo Transp Menta x454g","8451517735132","0","2000.00","0","","","Productos","DISPONIBLE"
+"Margarita Paysandu","9696560784719","0","541.06","0","","","Productos","DISPONIBLE"
+"Marineras Tostex jamon x220g","2976893560714","0","1090.00","0","","","Arcor","DISPONIBLE"
+"Marineras Tostex manteca x220g","6897325081739","0","1090.00","0","","","Arcor","DISPONIBLE"
+"Marley Tribajon x10u","2448626968588","0","13000.00","0","","","Arcor","DISPONIBLE"
+"Marroc x20u.","6612161267952","0","12790.00","0","","","Productos","DISPONIBLE"
+"Marroc x60u.","3638866939668","0","46900.00","0","","","Productos","DISPONIBLE"
+"Mast acido Pico Dulce x500g","7039608938190","0","4400.00","0","","","Arcor","DISPONIBLE"
+"Mast Lenguetazo manzana x32u","1506792105067","0","5360.00","0","","","Arcor","DISPONIBLE"
+"Mast Lenguetazo Tutti x32u","3715975939952","0","5360.00","0","","","Productos","DISPONIBLE"
+"Mast Pico Dulce plegado x500g","7918077668689","0","3260.00","0","","","Arcor","DISPONIBLE"
+"Masticable Billiken x600g","5025791361236","0","3420.00","0","","","Productos","DISPONIBLE"
+"Masticable Bulldog/dropsy","6376462783382","3","3930.00","0","","","Productos","DISPONIBLE"
+"Masticable Frutomilla x100u","4141422617972","22","4800.00","0","","","Productos","DISPONIBLE"
+"Masticable Lheritier plegado x100u","7127999651817","31","1550.00","0","","","Arcor","DISPONIBLE"
+"Masticable Misky x242u","9311155174550","73","5100.00","0","","","Misky","DISPONIBLE"
+"Masticable misky ZOO","9923112376382","0","577.26","0","","","Productos","DISPONIBLE"
+"Masticable Open x100 u","9343954060177","0","2442.00","0","","","Open Candy","DISPONIBLE"
+"Masticable Tubicolor x140u","7143520416562","0","4240.00","0","","","Productos","DISPONIBLE"
+"Mayonesa Hellmans x250cc","5929092630809","0","174.12","0","","","Productos","DISPONIBLE"
+"Mayonesa Natura x125g","4577445313604","0","2565.59","0","","","Productos","DISPONIBLE"
+"Mayonesa Natura x250","4332318762535","0","750.00","0","","","Arcor","DISPONIBLE"
+"Md Karamella Mast leche menta chocolate x600g","5808336023042","1","4600.00","0","","","Arcor","DISPONIBLE"
+"Md Karamella Masticable Leche condensada x600g","3739431096200","12","4600.00","0","","","Arcor","DISPONIBLE"
+"Md Mimosa Caramelo Surtido espacial x600g","5796377227980","11","3700.00","0","","","Arcor","DISPONIBLE"
+"Md Molly Masticable surtido frutal x600g","7012476236252","25","3500.00","0","","","Arcor","DISPONIBLE"
+"Md Molly Masticable surtido x250g","6775186585827","57","1500.00","0","","","Arcor","DISPONIBLE"
+"Mecano dulce d leche 24x19g","2556217061763","0","13670.00","0","","","Productos","DISPONIBLE"
+"Mechas Magicas Mario Bros x30u","4750409282732","0","13000.00","0","","","Arcor","DISPONIBLE"
+"Medallitas ConfiSnack x1kg","4242989981968","0","7200.00","0","","","Arcor","DISPONIBLE"
+"Medallon Dulce de Leche Felfort 20x21g","9863592370074","4","22000.00","0","","","Arcor","DISPONIBLE"
+"Media tarde sandwich x3","5882805485723","1","1300.00","0","","","Productos","DISPONIBLE"
+"Media Tarde Sandwich x5x107g","1108478373204","0","860.00","0","","","Productos","DISPONIBLE"
+"Media Tarde x3","9689559191240","284","1110.00","0","","","Productos","DISPONIBLE"
+"Mejoral niños tableta x10u","4060349391530","16","2280.00","0","","","Arcor","DISPONIBLE"
+"Mellizas bagley","4603417608823","0","109.96","0","","","Productos","DISPONIBLE"
+"Melon rayado","4182545887368","0","256.56","0","","","Productos","DISPONIBLE"
+"Meloncito Paysandu x30u","2468833790040","10","2990.00","0","","","Productos","DISPONIBLE"
+"Membrillo 7 dias sin TACC x5kg","7003922207642","7","8000.00","0","","","Arcor","DISPONIBLE"
+"Menta Marengo x810g","2342797673666","0","842.99","0","","","Productos","DISPONIBLE"
+"Menta Misky transparente x810g","3952070381080","0","7100.00","0","","","Misky","DISPONIBLE"
+"Mentho Plus Cherry x12u","5402259457775","0","5550.00","0","","","Arcor","DISPONIBLE"
+"Mentho Plus menta x12u","6298833482754","0","5550.00","0","","","Arcor","DISPONIBLE"
+"Mentho Plus mentol x12u","2387044432605","0","5550.00","0","","","Arcor","DISPONIBLE"
+"Mentho Plus strong x12u","9478667518872","0","5550.00","0","","","Arcor","DISPONIBLE"
+"Mentitas Felfort x30u","9841825851610","0","19890.00","0","","","Productos","DISPONIBLE"
+"Mentitas Lacasa/Kids","9911038747437","62","3520.00","0","","","Productos","DISPONIBLE"
+"Mentos conf x12u","3796928640793","0","8330.00","0","","","Arcor","DISPONIBLE"
+"Meremelada Ciruela de la Huert","7589969342707","0","1850.00","0","","","Arcor","DISPONIBLE"
+"Meremelada Durazno de la Huert","7758040511567","6","1850.00","0","","","Arcor","DISPONIBLE"
+"Merengues blancos La Amistad x150g","4731204860995","0","1570.00","0","","","Arcor","DISPONIBLE"
+"Merengues Urquiza","3546449378030","0","0.00","0","","","Productos","DISPONIBLE"
+"Merengues x100g. Estallitos","1848043814558","0","100.80","0","","","Productos","DISPONIBLE"
+"Mermelada Noel .    frasco","1027243005340","0","1350.00","0","","","Productos","DISPONIBLE"
+"Microfonos Chupetines 2en1 Candy Loka x30u","1234847285875","5","23500.00","0","","","Arcor","DISPONIBLE"
+"Miel Marengo x454g","2618973402837","0","2000.00","0","","","Productos","DISPONIBLE"
+"Mielcita Abejitas x50u","4650146877387","0","2260.00","0","","","Productos","DISPONIBLE"
+"Migral 500mg tableta x10u","1820783835676","0","3820.00","0","","","Arcor","DISPONIBLE"
+"Mini alfajor Solitas x2kg","1428465536594","0","2107.44","0","","","Productos","DISPONIBLE"
+"Mini alfajor Solitas x300g","6377279003620","0","2600.00","0","","","Productos","DISPONIBLE"
+"Mini goma Dori x30u","3359815359821","0","751.36","0","","","Productos","DISPONIBLE"
+"Mini Oreo x50g","7749881260315","132","990.00","0","","","Arcor","DISPONIBLE"
+"Mini Pastafr DDLN x300g","2516145083523","0","340.33","0","","","Productos","DISPONIBLE"
+"Mini Pepitos x50g","6724778176044","0","775.00","0","","","Arcor","DISPONIBLE"
+"Mini Rellena DDLN Streamer Duo x160g","9485299545220","85","600.00","0","","","Arcor","DISPONIBLE"
+"Mini Rellenas DDLN x160g","6489806896127","0","490.00","0","","","Productos","DISPONIBLE"
+"Mini Rocklets x44u","7555315233138","0","13160.00","0","","","Productos","DISPONIBLE"
+"Mini torta Smack Nevares x20u","2304898917212","0","8740.00","0","","","Arcor","DISPONIBLE"
+"Mini Trento bolsa","6262547967035","0","2822.12","0","","","Productos","DISPONIBLE"
+"Mini Trento display x16u","8331635593237","0","1204.27","0","","","Productos","DISPONIBLE"
+"Minicco Conito x12u","9839098972778","0","2094.36","0","","","Productos","DISPONIBLE"
+"Minions Tattoo x24u.","8817381019357","0","1392.76","0","","","Productos","DISPONIBLE"
+"Misky Toffees x648g","6867758324207","19","6200.00","0","","","Misky","DISPONIBLE"
+"Misky Toffes x480g","2134966306608","0","3280.00","0","","","Arcor","DISPONIBLE"
+"Misky transp cherry x405g","2775636312753","13","3100.00","0","","","Productos","DISPONIBLE"
+"Mix croc x45g Juli Croc","1666127787975","0","516.00","0","","","Juli Croc","DISPONIBLE"
+"Mogul Ext Palotes x70u","4396870667759","0","5400.00","0","","","Arcor","DISPONIBLE"
+"Mogul oso, tibu, dino, pie, ce","9311555253628","0","678.06","0","","","Productos","DISPONIBLE"
+"Moneda Chocolate Bel x100u","8231069391673","0","9470.00","0","","","Arcor","DISPONIBLE"
+"Moneda dolar Bonafide x115u","2899719543825","0","23100.00","0","","","Arcor","DISPONIBLE"
+"Moneda pirata chocolate FelFort","6694217619343","5","27000.00","0","","","Productos","DISPONIBLE"
+"Monster Baby Doll","4294965242866","0","522.28","0","","","Productos","DISPONIBLE"
+"Morochitas x4,5kg.","6421071018580","0","23480.00","0","","","Productos","DISPONIBLE"
+"Multimint x12u","8738304001656","23","1570.78","0","","","Productos","DISPONIBLE"
+"Mumu Kids banana 24ux15g","1440952277700","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Mumu Kids chocolate 24ux15g","6982469200012","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Mumu Kids vainilla 24ux15g","4663395268265","0","10500.00","0","","","Arcor","DISPONIBLE"
+"My Toffee x600g","5515874359454","0","897.97","0","","","Productos","DISPONIBLE"
+"Naipes Habana x40","5575559006264","3","1910.00","0","","","Productos","DISPONIBLE"
+"Naipes Habana x50","9151521098712","0","2260.00","0","","","Arcor","DISPONIBLE"
+"Naranjin Jugo 190ml x12u","5947016178271","0","6260.00","0","","","Arcor","DISPONIBLE"
+"Nestle Kit Kat blanco x41,5g","4728151469633","16","1290.00","0","","","Arcor","DISPONIBLE"
+"Nestle Kit Kat4 leche x42g","6183542417550","0","1290.00","0","","","Productos","DISPONIBLE"
+"Nevares CrocBar 48x29g","3851925609483","0","7650.00","0","","","Arcor","DISPONIBLE"
+"Next tableta x10u","9527855028449","15","4800.00","0","","","Arcor","DISPONIBLE"
+"Nieve artificial Candela","9035747181926","10","2130.00","0","","","Arcor","DISPONIBLE"
+"Nobel FelFort x15u","9208692490755","0","26810.00","0","","","Productos","DISPONIBLE"
+"Nogali Surtido Zoo x330g","9615602298644","0","320.71","0","","","Arcor","DISPONIBLE"
+"Novalgina tableta x10u","7671759024703","14","5930.00","0","","","Arcor","DISPONIBLE"
+"Nugaton x24u","7242661700688","0","11480.00","0","","","Productos","DISPONIBLE"
+"Nutello postrecito en bolsa x60u","9709254301698","24","13500.00","0","","","Arcor","DISPONIBLE"
+"Oblea Arcor Twit","1305593011444","0","925.44","0","","","Productos","DISPONIBLE"
+"Oblea banada Obli Bon x20u","4040932720822","0","6800.00","0","","","Arcor","DISPONIBLE"
+"Oblea Hamlet x18u.","9148767387119","3","1509.66","0","","","Productos","DISPONIBLE"
+"Oblea Hersheys unidad x102g","7044888841569","50","1980.00","0","","","Arcor","DISPONIBLE"
+"Oblea Itamaray x110g","8862398411092","0","720.00","0","","","Arcor","DISPONIBLE"
+"Oblea Mantecol 18x27g","2623380639713","0","13550.00","0","","","Arcor","DISPONIBLE"
+"Oblea Oblita x100g","1668386793628","338","580.00","0","","","Productos","DISPONIBLE"
+"Oblea Oblita x50g.","7410869535781","0","380.00","0","","","Productos","DISPONIBLE"
+"Off aerosol x170cc","4278115910272","0","5300.00","0","","","Arcor","DISPONIBLE"
+"Off crema x196 GRANDE","1874895482120","0","4740.00","0","","","Arcor","DISPONIBLE"
+"Off crema x60cc","7253405235733","0","2220.00","0","","","Productos","DISPONIBLE"
+"Off extra duracion x170cc","4484014061699","12","9020.00","0","","","Arcor","DISPONIBLE"
+"Off Spray x177ml","3140960072714","0","8560.00","0","","","Arcor","DISPONIBLE"
+"Omeprazol tableta x14u","3397263036045","28","820.00","0","","","Arcor","DISPONIBLE"
+"One Bite tabletas 18x17g","8438980374501","0","5781.52","0","","","Arcor","DISPONIBLE"
+"Open Candy Pinballs","2201118460452","1","3240.00","0","","","Productos","DISPONIBLE"
+"Open Candy Sandia display x50g","2867982567462","17","2970.00","0","","","Arcor","DISPONIBLE"
+"Open Candy sandia POTE x120u","6826791886749","17","11050.00","0","","","Arcor","DISPONIBLE"
+"Open Tenis display x30u","9432728713240","8","2775.00","0","","","Open Candy","DISPONIBLE"
+"Open Tenis Flow 18x4u","8162375900258","1","4829.00","0","","","Open Candy","DISPONIBLE"
+"Open Tenis Flow Naranja x4ux18","6268839388077","15","4800.00","0","","","Arcor","DISPONIBLE"
+"Oreo & Go x12u","6311554899644","0","63000.00","0","","","Arcor","DISPONIBLE"
+"Oreo Chocolate x118g","5252820959747","0","1350.00","0","","","Arcor","DISPONIBLE"
+"Oreo Golden x118g","7227686597603","0","1350.00","0","","","Arcor","DISPONIBLE"
+"Oreo Mani x118g","3303594011823","0","1520.00","0","","","Arcor","DISPONIBLE"
+"Oreo Milka Frutilla x118g","3200094785938","19","1350.00","0","","","Arcor","DISPONIBLE"
+"Oreo Regular x118g","7106344042516","85","1690.00","0","","","Productos","DISPONIBLE"
+"Oreo sin TACC x95g","9060126473096","0","1730.00","0","","","Arcor","DISPONIBLE"
+"Oso Lotso Celular x12","8761465735773","2","65000.00","0","","","Arcor","DISPONIBLE"
+"Paleta Paysandu Mickey","7602416382838","0","238.26","0","","","Productos","DISPONIBLE"
+"Paleta Paysandú varita magica","2891648684947","0","575.94","0","","","Productos","DISPONIBLE"
+"Paleta Rayada Amor Codul x12u","8319143349786","16","2700.00","0","","","Arcor","DISPONIBLE"
+"Paleta Santa Rita Psicodelica x50u","2938325196414","0","14000.00","0","","","Arcor","DISPONIBLE"
+"Paleta Vampiriña","6567494631112","0","348.18","0","","","Productos","DISPONIBLE"
+"Paleton rayado Codul x10u","1139676663263","0","2850.00","0","","","Arcor","DISPONIBLE"
+"Paleton Trompito pastel x10u","4413257688937","18","3200.00","0","","","Arcor","DISPONIBLE"
+"Paliloco La Ganga con billete x50u","9362785855959","28","1750.00","0","","","Arcor","DISPONIBLE"
+"Palito d selva display berry","1065926342779","0","4800.00","0","","","Arcor","DISPONIBLE"
+"Palito de l selva display 480g","4856179758111","0","4800.00","0","","","Arcor","DISPONIBLE"
+"Palitos de la Selva x146u","6417647425376","5","8500.00","0","","","Arcor","DISPONIBLE"
+"Palitos de la selva x33u 150g","9432780831336","0","1550.00","0","","","Arcor","DISPONIBLE"
+"Palitos finos x1kg Oritas","5311165040393","100","4900.00","0","","","Productos","DISPONIBLE"
+"Palitos salados x 1kg Los Rusi","6045832244800","24","4500.00","0","","","Productos","DISPONIBLE"
+"Palitos salados x1kg Juli Croc","7902893548756","4","4095.00","0","","","Juli Croc","DISPONIBLE"
+"Palitos x150g Juli Croc","4140152901149","42","879.00","0","","","Juli Croc","DISPONIBLE"
+"Pan Dulce Bari x400g","2323767088428","0","966.00","0","","","Arcor","DISPONIBLE"
+"Pan dulce Fantoche chips x400g","1612612528021","0","2900.00","0","","","Productos","DISPONIBLE"
+"Pan dulce Fantoche fruta x400g","4039732910250","30","3500.00","0","","","Productos","DISPONIBLE"
+"Pan dulce Fantoche marmolado","6833886254643","0","2800.00","0","","","Arcor","DISPONIBLE"
+"Pan dulce Limido chips de chocolate x400g","9638314491695","114","2100.00","0","","","Arcor","DISPONIBLE"
+"Pan Dulce Limido chips de dulce de leche x400g","8171254878119","24","2100.00","0","","","Arcor","DISPONIBLE"
+"Pan dulce Limido frutas x400g","1623617121683","120","2000.00","0","","","Productos","DISPONIBLE"
+"Papa comun Cachi x100g","6229113602377","119","1040.00","0","","","Arcor","DISPONIBLE"
+"Papa comun Juli Croc x70g.","5818400413672","42","1009.00","0","","","Juli Croc","DISPONIBLE"
+"Papa frita corte americano Juli Croc x80g","4018153980089","52","1167.00","0","","","Juli Croc","DISPONIBLE"
+"Papa huevo frito Juli Croc 70g","9086867583794","48","1167.00","0","","","Juli Croc","DISPONIBLE"
+"Papa Juli Croc x900g corte ame","1414542653255","22","9639.00","0","","","Juli Croc","DISPONIBLE"
+"Papas asado criollo Juli Croc x70g","3900161758437","169","1167.00","0","","","Juli Croc","DISPONIBLE"
+"Papas cheddar Juli Croc x70g","3334296946366","0","1167.00","0","","","Juli Croc","DISPONIBLE"
+"Papas crema y cb Juli Croc 70g","4323053521365","120","1164.00","0","","","Juli Croc","DISPONIBLE"
+"Papas Criskey x1kg","1631718751139","0","9300.00","0","","","Arcor","DISPONIBLE"
+"Papas Fries Gummy Gel x12u","3709443034969","1","65000.00","0","","","Arcor","DISPONIBLE"
+"Papas fritas Craket x1kg","1256262287946","0","10700.00","0","","","Arcor","DISPONIBLE"
+"Papas fritas PAY Craket x1kg","7750776771369","0","8040.00","0","","","Arcor","DISPONIBLE"
+"Papas fritas x1kg Juli Croc","4023720248981","60","11025.00","0","","","Juli Croc","DISPONIBLE"
+"Papas fritas x1kg. Los Rusitos","9596048564790","201","9500.00","0","","","Productos","DISPONIBLE"
+"Papas Juli Croc Jalapeño y limon x70g","6951171805131","105","1110.00","0","","","Arcor","DISPONIBLE"
+"Papas Ketchup Juli Croc x70g","5113421533832","33","1167.00","0","","","Juli Croc","DISPONIBLE"
+"Papas Pay Juli Croc x100g","8835364445571","8","1324.00","0","","","Juli Croc","DISPONIBLE"
+"Papas PAY x1kg Los Rusitos","1660003760388","25","9500.00","0","","","Productos","DISPONIBLE"
+"Papas provenzal Juli Croc x70g","9271273830350","88","1167.00","0","","","Juli Croc","DISPONIBLE"
+"Papas Sweety acanaladas x1kg","2536292690396","0","7500.00","0","","","Arcor","DISPONIBLE"
+"Papas Tryms Aceto bals x60g","6406013559358","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Papas Tryms barbacoa tex x60g","7451645136352","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Papas Tryms cebolla morada 60g","3936902321350","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Papas Tryms chori c chimi 60g","3516612055657","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Papas Tryms finas hierbas x60g","5937801209772","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Papas Tryms jalapeno ahum x60g","9719816787367","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Papas Tryms Morron x60g","4203665849334","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Papas Tryms pim sal marina 60g","4103445415857","0","1000.00","0","","","Arcor","DISPONIBLE"
+"Paraguitas FelFort x40u.","9669728053132","0","32300.00","0","","","Productos","DISPONIBLE"
+"Paraguitas x20u.","4594928399921","0","18510.00","0","","","Productos","DISPONIBLE"
+"Paseo 5 semillas x300g","2618864762438","0","1090.00","0","","","Productos","DISPONIBLE"
+"Paseo Crackers x300g","4641767562527","0","830.00","0","","","Productos","DISPONIBLE"
+"Pastilla Alka Cherry x12u.","2165198130488","3","3300.00","0","","","Productos","DISPONIBLE"
+"Pastilla Alka Menta x12u","4479903493499","4","3300.00","0","","","Arcor","DISPONIBLE"
+"Pastilla Alka Strong x12u","1210537434692","2","3300.00","0","","","Arcor","DISPONIBLE"
+"Pastilla Biyu Gran Sorpresa","7240204981280","0","476.46","0","","","Productos","DISPONIBLE"
+"Pastilla Dorins x20u","7156270198969","0","4600.00","0","","","Productos","DISPONIBLE"
+"Pastilla Yipi x12u","9654698769310","0","2750.00","0","","","Productos","DISPONIBLE"
+"Pastillas La Yapa x36u","8449140271469","7","10100.00","0","","","Productos","DISPONIBLE"
+"Pastille Mini 12","7243531019891","1","1675.49","0","","","Productos","DISPONIBLE"
+"Pastille Mini 5","8701640095735","0","339.02","0","","","Productos","DISPONIBLE"
+"Pastille x24u","1347304028077","0","897.97","0","","","Productos","DISPONIBLE"
+"Patita Pinta Lengua x100u","7535733389555","3","4884.00","0","","","Open Candy","DISPONIBLE"
+"Patito FelFort blanco x40g","3776535832894","0","2060.00","0","","","Arcor","DISPONIBLE"
+"Patito Felfort x40g","9873889252803","0","229.07","0","","","Productos","DISPONIBLE"
+"Pava electrica","4634747391078","0","19900.00","0","","","Arcor","DISPONIBLE"
+"Pepas 9 de Oro x200g","3400588855472","0","780.00","0","","","Arcor","DISPONIBLE"
+"Pepas 9 de Oro x350g","5594009629034","0","1100.00","0","","","Arcor","DISPONIBLE"
+"Pepas Benjamin x400g","8042301417263","42","1410.00","0","","","Productos","DISPONIBLE"
+"Pepas DDLN batata x300g","5000594308151","119","1140.00","0","","","Arcor","DISPONIBLE"
+"Pepas DDLN con CHIPS x320g","2222631315121","0","1010.00","0","","","Arcor","DISPONIBLE"
+"Pepas DDLN x180g","8791354714945","0","550.00","0","","","Arcor","DISPONIBLE"
+"Pepas Delicias de la Nonna x400g","5707500038931","0","1170.00","0","","","Productos","DISPONIBLE"
+"Pepas Fantoche x350g","6573630835085","0","950.00","0","","","Productos","DISPONIBLE"
+"Pepas Manolito x250g","4271004021110","0","440.00","0","","","Arcor","DISPONIBLE"
+"Pepas Pekelino x200g","3973818219522","0","218.16","0","","","Productos","DISPONIBLE"
+"Pepas Pekelino x350g","1720187856109","0","293.21","0","","","Productos","DISPONIBLE"
+"Pepas Pekelino x500g","9820748704934","0","988.94","0","","","Arcor","DISPONIBLE"
+"Pepas Terepin x400g","1108384290975","0","366.53","0","","","Productos","DISPONIBLE"
+"Pepitos regular x119g","2975715070056","0","1480.00","0","","","Arcor","DISPONIBLE"
+"Peppa Pig Paleta x30u","9936217929448","0","10500.00","0","","","Arcor","DISPONIBLE"
+"Petaca Workers x200cc","9616999705246","60","1150.00","0","","","Arcor","DISPONIBLE"
+"Pic nic nevares x40u","5630347512780","0","12200.00","0","","","Productos","DISPONIBLE"
+"Pico Dulce LED display x24u","7275072027180","0","4200.00","0","","","Arcor","DISPONIBLE"
+"Pico Dulce LED POTE x48u","2950357286828","0","8200.00","0","","","Arcor","DISPONIBLE"
+"Pico Dulce tarro x48u.","6041855811387","0","8100.00","0","","","Productos","DISPONIBLE"
+"Pico Dulce vaso x10u","2905004820690","0","879.62","0","","","Productos","DISPONIBLE"
+"Piecito chupetin chispas Illumin","4754684588713","6","11400.00","0","","","Arcor","DISPONIBLE"
+"Pila Candela AA TIRA x10u","2980175358642","2","3900.00","0","","","Arcor","DISPONIBLE"
+"Pila Candela AAA TIRA x10u","8614634418566","0","3900.00","0","","","Arcor","DISPONIBLE"
+"Pindy saladas x3","3407094140325","0","760.00","0","","","Arcor","DISPONIBLE"
+"Pirulin mediano Manduvi x10u","6281679140162","0","2100.00","0","","","Arcor","DISPONIBLE"
+"Pirulo Chupetin Enrolado Santa Rita x50u","5446087991997","0","14000.00","0","","","Arcor","DISPONIBLE"
+"Pirulo Codul","8301291916711","0","794.12","0","","","Productos","DISPONIBLE"
+"Pitillos Urquiza x1.5kg","1953567487222","0","17080.00","0","","","Productos","DISPONIBLE"
+"Pito Pito Lheritier x24u","5914609046968","2","3600.00","0","","","Productos","DISPONIBLE"
+"Pitusa Chocolate x4kg","6416595789725","0","20900.00","0","","","Arcor","DISPONIBLE"
+"Pitusas Frutilla x4kg","6613108878593","0","20900.00","0","","","Productos","DISPONIBLE"
+"Pitusas Vainilla x4kg","8135134245946","1","20900.00","0","","","Arcor","DISPONIBLE"
+"Pitusas x160g.","8374126738629","0","890.00","0","","","Productos","DISPONIBLE"
+"Polvorita x81g.","2108562517902","41","400.00","0","","","Productos","DISPONIBLE"
+"Pomo de caramelo en gel Bob Esponja x24u","3808608547089","9","27000.00","0","","","Arcor","DISPONIBLE"
+"Pony Spray Candy x20u","1861691172391","0","20000.00","0","","","Arcor","DISPONIBLE"
+"Pop Mani Maxxi Chupetin chicle","4013414343546","0","4690.00","0","","","Arcor","DISPONIBLE"
+"Popping Candy Explosivo x30u","9766233972390","14","16000.00","0","","","Arcor","DISPONIBLE"
+"Postre de mani Lheritier x100g","6153849008678","0","940.00","0","","","Productos","DISPONIBLE"
+"Postre mani lheritier x30g.","8356377485082","19","210.00","0","","","Productos","DISPONIBLE"
+"Postre mani Nugaton x100g","3143550768240","0","1090.00","0","","","Arcor","DISPONIBLE"
+"Pote animal cremy x110u","3715029560566","0","3865.00","0","","","Arcor","DISPONIBLE"
+"PRIME extralubricado azul x3u","7136649043580","0","1950.00","0","","","Arcor","DISPONIBLE"
+"PRIME Mixta 24x3u","5932442479382","0","46800.00","0","","","Arcor","DISPONIBLE"
+"PRIME Superfino gris x3u","2654810457677","0","1950.00","0","","","Arcor","DISPONIBLE"
+"PRIME Texturado rojo x3u","1884852334155","0","1950.00","0","","","Arcor","DISPONIBLE"
+"PRIME Ultrafino marron x3u","3759591091836","0","1950.00","0","","","Arcor","DISPONIBLE"
+"Pufflos x1kg","6883478457481","0","824.68","0","","","Productos","DISPONIBLE"
+"PULPA de tomate La Huerta 12x200cc","5968111808180","13","5200.00","0","","","Arcor","DISPONIBLE"
+"Punchy Monkey x8u","4010905385224","1","18800.00","0","","","Productos","DISPONIBLE"
+"Puppy House/Caty House","9370268097155","0","11780.38","0","","","Productos","DISPONIBLE"
+"Pure de tomat La Huerta 12x530","5975698910505","167","9100.00","0","","","Arcor","DISPONIBLE"
+"Push Pop Exhibidor x30u NUEVO","7749223763239","0","17500.00","0","","","Arcor","DISPONIBLE"
+"Push Pop x20u","8759064761163","86","12500.00","0","","","Productos","DISPONIBLE"
+"Qura Plus tableta x10u","3685086559126","0","3670.00","0","","","Arcor","DISPONIBLE"
+"Rafaello x9","7852256324587","0","5700.00","0","","","Arcor","DISPONIBLE"
+"Rapsodia mini torta x24u","5464971673944","0","13500.00","0","","","Productos","DISPONIBLE"
+"Rasta TRICO x14u","9356983929763","29","23600.00","0","","","Arcor","DISPONIBLE"
+"Rellenita Bauducoo x110g","1654647641994","0","174.12","0","","","Productos","DISPONIBLE"
+"Relleno Miel Misky x675g","4356195425232","3","5800.00","0","","","Misky","DISPONIBLE"
+"Renome Mini 8 x100u","3784658331034","11","3000.00","0","","","Productos","DISPONIBLE"
+"Renome Mini Clix x350g 90u","4563948780009","0","3000.00","0","","","Productos","DISPONIBLE"
+"Renome past display Clix 50x7g","2531969797066","0","3180.00","0","","","Productos","DISPONIBLE"
+"Repelente Algabo Kids x200ml","2710585363262","0","3860.00","0","","","Arcor","DISPONIBLE"
+"Resma Pampa A4 x500 hojas","5399858854257","0","7400.00","0","","","Arcor","DISPONIBLE"
+"Rex Original x75g","7935130519949","0","965.00","0","","","Productos","DISPONIBLE"
+"Rhodesia x36u","9988521872080","169","780.00","0","","","Productos","DISPONIBLE"
+"Ring Pop LOL x24u","4246042357962","0","7290.00","0","","","Productos","DISPONIBLE"
+"Ring Pop Twisted x24u","7881974098420","0","8200.00","0","","","Arcor","DISPONIBLE"
+"Ring Pop x24u","5163586244105","1","8250.00","0","","","Productos","DISPONIBLE"
+"Rocket Chocolate x30u","7593359084685","19","13000.00","0","","","Arcor","DISPONIBLE"
+"Rocklets x24ux20g","7119252608918","4","16680.00","0","","","Productos","DISPONIBLE"
+"Rollo alta densidad 20x30","6295690925805","0","659.74","0","","","Productos","DISPONIBLE"
+"Rollo alta densidad 25x35","3203290495350","0","788.00","0","","","Productos","DISPONIBLE"
+"Rollo alta densidad 30x40","8761178488995","0","1044.56","0","","","Productos","DISPONIBLE"
+"Rollo precortado 15x20","3786669327200","0","897.97","0","","","Productos","DISPONIBLE"
+"Rollo precortado 15x25","7915984502236","0","897.97","0","","","Productos","DISPONIBLE"
+"Rompe Muelas x50u","2702453271019","18","4960.00","0","","","Productos","DISPONIBLE"
+"Ronda hojaldre triangulitos x150g","8827901260023","1","900.00","0","","","Productos","DISPONIBLE"
+"Rumba x110g","7376570194540","29","1100.00","0","","","Productos","DISPONIBLE"
+"Saladix CAJA x100g","1426137758554","138","1400.00","0","","","Productos","DISPONIBLE"
+"Saladix tira x40g (unidad)","9971242867384","73","730.00","0","","","Productos","DISPONIBLE"
+"Sapito Acido Crazy x24u","1507188443396","14","5300.00","0","","","Arcor","DISPONIBLE"
+"Sapito bocadito chocolate X24u","3008199945897","6","4200.00","0","","","Productos","DISPONIBLE"
+"Sapito Confites 24x28g","7136230124379","0","6000.00","0","","","Productos","DISPONIBLE"
+"Sapito LenguaLoca x24u","1890547982598","5","2900.00","0","","","Productos","DISPONIBLE"
+"Sapito Magno Picante x24u","3365028096860","16","5300.00","0","","","Arcor","DISPONIBLE"
+"Saquito Marengo Cafe x810g","7936937949101","0","2007.10","0","","","Productos","DISPONIBLE"
+"Saquito Marengo x454g","8395188234340","0","2600.00","0","","","Productos","DISPONIBLE"
+"Saquito Misky x810g","2760402473688","1","5800.00","0","","","Misky","DISPONIBLE"
+"Sellitos Stamp Lollipop Candy x30u","3868589900700","0","9980.00","0","","","Arcor","DISPONIBLE"
+"Serpentina Candela","5141219489285","0","960.00","0","","","Arcor","DISPONIBLE"
+"Sertal comprimido tableta x10u","7842175514628","6","5790.00","0","","","Arcor","DISPONIBLE"
+"Sertal perlas tableta x10u","4394447381787","6","4370.00","0","","","Arcor","DISPONIBLE"
+"Shark Pop x8u","9749104882522","4","17600.00","0","","","Arcor","DISPONIBLE"
+"Skittles imp","2934319823082","0","23.82","0","","","Productos","DISPONIBLE"
+"Solitas Anillos Surtidos x4kg","7830684742068","2","12900.00","0","","","Arcor","DISPONIBLE"
+"Solitas Animacion x4kg","9762289790999","0","15200.00","0","","","Arcor","DISPONIBLE"
+"Solitas Aritos Frutilla x4kg","3425798545164","0","12900.00","0","","","Arcor","DISPONIBLE"
+"Solitas Surtidas Exhibic x400g","3769773158725","0","985.00","0","","","Productos","DISPONIBLE"
+"Solitas Surtido Exhibicion x4kg","2518637051828","2","11300.00","0","","","Arcor","DISPONIBLE"
+"Solitas Surtisol x4kg","3696005097628","4","12900.00","0","","","Arcor","DISPONIBLE"
+"Sonrisas Frambuesa x108g","5423920836513","0","1100.00","0","","","Arcor","DISPONIBLE"
+"Space Mag bolsa x50u","9101411750812","0","3255.90","0","","","Arcor","DISPONIBLE"
+"Space mag flash boll x10u","4662214344312","0","7870.00","0","","","Arcor","DISPONIBLE"
+"Space Mag pote x132u","5275882100048","0","13100.00","0","","","Productos","DISPONIBLE"
+"Speed Unlimited x269ml","1133886042129","0","650.00","0","","","Arcor","DISPONIBLE"
+"Sport Pop x6u","8985055451838","0","3141.53","0","","","Productos","DISPONIBLE"
+"Spring Pop comun x36u","5135194988576","11","10500.00","0","","","Productos","DISPONIBLE"
+"Spring Pop Minions","5559985228028","0","9200.00","0","","","Productos","DISPONIBLE"
+"Sugus confitado cajita x50g","4842443767453","4","1050.00","0","","","Arcor","DISPONIBLE"
+"Sugus max","4019427079671","0","778.85","0","","","Productos","DISPONIBLE"
+"Sugus plegado masticable BOLSA x700g","9383085491021","0","6500.00","0","","","Productos","DISPONIBLE"
+"Sugus plegados surtido espec","4956516071294","0","5890.00","0","","","Arcor","DISPONIBLE"
+"SUPER Juguitos x25u","9142843949873","0","3800.00","0","","","Arcor","DISPONIBLE"
+"Super paleton Manduvi","2163723223915","0","745.51","0","","","Arcor","DISPONIBLE"
+"Super Pico Paysandu","3730624740805","0","436.33","0","","","Productos","DISPONIBLE"
+"Super Pirulin Paysandu x30u","1760374196480","0","1550.00","0","","","Productos","DISPONIBLE"
+"Super Tete Codul x10u","1718149691614","8","4800.00","0","","","Productos","DISPONIBLE"
+"Surtida Bagley x400g","5984416855652","51","2740.00","0","","","Productos","DISPONIBLE"
+"Surtida Delicias de la n x400g","1850261572999","0","396.18","0","","","Productos","DISPONIBLE"
+"Surtida Delicias de la Nona Streamer x160g","4282645091319","322","600.00","0","","","Arcor","DISPONIBLE"
+"Surtida EDRA x300g","1829483782639","0","910.00","0","","","Productos","DISPONIBLE"
+"Surtida Lia x390g","7006821209075","69","1720.00","0","","","Productos","DISPONIBLE"
+"Surtida Turimar x350g","8531245125419","0","208.92","0","","","Productos","DISPONIBLE"
+"Surtidas Diversion x400g","8645159524802","5","2050.00","0","","","Productos","DISPONIBLE"
+"Surtidas Dulces Solitas x300g","5674498545799","0","494.47","0","","","Arcor","DISPONIBLE"
+"Surtidas glaceadas Nogali x300","7858602024838","0","109.96","0","","","Productos","DISPONIBLE"
+"Surtido Especial bombonera x300g","9462388030956","0","4100.00","0","","","Productos","DISPONIBLE"
+"Tableta Arcor x95g","5579697951275","0","430.66","0","","","Productos","DISPONIBLE"
+"Tafirol Resaca x8u","2040955917585","0","3900.00","0","","","Arcor","DISPONIBLE"
+"Tafirol x1G tableta x8u","2312490068694","0","1700.00","0","","","Arcor","DISPONIBLE"
+"Tafirol x500mg tableta x10u","5022038730416","0","1770.00","0","","","Arcor","DISPONIBLE"
+"Takis Fuego x140g","9957059476319","0","3330.00","0","","","Arcor","DISPONIBLE"
+"Takis Fuego x49g","6313953086678","0","1370.00","0","","","Arcor","DISPONIBLE"
+"Takis Original x140g","9599342465760","0","3270.00","0","","","Arcor","DISPONIBLE"
+"Takis Original x49g","6718352172434","0","1370.00","0","","","Arcor","DISPONIBLE"
+"Takis Original x85g","6907576170843","0","2065.00","0","","","Arcor","DISPONIBLE"
+"Takis Xplosion x140g","6121950255461","0","3270.00","0","","","Arcor","DISPONIBLE"
+"Takis Xplosion x49g","8103513678130","0","1370.00","0","","","Arcor","DISPONIBLE"
+"Takis Xplosion x85g","2593702965783","0","2065.00","0","","","Arcor","DISPONIBLE"
+"Talitas Arpan clasicas","1561852893871","29","1030.00","0","","","Arcor","DISPONIBLE"
+"Talitas Arpan jamon","9464010653607","6","1030.00","0","","","Arcor","DISPONIBLE"
+"Talitas Arpan pizza","6532264549341","0","990.00","0","","","Arcor","DISPONIBLE"
+"Talitas Arpan queso","3772562361850","0","1030.00","0","","","Arcor","DISPONIBLE"
+"Talitas Arpan semillas","9046882652487","3","1030.00","0","","","Arcor","DISPONIBLE"
+"Talitas Hojalmar x100g","5583077063336","0","265.72","0","","","Productos","DISPONIBLE"
+"Tang Anana x20u","3852040694980","19","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Durazno x20u","5863949318357","20","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Frutilla x20u","5218072153743","20","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Limonada dulce x20u","4955282021537","23","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Mandarina x20u","8853788758722","17","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Manzana Vitc D x20u","1795459174375","22","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Mix Naranja Limon x20u","5607645814795","0","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Multifruta x20u","6547068736754","70","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Naranja banana x20u","9813353002158","38","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Naranja Dulce x20u","2641933477094","18","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Naranja Durazno x20u","6046685912443","8","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Naranja Mango x20u","5718038931838","47","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Naranja x20u","1669869263297","49","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Pera x20u","8580107827640","7","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Pomelo rosado x20u","1207871807354","34","6350.00","0","","","Arcor","DISPONIBLE"
+"Tang Uva x20u","8427219628861","20","6350.00","0","","","Arcor","DISPONIBLE"
+"Tapita Fantoche x3,5kg","4923519114872","2","14500.00","0","","","Productos","DISPONIBLE"
+"Tapita Pepay multicolor 6x500g","5966783668041","0","17900.00","0","","","Productos","DISPONIBLE"
+"Tembleke chupetin acido x10u","9477214725790","0","897.97","0","","","Productos","DISPONIBLE"
+"Tembleke Reloj x12u","1491124199916","0","7670.00","0","","","Arcor","DISPONIBLE"
+"Tembleke Tremblito","4193985534912","0","133.78","0","","","Productos","NO DISPONIBLE"
+"Tic Tac Citrus x12","8756648500991","18","9900.00","0","","","Arcor","DISPONIBLE"
+"Tic Tac frutilla x12u","3895527214437","2","9900.00","0","","","Productos","DISPONIBLE"
+"Tic Tac menta fresca x12","7480103654651","13","9900.00","0","","","Arcor","DISPONIBLE"
+"Tic Tac menta x12","1726880805843","17","9900.00","0","","","Arcor","DISPONIBLE"
+"Tic Tac mix frutas x12","1148475281885","0","9900.00","0","","","Arcor","DISPONIBLE"
+"Tic Tac naranja x12","3568317417005","7","9900.00","0","","","Arcor","DISPONIBLE"
+"Tita x19g","2256426660212","181","720.00","0","","","Productos","DISPONIBLE"
+"Tivis FelFort x20u","3121818070422","0","21390.00","0","","","Productos","DISPONIBLE"
+"TNT chicle relleno x60u","3621525137615","9","3630.00","0","","","Productos","DISPONIBLE"
+"Toddy Galletita chispas chocolate x126g","3196358668051","14","1740.00","0","","","Arcor","DISPONIBLE"
+"Toddy tableta chocolate aireado x50g","4344313012288","3","2700.00","0","","","Arcor","DISPONIBLE"
+"Tokke x35g.","1211308332337","0","86.12","0","","","Productos","DISPONIBLE"
+"Topline plegado Defense x20u","3041765264016","0","6600.00","0","","","Arcor","DISPONIBLE"
+"Topline plegado fruta x20u","2523463612406","0","6600.00","0","","","Arcor","DISPONIBLE"
+"Topline plegado menta x20u","9509805178087","0","6600.00","0","","","Productos","DISPONIBLE"
+"Topline plegado strong x20u","1632610287677","0","6600.00","0","","","Arcor","DISPONIBLE"
+"Topline Seven 7 x16u","9854539714740","0","10750.00","0","","","Productos","DISPONIBLE"
+"Tornic Juli Croc x65g","5640062971483","97","672.00","0","","","Juli Croc","DISPONIBLE"
+"Torroncino FelFort s/azucar","6275308908917","0","4944.25","0","","","Productos","DISPONIBLE"
+"Tostadas Lulemuu arroz semilla","3198051185533","0","1220.00","0","","","Arcor","DISPONIBLE"
+"Tostadas Lulemuu arroz x120g","5804739902670","0","1220.00","0","","","Arcor","DISPONIBLE"
+"Tostadas Media tarde x187g","1508650047611","0","201.59","0","","","Productos","DISPONIBLE"
+"Tostex galletitas chips chocolate y mani x300g","5531456128231","0","1490.00","0","","","Arcor","DISPONIBLE"
+"Tostex galletitas chips colores x270g","1850266598656","0","1490.00","0","","","Arcor","DISPONIBLE"
+"Toy Box sorpresa x12u","1316658130730","0","3500.20","0","","","Productos","DISPONIBLE"
+"Traviata Crack Rex Original x96g","4372521858893","40","710.00","0","","","Arcor","DISPONIBLE"
+"Trembly Askirrata x12u","1494424098035","0","6800.00","0","","","Arcor","DISPONIBLE"
+"Trembly Brujas x10u","2164322209302","0","5920.00","0","","","Productos","DISPONIBLE"
+"Trembly Dino largo x12u","1228201353049","0","8700.00","0","","","Productos","DISPONIBLE"
+"Trembly DracuLengua x10u","3400203339886","0","3535.56","0","","","Productos","DISPONIBLE"
+"Trembly x6 gelatina","1845169894217","126","920.00","0","","","Productos","DISPONIBLE"
+"Trento Momentos x192g","5223615490407","6","5950.00","0","","","Arcor","DISPONIBLE"
+"Trento x16u","8647988386009","28","5600.00","0","","","Productos","DISPONIBLE"
+"Tri bala x100u","2948481492776","0","4999.00","0","","","Open Candy","DISPONIBLE"
+"Triangulito Hojalmar x150g","1537362159754","0","980.00","0","","","Productos","DISPONIBLE"
+"Trio Anillo Azucarado Limon x300g","3205883302068","0","1150.00","0","","","Arcor","DISPONIBLE"
+"Trio Anillos coco x300g","2424125978217","1","1150.00","0","","","Arcor","DISPONIBLE"
+"Trio Anillos Limon x300g","5821131854957","0","1150.00","0","","","Arcor","DISPONIBLE"
+"Trio Besitos x300g","7602559883958","0","1150.00","0","","","Arcor","DISPONIBLE"
+"Trio chocolatina x300g","7139201852127","22","1540.00","0","","","Productos","DISPONIBLE"
+"Trio Chocotrio x300g","3813126683085","0","1540.00","0","","","Arcor","DISPONIBLE"
+"Trio Frolitas batata x300g","1989559918359","0","920.00","0","","","Arcor","DISPONIBLE"
+"Trio Frolitas Membrillo x300g","9380159055037","70","1145.00","0","","","Arcor","DISPONIBLE"
+"Trio Glasy x300g.","2563184803059","21","1145.00","0","","","Productos","DISPONIBLE"
+"Trio Linguini x300g","6886046403373","0","1145.00","0","","","Arcor","DISPONIBLE"
+"Trio Marquise x300g","7426414447843","0","920.00","0","","","Arcor","DISPONIBLE"
+"Trio Mini Pepas x300g","9132376704155","0","910.00","0","","","Arcor","DISPONIBLE"
+"Trio Oskitos x300g","7375074557852","0","1540.00","0","","","Arcor","DISPONIBLE"
+"Trio Pepas Alemanas x300g","5155190734843","1","1150.00","0","","","Arcor","DISPONIBLE"
+"Trio Pepas con chips x300g","8732232023821","28","1150.00","0","","","Arcor","DISPONIBLE"
+"Trio Pepas x200g.","5147116700346","0","470.00","0","","","Productos","DISPONIBLE"
+"Trio Pepas x320g","5408414139320","6","1050.00","0","","","Arcor","DISPONIBLE"
+"Trio Peponas Batata x300g","3171095793883","62","1150.00","0","","","Arcor","DISPONIBLE"
+"Trio Scons x300g","9489248036014","2","1140.00","0","","","Arcor","DISPONIBLE"
+"Trio Surtidas Variette x350g","7885211378196","15","1150.00","0","","","Arcor","DISPONIBLE"
+"Trio Tartelettes x300g","9875527707374","38","1145.00","0","","","Arcor","DISPONIBLE"
+"Trio Tri Chips x300g","5886140463629","0","920.00","0","","","Arcor","DISPONIBLE"
+"Trio Tri Chispas Blancas x230g","1980592160439","0","1300.00","0","","","Arcor","DISPONIBLE"
+"Trio Trichoc x300g","1897843940439","68","1150.00","0","","","Arcor","DISPONIBLE"
+"Trompito azuquita c/billet x50","6596624854374","0","1200.00","0","","","Productos","DISPONIBLE"
+"Trompito libro p/ colorear","8660387287332","0","698.11","0","","","Productos","DISPONIBLE"
+"Turron Alteza mani x70g","9708471769576","105","480.00","0","","","Productos","DISPONIBLE"
+"Turron Arcor x50u.","6477557814079","0","6000.00","0","","","Productos","DISPONIBLE"
+"Turron con miel Georgalos x80g","5022375202483","0","97.12","0","","","Productos","DISPONIBLE"
+"Turron crocante Bonafide x80g","4575446922114","0","900.00","0","","","Productos","DISPONIBLE"
+"Turron crocante Real x200g","4523732431689","0","471.23","0","","","Productos","DISPONIBLE"
+"Turron crocante Real x90g","8146790432119","0","209.45","0","","","Productos","DISPONIBLE"
+"Turron de arroz Manduvi","2315175661479","7","2966.83","0","","","Arcor","DISPONIBLE"
+"Turron de arroz Plin x20u","5868414975564","7","3650.00","0","","","Arcor","DISPONIBLE"
+"Turron Fantasia Nevares","5156611314468","0","109.96","0","","","Productos","DISPONIBLE"
+"Turron Fulbito x50u","4766397128232","7","6550.00","0","","","Productos","DISPONIBLE"
+"Turron mani Real  x200g","8696373558108","0","750.00","0","","","Arcor","DISPONIBLE"
+"Turron mani Real x300g","6423831623422","0","654.49","0","","","Productos","DISPONIBLE"
+"Turron mani Rosquinense x250g","4013882141184","0","488.69","0","","","Productos","DISPONIBLE"
+"Turron Misky x50u.","6363146558460","13","8300.00","0","","","Misky","DISPONIBLE"
+"Turron Namur crocante x90g","7199390560805","252","226.90","0","","","Productos","DISPONIBLE"
+"Turron Nevares x50u","9013043867151","0","1328.60","0","","","Productos","DISPONIBLE"
+"Turron Piñata x50u","3468818343139","0","4781.70","0","","","Productos","DISPONIBLE"
+"Tutucas x1kg Juli Croc","2443701657041","1","5363.00","0","","","Juli Croc","DISPONIBLE"
+"Tutucas x1kg Los Rusitos","6438320225543","62","4500.00","0","","","Productos","DISPONIBLE"
+"Twist Barril","2563107682541","0","2657.21","0","","","Productos","DISPONIBLE"
+"Twister Pop x8u","3851055825649","0","4886.83","0","","","Productos","DISPONIBLE"
+"Uni Pop x9u","8598838580182","0","16300.00","0","","","Productos","DISPONIBLE"
+"Urquiza Bocadito Merenbom 12x25g","6644989061289","0","8800.00","0","","","Arcor","DISPONIBLE"
+"Uvasal x2x5g","7496443828508","22","890.00","0","","","Arcor","DISPONIBLE"
+"Vainillas Mauri x7ux80g","2821339051439","0","420.00","0","","","Arcor","DISPONIBLE"
+"Vainillas Pozo x160g","8568317972434","0","950.00","0","","","Productos","DISPONIBLE"
+"Vape Ignite V150 15.000p","7186308684987","0","27000.00","0","","","Arcor","DISPONIBLE"
+"Vape Luffbar 9.000p","5053712144589","0","23000.00","0","","","Arcor","DISPONIBLE"
+"Variedad Terrabusi x390g","6092945283506","27","1950.00","0","","","Arcor","DISPONIBLE"
+"VASO Acido Drop gel y gomitas x8u","3601923239755","7","44000.00","0","","","Arcor","DISPONIBLE"
+"Vaso Malvaviscos x20u","3492340516451","16","12000.00","0","","","Arcor","DISPONIBLE"
+"Vent3 Te Paracetamol 500mg sobre x5g","1536585535419","6","1050.00","0","","","Arcor","DISPONIBLE"
+"Vick Vitapyrena sobre","6085052333554","135","1920.00","0","","","Arcor","DISPONIBLE"
+"Vino Benjamin","8517286591981","0","3000.00","0","","","Arcor","DISPONIBLE"
+"Vino Bodega Privada Malbec 750","6678970929156","122","3700.00","0","","","Arcor","DISPONIBLE"
+"Vino Cavic tinto 12x1000","8846317256523","0","15840.00","0","","","Arcor","DISPONIBLE"
+"Vino Otro Loco Mas","3948636233971","0","1429.38","0","","","Arcor","DISPONIBLE"
+"Vino Uvita Blanco 12x1000","8852727298345","77","18500.00","0","","","Arcor","DISPONIBLE"
+"Vino Uvita Rosado 12x1000","9761522515751","0","16400.00","0","","","Arcor","DISPONIBLE"
+"Vino Uvita tinto 12x1000","1576780264719","0","16500.00","0","","","Arcor","DISPONIBLE"
+"Viripotens 50mg tableta x2u","3037748111348","25","370.00","0","","","Arcor","DISPONIBLE"
+"Vizzio almendras corazon x100g","2671381308378","0","872.64","0","","","Productos","DISPONIBLE"
+"Wacky Monkey x8u","4208115334610","0","20400.00","0","","","Productos","DISPONIBLE"
+"Watch Chocolate Reloj 10gx30u","7828138779282","1","9100.00","0","","","Arcor","DISPONIBLE"
+"Water Pop x8u","9106416905185","0","15900.00","0","","","Productos","DISPONIBLE"
+"Xtreme Rainbow Fun x12u","7321967348420","0","5800.00","0","","","Productos","DISPONIBLE"
+"Yerba Canarias x1kg","2496289373565","0","9050.00","0","","","Arcor","DISPONIBLE"
+"Yerba Canarias x500g","8471021262095","2","4780.00","0","","","Arcor","DISPONIBLE"
+"Yerba Rosamonte comun x500g","8553711373703","13","1100.00","0","","","Arcor","DISPONIBLE"
+"Yerba Rosamonte Suave x500g","2880982977975","0","1100.00","0","","","Arcor","DISPONIBLE"
+"Yerba Soberania x1kg","6862826129483","0","2970.00","0","","","Arcor","DISPONIBLE"
+"Yerba Soberania x500g","5263846787859","763","1490.00","0","","","Arcor","DISPONIBLE"
+"Yerba Union x500g","3313848895950","0","824.66","0","","","Arcor","DISPONIBLE"
+"Zed Candy bolsa x470g","6525946845844","4","8850.00","0","","","Arcor","DISPONIBLE"
