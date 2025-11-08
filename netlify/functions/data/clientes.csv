@@ -1,20 +1,42 @@
 ID,ACCION,NOMBRE,TELEFONO,LOCALIDAD,DIRECCION,PROVINCIA,PRECIO,MAIL,DNI,CUIT,IVA
-1,Walter Ventas,Spengler Distribuciones,3435087823,,,,,,,,Consumidor Final
-1,Natalia Piffo,Panadería Rotonda Shell,3436412070,,Desconocida,Pide catálogo digital,,"Enviar Top 5 por WhatsApp con foco en ""panadería"" (chocolates, galletitas de desayuno, café).",,,Consumidor Final
-2,El Vasco,Almacén El Vasco,Desconocido,,Detrás de mayorista Brown,"Persona mayor, no le va lo digital. Solo imágenes. Prioriza mejores precios/ofertas de la semana.",,"Visita corta y con papel/imágenes. Presentar 3 ""Precios Insuperables"" de la semana.",,,Consumidor Final
-3,Diana,Desconocido,3436617699,,Desconocida,Sin observaciones de compra.,,"Contacto inicial, enviar Top 5 productos de almacén con fotos y precios.",,,Consumidor Final
-4,Yamila,Kiosco Mitad de Cuadra,3436495750,,América y Mateu,Sin observaciones de compra.,,"Foco Kiosco: Golosinas de impulso, alfajores de buen margen.",,,Consumidor Final
-5,Díaz Elsa,Almacén Negocio Esquina,Desconocido,,Díaz Esquina,Sin observaciones de compra.,,"Foco Almacén: Productos de canasta básica (tomate, leche, etc.) y galletitas familiares.",,,Consumidor Final
-6,Estefania,Minisuper Brown,3436474974,,Brown y otra,Pide catálogo. Tiene muchos vendedores.,,"Foco en el diferencial Spengler: Calidad en alfajores/chocolates premium (Capitán del Espacio, Ferrero) o marcas exclusivas (Marley, Juana La Loca).",,,Consumidor Final
-7,Alejandra,El mercadito saludable,3436471313,,Desconocida,"""Saludable"" es el nicho.",,"Foco en Sin T.A.C.C. y Barras de Cereal (Lulemuu, Sinculpa, productos saludables).",,,Consumidor Final
-8,Celia,Kiosko Pequeño,3436513374,,Maipú 656 y Matheu,Sin observaciones de compra.,,"Foco en ""vuelto"": Golosinas de bajo valor, chicles, chupetines.",,,Consumidor Final
-9,Josefa Ferreira,Kiosko Desconocido,3436470655,,Desconocida,Interés por Juguitos,,"[cite_start]Oferta de Juguitos Baggio Pronto 200cc [cite: 3159, 468][cite_start]y Pepito Bebible x18u[cite: 3175]. Venta cruzada: golosinas.",,,Consumidor Final
-10,Giselle,Kiosko pequeño,3436222876,,Barrio nuevo,"""Medio fumona, no dedica mucho tiempo.""",,"¡Visita ultrarrápida! 3 productos, 1 argumento. Enfocarse en la ganancia más fácil.",,,Consumidor Final
-11,Susy,Almacén Las Calandrias y Las Lechuzas,3436578357,,Las Calandrias y Las Lechuzas,Amable. Necesita rapidez en la interacción. Compró snacks y galletitas/alfajores.,,"Prearmar el pedido. Ofrecer solo 3 novedades o reposición de lo que ya compró (Saladix, Galletitas Trio, Jugos Baggio/Tang).",,,Consumidor Final
-12,Nerina,Minisuper Esquina Brown,3436470847,,Esquina Brown,Compraría por faltantes. Pide catálogo práctico.,,"[cite_start]Foco en ""Stocks Críticos"": Aceites [cite: 3157][cite_start], Arroz [cite: 3157][cite_start], Leches [cite: 2599, 2601][cite_start], Puré de Tomate[cite: 2522, 2527].",,,Consumidor Final
-13,Chica Amable,Kiosko el colombiano,3436475673,,San Miguel y Viamonte,[cite_start]Compró Baggio Fresh x10+1 y Goma Pelota Boca/River[cite: 3167].,,"[cite_start]Venta cruzada de bebidas (Gaseosas Fresh [cite: 2647, 2649][cite_start]o Jugos Dodi [cite: 3176]) y golosinas novedosas/infantiles (Huevos Sorpresa, Gomitas divertidas).",,,Consumidor Final
-14,Romina,Autoservicio Maipú,3436410206,,Maipú y otra,Amable y poco tiempo. Necesita visita corta con buenos precios.,,"Mismo que El Vasco, pero digital. Enviar por WhatsApp 3 ofertas de volumen (Magdalenas, Papas Fritas x1kg).",,,Consumidor Final
-15,Pibe amable,Kiosko Vacano,3436471679,,Maipú Y Brown,"Buen kiosco. Dueños jóvenes, perfil digital.",,"[cite_start]Foco Novedades y Tendencias: Chocolates Hershey's [cite: 3173][cite_start], Kit Kat [cite: 3165][cite_start], Alfajores Fantoche Edición Limitada[cite: 3167].",,,Consumidor Final
-16,Claudio Moreira,Almacen La esquina,3436437292,,Desconocida,Mujer amable. Comprarán más (Potencial).,,Invertir tiempo en la segunda visita. Ofrecer Top 5 Mix Almacén/Golosinas para consolidar.,,,Consumidor Final
-17,Desconocido,El Chaski,3436475abb,,Frente al Hospital de Victoria,Volver a visitar y tomar teléfono. Puede ser buen comprador.,,"[cite_start]Foco Emergencia/Impulso (por cercanía a Hospital): Galletitas de agua (Rex [cite: 3186][cite_start]), Chocolates (Cofler Block [cite: 3166]), Agua/Gaseosas.",,,Consumidor Final
-18,Pibe amable,Kiosko Obeid,3436435488,,Chacabuco 572,Le gustaron las golosinas raras (novedades).,,"[cite_start]Foco Importados / Golosinas Especiales: Gummi Zone Pizza/Burger [cite: 2124, 2133][cite_start], Chupetines Pico Dulce LED [cite: 3184][cite_start], Wacky Monkey[cite: 3191].",,,Consumidor Final
+1,,Walter Ventas - Spengler Distribuciones,3435087823,Victoria 1,,,LISTA,,,,Consumidor Final
+2,,Natalia Piffo - Panadería Rotonda Shell,3436412070,Victoria 1,Desconocida,,LISTA,,,,Consumidor Final
+3,,Ignacio - Almacén El Vasco,Desconocido,Victoria 1,Detrás de mayorista Brown,,LISTA,,,,Consumidor Final
+4,,Diana,3436617699,Victoria 1,Desconocida,,LISTA,,,,Consumidor Final
+5,,Yamila - Kiosco,3436495750,Victoria 1,América y Mateu,,LISTA,,,,Consumidor Final
+6,,Estefania - Minisuper Brown,3436474974,Victoria 1,Brown y otra,,LISTA,,,,Consumidor Final
+7,,Alejandra - El mercadito saludable,3436471313,Victoria 1,Desconocida,,LISTA,,,,Consumidor Final
+8,,Celia Kiosko,3436513374,Victoria 1,Maipú 656 y Matheu,,LISTA,,,,Consumidor Final
+9,,Josefa Ferreira Kiosko,3436470655,Victoria 1,Desconocida,,LISTA,,,,Consumidor Final
+10,,Giselle Kiosko,3436222876,Victoria 1,Barrio nuevo,,LISTA,,,,Consumidor Final
+11,,Susy - Almacén Las Calandrias y Las Lechuzas,3436578357,Victoria 1,Las Calandrias y Las Lechuzas,,LISTA,,,,Consumidor Final
+12,,Nerina Minisuper Esquina Brown,3436470847,Victoria 1,Esquina Brown,,LISTA,,,,Consumidor Final
+13,,Kiosko - San Miguel y Viamonte,3436475673,Victoria 1,San Miguel y Viamonte,,LISTA,,,,Consumidor Final
+14,,Romina Autoservicio Maipú,3436410206,Victoria 1,Maipú y otra,,LISTA,,,,Consumidor Final
+15,,Kiosko Vakano,3436471679,Victoria 1,Maipú Y Brown,,LISTA,,,,Consumidor Final
+16,,Claudio MoreiraAlmacen La esquina,3436437292,Victoria 1,Desconocida,,LISTA,,,,Consumidor Final
+17,,El Chaski,3436475abb,Victoria 1,Frente al Hospital de Victoria,,LISTA,,,,Consumidor Final
+18,,Kiosko Obeid,3436435488,Victoria 1,Chacabuco 572,,LISTA,,,,Consumidor Final
+19,,Julieta - Despensa July,3436477121,Victoria 1,América y Dorrego,,LISTA,,,,Consumidor Final
+20,,Virginia Vila - Kiosko Virginia Vila Victoria,3436431751,Victoria 1,América y Dorrego?,,LISTA,,,,Consumidor Final
+21,,Díaz Elsa - Almacén Díaz Elsa,3436575029,Victoria 1,Marcos Paz y Calle echa mierda,,LISTA,,,,Consumidor Final
+22,,Pablo Albornoz - Kiosko Yrigoyen,3436474295,Victoria centro,Yrigoyen y Suipacha,,LISTA,,,,Consumidor Final
+23,,Augusto - Kiosko El Cuervo,3436470303,Victoria Centro,Laprida y Urquiza,,LISTA,,,,Consumidor Final
+24,,Nahuel - Kiosko Splash,3436466530,Victoria centro,Chacabuco 231,,LISTA,,,,Consumidor Final
+25,,Walter - Mi Morita Maxikiosko,1158699318,Victoria centro,Montenegro y Dorrego,,LISTA,,,,Consumidor Final
+26,,Kiosko Avenida,5555222222,Victoria Centro,Centenario y Moreno,,LISTA,,,,Consumidor Final
+27,,Sergio - Chico Bolazo - Autoservicio,3476588433,Victoria Brown,Brown casi costanera,,LISTA,,,,Consumidor Final
+28,,Al Paso,3436456880,Victoria Brown casi costanera,Brown casi costanera,,LISTA,,,,Consumidor Final
+29,,Pollería LyT,3436449049,Victoria casi costanera,Brown,,LISTA,,,,Consumidor Final
+30,,Silvana Aguirre - Kiosko Lola y Mora,3436467113,Victoria centro,Piaggio y Camoirano. Camoirano 150,,LISTA,,,,Consumidor Final
+31,,Johana - Drugstore MM,3436413154,Victoria Centro,Perón y 9 de Julio,,LISTA,,,,Consumidor Final
+32,,Jorgelina - El Peke 3,3436410777,Victoria Centro 2,Chacabuco y Congreso,,LISTA,,,,Consumidor Final
+33,,Karina - Kiosko Vieja estación,3436434029,Victoria Centro,Alem 228,,LISTA,,,,Consumidor Final
+34,,Cristian - Despensa El Duende,3436431191,Victoria 2,Junio y Vélez,,LISTA,,,,Consumidor Final
+35,,Romina Figueras - Despensa Orange,3436416496,Victoria 2,Arenales y Matanza,,LISTA,,,,Consumidor Final
+36,,Goyo - Despensa La Esperanza,3436405595,Victoria 2,Balbi 274,,LISTA,,,,Consumidor Final
+37,,Julio - Kiosko Delivery,3436413163,Victoria 2,Corrientes y Avda. Centenario,,LISTA,,,,Consumidor Final
+38,,Maxi Santacruz - Verdulería Acceso Norte,3437442830,Paraná,Acceso Norte,,LISTA,,,,Consumidor Final
+39,,Gabriela - Don Carlos,3434297959,Paraná Autódromo,Autódromo,,LISTA,,,,Consumidor Final
+40,,Alejandra,3434259604,Sauce,Esquina Barrio iapv,,LISTA,,,,Consumidor Final
+41,,Sandra Pérez - Mercadito El Sauce,3435042521,Sauce,Epifanio Martinez,,LISTA,,,,Consumidor Final
