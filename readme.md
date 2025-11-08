@@ -163,13 +163,32 @@ netlify dev
 
 Si las pruebas locales fueron exitosas, es hora de enviar los cambios a la rama principal (`main`) para que Netlify los despliegue.
 
+### Paso 7: Vuelve a la rama principal
+
 ```bash
-# 8. Vuelve a la rama principal
 git checkout main
+```
 
-# 9. Fusiona los cambios de 'actualizar-datos' DENTRO de 'main'
-git merge actualizar-datos
+### 8. Trae (cherry-pick) SOLO el archivo de clientes desde 'actualizar-datos'
 
-# 10. Sube la rama 'main' actualizada a la nube
-# (Netlify detectará esto y desplegará los cambios automáticamente)
+```bash
+git checkout actualizar-datos -- netlify/functions/data/clientes.csv
+```
+
+### 9. Trae (cherry-pick) SOLO el archivo de productos desde 'actualizar-datos'
+
+```bash
+git checkout actualizar-datos -- netlify/functions/data/productos.csv
+```
+
+### 10. Confirma AMBOS archivos CSV en 'main'
+
+```bash
+git commit -m "chore(data): Despliegue de nuevo stock y clientes (Semana X)"
+```
+
+### 11. Sube 'main' a producción. Netlify desplegará los cambios
+
+```bash
 git push origin main
+```
