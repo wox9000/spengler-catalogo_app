@@ -1,4 +1,6 @@
-# Archivos y carpetas generados por Node.js/npm
+#
+.hintrc
+ Archivos y carpetas generados por Node.js/npm
 
 # Directorio de dependencias de Node.js
 node_modules
