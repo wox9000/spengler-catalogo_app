@@ -94,6 +94,54 @@ git pull origin develop
 3. Fusiona los cambios de 'MI-RAMA-DE-TRABAJO' *DENTRO* de 'develop'
 git merge MI-RAMA-DE-TRABAJO
 
+## 🔄 Flujo de Trabajo Semanal de Actualización de IMÁGENES
+
+### 1. Cámbiate a la rama 'main' y actualízala
+
+```bash
+git checkout main
+git pull
+git checkout feature/update-images
+git pull origin feature/update-images
+```
+
+### 2. Actualiza las imágenes en la carpeta `/images`
+
+Reemplaza las imágenes viejas por las nuevas en la carpeta `/images`.
+
+### 3. Confirma los cambios (commit)
+
+```bash
+git add images/
+git commit -m "chore(images): Actualización de imágenes - "
+```
+
+### 4. Testea localmente
+
+netlify dev
+
+### 5. Vuelve a la rama principal y trae los cambios
+
+```bash
+git checkout main
+git checkout feature/update-images -- images/
+```
+
+### 6. Confirma los cambios en 'main'
+
+```bash     
+git add images/
+git commit -m "chore(images): Actualización de imágenes - Semana X"
+```
+
+### 7. Sube 'main' a producción. Netlify desplegará los cambios
+
+```bash
+git push origin main
+```
+
+---
+
 ## 🔄 Flujo de Trabajo Semanal de Actualización de DATOS (CSV)
 
 Guía paso a paso para la actualización semanal de los archivos `clientes.csv` y `productos.csv`, asegurando un testeo local antes de desplegar a producción (`main`).
