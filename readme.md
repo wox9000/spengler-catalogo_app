@@ -129,7 +129,7 @@ git checkout feature/update-images -- images/
 
 ### 6. Confirma los cambios en 'main'
 
-```bash     
+```bash
 git add images/
 git commit -m "chore(images): Actualización de imágenes - Semana X"
 ```
