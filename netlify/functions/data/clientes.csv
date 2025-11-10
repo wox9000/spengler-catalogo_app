@@ -1,4 +1,5 @@
 ID,ACCION,NOMBRE,TELEFONO,LOCALIDAD,DIRECCION,PROVINCIA,PRECIO,MAIL,DNI,CUIT,IVA
+0,,Usuario,compra,,,,,,,,
 1,,Walter Ventas - Spengler Distribuciones,3435087823,Victoria 1,,,LISTA,,,,Consumidor Final
 2,,Natalia Piffo - Panadería Rotonda Shell,3436412070,Victoria 1,Desconocida,,LISTA,,,,Consumidor Final
 3,,Ignacio - Almacén El Vasco,Desconocido,Victoria 1,Detrás de mayorista Brown,,LISTA,,,,Consumidor Final
